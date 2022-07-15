@@ -59,7 +59,6 @@
 
 .banner-flex-item{
     width: 24%;
-    background: whitesmoke;
 }
 .banner-flex-image{
     border-radius: 20px;
@@ -74,5 +73,64 @@
 
 .banner-heading{
     margin-top: 100px;
-    max-width: 70%;
+    max-width: 60%;
+
+}
+
+
+
+/* ==== SLIDER TEXT BANNER SECTION ======== */
+.text-slider-container{
+    overflow-x:hidden;
+    margin-top: 140px;
+    
+}
+
+.text-slider-container span{
+    color: black;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+    /*Willoverridecolor(regardlessoforder)*/
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+
+    font-size: 90px;
+    white-space: nowrap;
+    font-family: var(--font-bold);
+    display:block;
+    letter-spacing: 2px;
+    animation:textSliderBanner 20s linear infinite;
+    -webkit-animation:textSliderBanner 20s linear infinite;
+}
+
+.text-slider-paragraph{
+    margin-top:100px;
+    max-width:970px;
+}
+
+
+
+/* ========== FOOTER SECTION ========== */
+footer{
+    margin-top:230px;
+}
+
+.footer-flex-item:first-of-type{
+    max-width: 779px;
+}
+
+/* ===== KEYFRAMES ANIMATION ====== */
+@keyframes textSliderBanner{
+    0%{
+        transform: translateX(0%)    ;
+        -webkit-transform: translateX(0%)    ;
+        -moz-transform: translateX(0%)    ;
+        -ms-transform: translateX(0%)    ;
+        -o-transform: translateX(0%)    ;
+    }100%{
+        transform: translateX(-150%);
+        -webkit-transform: translateX(-150%);
+        -moz-transform: translateX(-150%);
+        -ms-transform: translateX(-150%);
+        -o-transform: translateX(-150%);
+}
 }

@@ -1,5 +1,4 @@
-<?php 
-// first set the some variable for the HEAD section information
+<?php
 // Specify the current page to update info in header
 $current_page_head = "Home";
 $location_to_logo_icon = "./source/media/web_title_icon.png";
@@ -11,86 +10,115 @@ $nav_bar_logolink =  "./source/media/logoicon.png";
 <!DOCTYPE html>
 <html lang="en-US">
 
-    <head>
-        <?php include "./source/_modules/head_info.php"; ?>
-        <!-- fonts  -->
-        <link rel="stylesheet" href="./source/css/fonts.css">
+<head>
+    <?php include "./source/_modules/head_info.php"; ?>
+    <!-- fonts  -->
+    <link rel="stylesheet" href="./source/css/fonts.css">
 
-        <!-- main stylesheet -->
-        <link rel="stylesheet" href="./source/css/style.css">
+    <!-- main stylesheet -->
+    <link rel="stylesheet" href="./source/css/style.css">
 
-        <!-- navigation bar -->
-        <link rel="stylesheet" href="./source/css/navigation_bar.css">
+    <!-- navigation bar -->
+    <link rel="stylesheet" href="./source/css/navigation_bar.css">
 
-        <!-- UNIVERSAL CSS -->
-        <link rel="stylesheet" href="./source/css/Universal_CSS.css">
-    </head>
+    <!-- UNIVERSAL CSS -->
+    <link rel="stylesheet" href="./source/css/Universal_CSS.css">
+</head>
 
-    <body>
-        <header class="bound">
-            <?php include "./source/_modules/navigation_bar.php"; ?>
-            <div class="hero-container display-flex d-flex-space-between">
-                <div class="hero-flex-item">
-                    <h1 class="hero-heading big-heading">
-                        404 the header is missing.. dont let your brand be missed too
-                    </h1>
-                    <h2 class="hero-sub-heading normal-heading">welcome to debuk studio</h2>
+<body>
+    <header class="bound">
+        <?php include "./source/_modules/navigation_bar.php"; ?>
+        <div class="hero-container display-flex d-flex-space-between">
+            <div class="hero-flex-item">
+                <h1 class="hero-heading big-heading">
+                    404 the header is missing.. dont let your brand be missed too
+                </h1>
+                <h2 class="hero-sub-heading normal-heading">welcome to debuk studio</h2>
 
-                    <p class="hero-description paragraph-text">
-                        Excite your audience with the quality of your <b>brand</b>
-                    </p>
+                <p class="hero-description paragraph-text">
+                    Excite your audience with the quality of your <b>brand</b>
+                </p>
 
-                    <p class="hero-description paragraph-text">
-                        Raise your brand to professional level. Build a brand with a logo that means something to your audience. 
-                    </p>
+                <p class="hero-description paragraph-text">
+                    Raise your brand to professional level. Build a brand with a logo that means something to your audience.
+                </p>
 
-                </div>
-                <div class="hero-flex-item">
-                    <div class="hero-video-placeholder">
-                        <!-- a video will be here -->
-                        <video loop muted autoplay width="100%" height="100%" style="object-fit: cover;">
-                            <source src="./source/media/home/video-desktop.webm" type="video/webm">
-                        </video>
-                    </div>
+            </div>
+            <div class="hero-flex-item">
+                <div class="hero-video-placeholder">
+                    <!-- a video will be here -->
+                    <video loop muted autoplay width="100%" height="100%" style="object-fit: cover;">
+                        <source src="./source/media/home/video-desktop.webm" type="video/webm">
+                    </video>
                 </div>
             </div>
-        </header>
-        
+        </div>
+    </header>
 
-        <section class="banner-section bound">
-            <div class="banner-flex-container display-flex d-flex-space-between">
-                <div class="banner-flex-item">
-                    <img src="./source/media/home/image1.webp" alt="" class="display-block banner-flex-image" style="object-fit: cover;" height="auto" width="100%">
-                    <p class="paragraph-text banner-para">
-                        Strong branding makes an impact in the market
-                    </p>
-                </div>
 
-                <div class="banner-flex-item">
-                <img src="./source/media/home/image2.webp" alt="" class="display-block banner-flex-image" style="object-fit: cover;" height="auto" width="100%">
-                    <p class="paragraph-text banner-para">
-                        Strong branding makes an impact in the market
-                    </p>
-                </div>
+    <section class="banner-section bound">
+        <div class="banner-flex-container display-flex d-flex-space-between">
+            <div class="banner-flex-item">
+                <img src="./source/media/home/image1.webp" alt="" class="display-block banner-flex-image" style="object-fit: cover;" height="auto" width="100%">
+                <p class="paragraph-text banner-para">
+                    Strong branding makes an impact in the market
+                </p>
+            </div>
 
-                <div class="banner-flex-item">
+            <div class="banner-flex-item">
+                <img src="./source/media/home/image1.webp" alt="" class="display-block banner-flex-image" style="object-fit: cover;" height="auto" width="100%">
+                <p class="paragraph-text banner-para">
+                    Stands out from the crowd
+                </p>
+            </div>
+
+            <div class="banner-flex-item">
                 <img src="./source/media/home/image3.webp" alt="" class="display-block banner-flex-image" style="object-fit: cover;" height="auto" width="100%">
-                    <p class="paragraph-text banner-para">
-                        Strong branding makes an impact in the market
-                    </p>
-                </div>
+                <p class="paragraph-text banner-para">
+                    Filters out improper leads
+                </p>
+            </div>
 
-                <div class="banner-flex-item">
-                   <img src="./source/media/home/image4.webp" alt="" class="display-block banner-flex-image" style="object-fit: cover;" height="auto" width="100%">
-                    <p class="paragraph-text banner-para">
-                        Strong branding makes an impact in the market
-                    </p>
-                </div>
-            </div> 
+            <div class="banner-flex-item">
+                <img src="./source/media/home/image4.webp" alt="" class="display-block banner-flex-image" style="object-fit: cover;" height="auto" width="100%">
+                <p class="paragraph-text banner-para">
+                    Brand identity supports product launches.
+                </p>
+            </div>
+        </div>
 
-            <h1 class="banner-heading normal-heading">Everything your customer wants to see from their favorite brand.</h1>
-        </section>
-    </body>
+        <h1 class="banner-heading normal-heading">Everything your customer wants to see from their favorite brand.</h1>
+    </section>
+
+    <section class="text-slider-section bound">
+        <div class="text-slider-container">
+            <span> BRAND IDENTITY | WEB DESIGN | BRAND IDENTITY | WEB DESIGN | BRAND IDENTITY | WEB DESIGN | BRAND IDENTITY | WEB DESIGN | BRAND IDENTITY | WEB DESIGN | BRAND IDENTITY | WEB DESIGN | BRAND IDENTITY | WEB DESIGN | BRAND IDENTITY | WEB DESIGN |
+        </div>
+        </div>
+
+        <p class="paragraph-text text-slider-paragraph">
+            Logo is not just a drawing or a shape, brand strategy is not a waste of time. Don’t let your time and lack of experience be your excuse
+            for not creating a good brand. Brands without proper planning, strategy, and with bad design decay in a hidden
+            market and stay on the same level without making a step forward.
+        </p>
+    </section>
+
+
+
+    <footer class="bound">
+        <p class="paragraph-text">this is footer</p>
+        <div class="footer-flex-container display-flex d-flex-space-between">
+            <div class="footer-flex-item">
+                <h1 class="big-heading">Let’s talk about your next big brand.</h1>
+            </div>
+
+            <div class="footer-flex-item">
+                second section
+            </div>
+
+        </div>
+    </footer>
+</body>
 
 
 </html>
