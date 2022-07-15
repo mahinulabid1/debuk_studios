@@ -66,7 +66,7 @@ $nav_bar_logolink =  "./source/media/logoicon.png";
             </div>
 
             <div class="banner-flex-item">
-                <img src="./source/media/home/image1.webp" alt="" class="display-block banner-flex-image" style="object-fit: cover;" height="auto" width="100%">
+                <img src="./source/media/home/image2.webp" alt="" class="display-block banner-flex-image" style="object-fit: cover;" height="auto" width="100%">
                 <p class="paragraph-text banner-para">
                     Stands out from the crowd
                 </p>
@@ -106,16 +106,36 @@ $nav_bar_logolink =  "./source/media/logoicon.png";
 
 
     <footer class="bound">
-        <p class="paragraph-text">this is footer</p>
         <div class="footer-flex-container display-flex d-flex-space-between">
             <div class="footer-flex-item">
                 <h1 class="big-heading">Let’s talk about your next big brand.</h1>
+                <a href="#" class="footer-link-take-action normal-heading">Take action <i class="fa-solid fa-arrow-right-long"></i></a>
+                <a class="footer-email " href="mailto:contact@debukstudio.com">contact@debukstudio.com</a>
             </div>
 
-            <div class="footer-flex-item">
-                second section
+            <div class="footer-flex-item" >
+                <div class="fist_link-list">
+                    <a href="#" class="display-block footer-links-a">Home <i class="fa-solid fa-arrow-right-long"></i></a>
+                    <a href="#" class="display-block footer-links-a">About <i class="fa-solid fa-arrow-right-long"></i></a>
+                    <a href="#" class="display-block footer-links-a">Project <i class="fa-solid fa-arrow-right-long"></i></a>
+                    <a href="#" class="display-block footer-links-a">Services <i class="fa-solid fa-arrow-right-long"></i></a>
+                </div>
+
+                <div class="second_link-list">
+                    <p class="footer-links-a comming-soon-text">Commming Soon</p>
+                    <a href="#" class="display-block footer-links-a">Shop <i class="fa-solid fa-arrow-right-long"></i></a>
+                </div>
             </div>
 
+        </div>
+
+        <div class="footer-copyright display-flex d-flex-space-between">
+            <div class="footer-copyright-item">©2022 debukstudio</div>
+            <div class="footer-copyright-item">
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                
+            </div>
         </div>
     </footer>
 </body>
