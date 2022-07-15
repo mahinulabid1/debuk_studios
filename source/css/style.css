@@ -1,0 +1,79 @@
+/* @import url("./fonts.css"); */
+
+:root {
+    --font-bold: font-bold;
+    --font-regular: font-regular;
+    --font-mono: font-mono;
+    --font-light: font-light;
+}
+
+
+
+
+/*============== HEADER SECTION =============*/
+.hero-container {
+    margin-top: 40px;
+}
+
+.hero-heading {
+    font-size: 80px;
+    line-height: 96px;
+}
+
+.hero-heading, .hero-description{
+    width: 770px;
+}
+
+.hero-sub-heading {
+    font-weight: 400;
+    font-size: 55px;
+}
+
+.hero-video-placeholder {
+    width: 525px;
+    height: 387px;
+    left: 1370px;
+    top: 168px;
+    overflow: hidden;
+    background:green;
+    border-radius: 0px 161.765px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    -webkit-transform: matrix(-1, 0, 0, 1, 0, 0);
+    -moz-transform: matrix(-1, 0, 0, 1, 0, 0);
+    -ms-transform: matrix(-1, 0, 0, 1, 0, 0);
+    -o-transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+/* since we used matrix in placeholder its rotating the video so it neede a fix in the rotation */
+.hero-video-placeholder video{
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    -webkit-transform: matrix(-1, 0, 0, 1, 0, 0);
+    -moz-transform: matrix(-1, 0, 0, 1, 0, 0);
+    -ms-transform: matrix(-1, 0, 0, 1, 0, 0);
+    -o-transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.hero-description:first-of-type{
+    margin-top:108px;
+}
+
+
+
+
+/*============== BANNER SECTION =============*/
+.banner-section{
+    margin-top: 240px;
+    margin-bottom: 20px;
+}
+
+.banner-flex-item{
+    width: 24%;
+    background: whitesmoke;
+}
+.banner-flex-image{
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}

@@ -1,0 +1,16 @@
+@font-face {
+    font-family: font-bold;
+    src: url("../fonts/sk-modernist-bold-webfont.ttf");
+}
+@font-face {
+    font-family: font-light;
+    src: url("../fonts/sk-modernist-light-webfont.ttf");
+}
+@font-face {
+    font-family: font-mono;
+    src: url("../fonts/sk-modernist-mono-webfont.ttf");
+}
+@font-face {
+    font-family: font-regular;
+    src: url("../fonts/sk-modernist-regular-webfont.ttf");
+}
