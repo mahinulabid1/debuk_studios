@@ -31,10 +31,10 @@ $nav_bar_logolink =  "./source/media/logoicon.png";
             <?php include "./source/_modules/navigation_bar.php"; ?>
             <div class="hero-container display-flex d-flex-space-between">
                 <div class="hero-flex-item">
-                    <h1 class="hero-heading">
+                    <h1 class="hero-heading big-heading">
                         404 the header is missing.. dont let your brand be missed too
                     </h1>
-                    <h2 class="hero-sub-heading">welcome to debuk studio</h2>
+                    <h2 class="hero-sub-heading normal-heading">welcome to debuk studio</h2>
 
                     <p class="hero-description paragraph-text">
                         Excite your audience with the quality of your <b>brand</b>
@@ -60,24 +60,35 @@ $nav_bar_logolink =  "./source/media/logoicon.png";
         <section class="banner-section bound">
             <div class="banner-flex-container display-flex d-flex-space-between">
                 <div class="banner-flex-item">
-                    <img src="./source/media/home/image1.webp" alt="" class="display-block banner-flex-image" style="object-fit: cover;" height="100%" width="100%">
-                    <p class="paragraph-text">
+                    <img src="./source/media/home/image1.webp" alt="" class="display-block banner-flex-image" style="object-fit: cover;" height="auto" width="100%">
+                    <p class="paragraph-text banner-para">
                         Strong branding makes an impact in the market
                     </p>
                 </div>
 
                 <div class="banner-flex-item">
-                    second section
+                <img src="./source/media/home/image2.webp" alt="" class="display-block banner-flex-image" style="object-fit: cover;" height="auto" width="100%">
+                    <p class="paragraph-text banner-para">
+                        Strong branding makes an impact in the market
+                    </p>
                 </div>
 
                 <div class="banner-flex-item">
-                    third section
+                <img src="./source/media/home/image3.webp" alt="" class="display-block banner-flex-image" style="object-fit: cover;" height="auto" width="100%">
+                    <p class="paragraph-text banner-para">
+                        Strong branding makes an impact in the market
+                    </p>
                 </div>
 
                 <div class="banner-flex-item">
-                    fourth section
+                   <img src="./source/media/home/image4.webp" alt="" class="display-block banner-flex-image" style="object-fit: cover;" height="auto" width="100%">
+                    <p class="paragraph-text banner-para">
+                        Strong branding makes an impact in the market
+                    </p>
                 </div>
             </div> 
+
+            <h1 class="banner-heading normal-heading">Everything your customer wants to see from their favorite brand.</h1>
         </section>
     </body>
 
