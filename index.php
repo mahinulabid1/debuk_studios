@@ -5,6 +5,7 @@ $location_to_logo_icon = "./source/media/web_title_icon.png";
 
 // the nav bar logo link
 $nav_bar_logolink =  "./source/media/logoicon.png";
+$path_to_hamburger_icon= "./source/media/hamburger.png";
 ?>
 
 <!DOCTYPE html>
@@ -36,7 +37,7 @@ $nav_bar_logolink =  "./source/media/logoicon.png";
                 <h2 class="hero-sub-heading normal-heading">welcome to debuk studio</h2>
 
                 <p class="hero-description paragraph-text">
-                    Excite your audience with the quality of your <b>brand</b>
+                    Excite your audience with the quality of your <sapn style="font-family: font-bold">brand</span>
                 </p>
 
                 <p class="hero-description paragraph-text">
@@ -90,13 +91,13 @@ $nav_bar_logolink =  "./source/media/logoicon.png";
         <h1 class="banner-heading normal-heading">Everything your customer wants to see from their favorite brand.</h1>
     </section>
 
-    <section class="text-slider-section bound">
+    <section class="text-slider-section">
         <div class="text-slider-container">
             <span> BRAND IDENTITY | WEB DESIGN | BRAND IDENTITY | WEB DESIGN | BRAND IDENTITY | WEB DESIGN | BRAND IDENTITY | WEB DESIGN | BRAND IDENTITY | WEB DESIGN | BRAND IDENTITY | WEB DESIGN | BRAND IDENTITY | WEB DESIGN | BRAND IDENTITY | WEB DESIGN |
         </div>
         </div>
 
-        <p class="paragraph-text text-slider-paragraph">
+        <p class="paragraph-text text-slider-paragraph  bound">
             Logo is not just a drawing or a shape, brand strategy is not a waste of time. Don’t let your time and lack of experience be your excuse
             for not creating a good brand. Brands without proper planning, strategy, and with bad design decay in a hidden
             market and stay on the same level without making a step forward.
@@ -109,21 +110,21 @@ $nav_bar_logolink =  "./source/media/logoicon.png";
         <div class="footer-flex-container display-flex d-flex-space-between">
             <div class="footer-flex-item">
                 <h1 class="big-heading">Let’s talk about your next big brand.</h1>
-                <a href="#" class="footer-link-take-action normal-heading">Take action <i class="fa-solid fa-arrow-right-long"></i></a>
+                <a href="#" class="footer-link-take-action normal-heading">Take action →</a>
                 <a class="footer-email " href="mailto:contact@debukstudio.com">contact@debukstudio.com</a>
             </div>
 
             <div class="footer-flex-item" >
                 <div class="fist_link-list">
-                    <a href="#" class="display-block footer-links-a">Home <i class="fa-solid fa-arrow-right-long"></i></a>
-                    <a href="#" class="display-block footer-links-a">About <i class="fa-solid fa-arrow-right-long"></i></a>
-                    <a href="#" class="display-block footer-links-a">Project <i class="fa-solid fa-arrow-right-long"></i></a>
-                    <a href="#" class="display-block footer-links-a">Services <i class="fa-solid fa-arrow-right-long"></i></a>
+                    <a href="#" class="display-block footer-links-a">Home →</a>
+                    <a href="#" class="display-block footer-links-a">About →</a>
+                    <a href="#" class="display-block footer-links-a">Project →</a>
+                    <a href="#" class="display-block footer-links-a">Services →</a>
                 </div>
 
                 <div class="second_link-list">
-                    <p class="footer-links-a comming-soon-text">Commming Soon</p>
-                    <a href="#" class="display-block footer-links-a">Shop <i class="fa-solid fa-arrow-right-long"></i></a>
+                    <p class="footer-links-a comming-soon-text">Coming Soon</p>
+                    <a href="#" class="display-block footer-links-a">Shop →</a>
                 </div>
             </div>
 

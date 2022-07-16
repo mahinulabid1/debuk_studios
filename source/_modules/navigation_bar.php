@@ -8,6 +8,6 @@
         <div class="nav-menu-item"><a href="#">Services</a> </div>
         <div class="nav-menu-item"><a href="#">Project</a> </div>
         <div class="nav-menu-item"><a href="#">Contact</a> </div>
-        <div class="nav-menu-item"><i class="fa-solid fa-bars"></i></div>
+        <div class="nav-menu-item"><img src=<?php echo $path_to_hamburger_icon; ?> alt="hamburger" style="cursor: pointer;"></div>
     </div>
 </nav>

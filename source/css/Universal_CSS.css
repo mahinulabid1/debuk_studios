@@ -5,7 +5,7 @@ a {
 
 /* some universal CSS */
 .bound {
-    padding: 0 5%;
+    padding: 0 70px;
 }
 
 .paragraph-text{
@@ -17,8 +17,7 @@ a {
 .big-heading{
     font-size: 80px;
     line-height: 96px;
-    /* font-family: font-bold; */
-    font-weight: 700;
+    font-family: font-bold;
 }
 
 .normal-heading{
@@ -67,4 +66,7 @@ html {
 body {
     font-family: var(--font-regular);
     font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
 }

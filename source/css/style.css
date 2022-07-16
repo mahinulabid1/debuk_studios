@@ -15,34 +15,34 @@
     margin-top: 40px;
 }
 
-.hero-heading, .hero-description{
-    width: 770px;
+.hero-heading{
+    width: 970px;
+}
+.hero-description{
+    width: 720px;
 }
 
-
 .hero-video-placeholder {
-    width: 525px;
-    height: 387px;
-    left: 1370px;
-    top: 168px;
+    width: 700px;
+    height: 612px;
     overflow: hidden;
     background:green;
-    border-radius: 0px 161.765px;
-    transform: matrix(-1, 0, 0, 1, 0, 0);
+    border-radius: 300px 0px;
+    /* transform: matrix(-1, 0, 0, 1, 0, 0);
     -webkit-transform: matrix(-1, 0, 0, 1, 0, 0);
     -moz-transform: matrix(-1, 0, 0, 1, 0, 0);
     -ms-transform: matrix(-1, 0, 0, 1, 0, 0);
-    -o-transform: matrix(-1, 0, 0, 1, 0, 0);
+    -o-transform: matrix(-1, 0, 0, 1, 0, 0); */
 }
 
 /* since we used matrix in placeholder its rotating the video so it neede a fix in the rotation */
-.hero-video-placeholder video{
+/* .hero-video-placeholder video{
     transform: matrix(-1, 0, 0, 1, 0, 0);
     -webkit-transform: matrix(-1, 0, 0, 1, 0, 0);
     -moz-transform: matrix(-1, 0, 0, 1, 0, 0);
     -ms-transform: matrix(-1, 0, 0, 1, 0, 0);
     -o-transform: matrix(-1, 0, 0, 1, 0, 0);
-}
+} */
 
 .hero-description:first-of-type{
     margin-top:108px;
@@ -112,6 +112,7 @@
 /* ========== FOOTER SECTION ========== */
 footer{
     margin-top:230px;
+    margin-bottom: 10px;
 }
 
 .footer-flex-item:first-of-type{
