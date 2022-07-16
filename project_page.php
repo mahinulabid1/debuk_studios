@@ -40,7 +40,7 @@
         $nav_second_link_path = "#";
 
         $nav_third_link_text = "Contact";
-        $nav_third_link_path = "#";
+        $nav_third_link_path = "./contact.php";
 
         $nav_bar_logolink =  "./source/media/logoicon.png";
         $path_to_hamburger_icon = "./source/media/hamburger.png";
@@ -163,7 +163,7 @@
     <!-- INCLUDE FOOTER -->
     <?php
     $footer_heading_text = "Have a brand to build?";
-    $footer_main_btn_text = "Say hello";
+    $footer_main_btn_text = "Say hello →";
     include "./source/_modules/footer.php";
     ?>
 

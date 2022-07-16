@@ -114,7 +114,7 @@
     <!-- INCLUDE FOOTER -->
     <?php
     $footer_heading_text = "Have a brand to build";
-    $footer_main_btn_text = "Say hello";
+    $footer_main_btn_text = "Say hello →";
     include "./source/_modules/footer.php";
     ?>
 

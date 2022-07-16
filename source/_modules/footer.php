@@ -2,7 +2,13 @@
         <div class="footer-flex-container display-flex d-flex-space-between">
             <div class="footer-flex-item">
                 <h1 class="big-heading"> <?php echo $footer_heading_text; ?> </h1>
-                <a href="#" class="footer-link-take-action normal-heading"> <?php echo $footer_main_btn_text; ?> →</a>
+                <a href="#" class="footer-link-take-action normal-heading"> <?php echo $footer_main_btn_text; ?> </a>
+                <?php
+                    if($is_it_contact_footer == true){
+                        echo "<p class='normal-heading'>Email address</p>";
+                    }
+                ?>
+
                 <a class="footer-email " href="mailto:contact@debukstudio.com">contact@debukstudio.com</a>
             </div>
 
