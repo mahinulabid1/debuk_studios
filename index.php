@@ -45,7 +45,7 @@ $path_to_cross_btn = "./source/media/cross-btn.png";
             $nav_first_link_path="./Services.php"; 
             
             $nav_second_link_text= "Project"; 
-            $nav_second_link_path="#";
+            $nav_second_link_path="./project_page.php";
 
             $nav_third_link_text= "Contact"; 
             $nav_third_link_path="#"; 

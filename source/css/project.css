@@ -1,0 +1,70 @@
+/* ===== HEADER ===== */
+.hero-heading {
+    margin-bottom: 150px;
+}
+
+
+/* ======== PROJECT CONTAINER =========== */
+.project-flex-item:nth-child(2) {
+    align-self: flex-end;
+}
+
+.project-list {
+    padding-bottom: 15px;
+    margin-top: 32px;
+}
+
+.project-list__video-container {
+    height: 144px;
+    width: 376px;
+    position: relative;
+    background: rgba(255, 0, 0, 0.219);
+    cursor: pointer;
+    display:block;
+}
+
+.project-list__video-container__image {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.project-list__video-container__video {
+    position: absolute;
+    object-fit: cover;
+    height:100%;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    z-index: 2;
+    display: none;
+}
+
+.project-list__video-container:hover .project-list__video-container__video{
+    display: block;
+}
+
+.project-category-para {
+    font-size: 20px;
+    line-height: 24px;
+    font-family: font-mono;
+
+    color: #808080;
+    text-align: right;
+    margin-bottom: 3px;
+}
+
+.project-category-title {
+    font-size: 30px;
+    line-height: 36px;
+    font-family: font-light;
+    text-align: right;
+    display:block;
+}
+.project-category-title:link, .project-category-title:visited{
+    color: black; 
+}
