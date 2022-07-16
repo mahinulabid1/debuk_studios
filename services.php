@@ -1,35 +1,30 @@
-<?php
-// Specify the current page to update info in header
-$current_page_head = "Home";
-$location_to_logo_icon = "./source/media/web_title_icon.png";
-
-// the nav bar logo link
-$nav_bar_logolink =  "./source/media/logoicon.png";
-$path_to_hamburger_icon= "./source/media/hamburger.png";
-$path_to_themeChange_btn = "./source/media/ThemeChange_btn.png";
-$path_to_cross_btn = "./source/media/cross-btn.png";
-
-
-// navigation menu link setup
-
-?>
-
 <!DOCTYPE html>
 <html lang="en-US">
 
 <head>
-    <?php include "./source/_modules/head_info.php"; ?>
-    <!-- fonts  -->
-    <link rel="stylesheet" href="./source/css/fonts.css">
+
+    <!-- REUSEABLE HEADER INFO -->
+    <?php
+    // Specify the current page to update info in header
+    $current_page_head = "Services";
+    $location_to_logo_icon = "./source/media/web_title_icon.png";
+    include "./source/_modules/head_info.php";
+    ?>
 
     <!-- main stylesheet -->
-    <link rel="stylesheet" href="./source/css/style.css">
+    <link rel="stylesheet" href="./source/css/services.css">
+
+    <!-- fonts  -->
+    <link rel="stylesheet" href="./source/css/fonts.css">
 
     <!-- navigation bar -->
     <link rel="stylesheet" href="./source/css/navigation_bar.css">
 
     <!-- UNIVERSAL CSS -->
     <link rel="stylesheet" href="./source/css/Universal_CSS.css">
+
+    <!-- footer -->
+    <link rel="stylesheet" href="./source/css/footer.css">
 </head>
 
 <body>
@@ -37,104 +32,90 @@ $path_to_cross_btn = "./source/media/cross-btn.png";
 
         <!-- REUSEABLE NAVIGATION BAR -->
         <?php
-            // SETTING UP REUSEABLE NAVIGATION BAR
-            $nav_first_link_text ="Services"; 
-            $nav_first_link_path="#"; 
-            
-            $nav_second_link_text= "Project"; 
-            $nav_second_link_path="#";
+        // SETTING UP REUSEABLE NAVIGATION BAR AND ITS PATH
+        $nav_first_link_text = "Services";
+        $nav_first_link_path = "#";
 
-            $nav_third_link_text= "Contact"; 
-            $nav_third_link_path="#"; 
-            include "./source/_modules/navigation_bar.php"; 
+        $nav_second_link_text = "Project";
+        $nav_second_link_path = "#";
+
+        $nav_third_link_text = "Contact";
+        $nav_third_link_path = "#";
+
+        $nav_bar_logolink =  "./source/media/logoicon.png";
+        $path_to_hamburger_icon = "./source/media/hamburger.png";
+        $path_to_themeChange_btn = "./source/media/ThemeChange_btn.png";
+        $path_to_cross_btn = "./source/media/cross-btn.png";
+
+        include "./source/_modules/navigation_bar.php";
         ?>
 
 
 
         <!-- HERO CONTENT -->
-        <div class="hero-container display-flex d-flex-space-between">
-            <div class="hero-flex-item">
-                <h1 class="hero-heading big-heading">
-                    404 the header is missing.. dont let your brand be missed too
-                </h1>
-                <h2 class="hero-sub-heading normal-heading">welcome to debuk studio</h2>
+        <div class="hero-content-container">
+            <h1 class="big-heading hero-heading">Services</h1>
+            <div class="display-flex d-flex-space-between d-flex-wrap-true hero-flex-container">
 
-                <p class="hero-description paragraph-text">
-                    Excite your audience with the quality of your <sapn style="font-family: font-bold">brand</span>
-                </p>
+                <div class="flex-item-hero">
+                    <!-- putting in another container to make image stay at -->
+                    <div class="hero-container-relative">
+                        <h2 class="hero-flex-item__header normal-heading">Branding Identity</h2>
+                        <p class="paragraph-text">Branding</p>
+                        <p class="paragraph-text">Branding Strategy</p>
+                        <p class="paragraph-text">Branding style guide</p>
+                        <p class="paragraph-text">Visual Identity System</p>
+                        <img class="hero-flex-image" src="./source/media/service/brand.webp" alt="" width="100%" height="196" style="object-fit:cover ;">
+                    </div>
+                </div>
 
-                <p class="hero-description paragraph-text">
-                    Raise your brand to professional level. Build a brand with a logo that means something to your audience.
-                </p>
+                <div class="flex-item-hero">
+                    <div class="hero-container-relative">
+                        <h2 class="hero-flex-item__header normal-heading">Online appearance</h2>
+                        <p class="paragraph-text">Web Development</p>
+                        <p class="paragraph-text">Web Design</p>
+                        <p class="paragraph-text">UI / UX</p>
+                        <p class="paragraph-text">Social Media Design</p>
+                        <img class="hero-flex-image" src="./source/media/service/online.webp" alt="" width="100%" height="196" style="object-fit:cover ;">
+                    </div>
 
-            </div>
-            <div class="hero-flex-item">
-                <div class="hero-video-placeholder">
-                    <!-- a video will be here -->
-                    <video loop muted autoplay width="100%" height="100%" style="object-fit: cover;">
-                        <source src="./source/media/home/video-desktop.webm" type="video/webm">
-                    </video>
+                </div>
+
+                <div class="flex-item-hero">
+                    <div class="hero-container-relative">
+                        <h2 class="hero-flex-item__header normal-heading">Printed Media</h2>
+                        <p class="paragraph-text">Packaging</p>
+                        <p class="paragraph-text">Graphic Design</p>
+                        <p class="paragraph-text">Printed Collateral</p>
+                        <img class="hero-flex-image" src="./source/media/service/print.webp" alt="" width="100%" height="196" style="object-fit:cover ;">
+                    </div>
+
+                </div>
+
+                <div class="flex-item-hero">
+                    <div class="hero-container-relative">
+                        <h2 class="hero-flex-item__header normal-heading">Brand Consultancy</h2>
+                        <p class="paragraph-text">Consulting about your brand</p>
+                        <img class="hero-flex-image" src="./source/media/service/consultancy.webp" alt="" width="100%" height="196" style="object-fit:cover ;">
+                    </div>
+
                 </div>
             </div>
         </div>
 
 
+
     </header>
 
 
-    <section class="banner-section bound">
-        <div class="banner-flex-container display-flex d-flex-space-between">
-            <div class="banner-flex-item">
-                <img src="./source/media/home/image1.webp" alt="" class="display-block banner-flex-image" style="object-fit: cover;" height="auto" width="100%">
-                <p class="paragraph-text banner-para">
-                    Strong branding makes an impact in the market
-                </p>
-            </div>
 
-            <div class="banner-flex-item">
-                <img src="./source/media/home/image2.webp" alt="" class="display-block banner-flex-image" style="object-fit: cover;" height="auto" width="100%">
-                <p class="paragraph-text banner-para">
-                    Stands out from the crowd
-                </p>
-            </div>
-
-            <div class="banner-flex-item">
-                <img src="./source/media/home/image3.webp" alt="" class="display-block banner-flex-image" style="object-fit: cover;" height="auto" width="100%">
-                <p class="paragraph-text banner-para">
-                    Filters out improper leads
-                </p>
-            </div>
-
-            <div class="banner-flex-item">
-                <img src="./source/media/home/image4.webp" alt="" class="display-block banner-flex-image" style="object-fit: cover;" height="auto" width="100%">
-                <p class="paragraph-text banner-para">
-                    Brand identity supports product launches.
-                </p>
-            </div>
-        </div>
-
-        <h1 class="banner-heading normal-heading">Everything your customer wants to see from their favorite brand.</h1>
-    </section>
-
-    <section class="text-slider-section">
-        <div class="text-slider-container">
-            <span> BRAND IDENTITY | WEB DESIGN | BRAND IDENTITY | WEB DESIGN | BRAND IDENTITY | WEB DESIGN | BRAND IDENTITY | WEB DESIGN | BRAND IDENTITY | WEB DESIGN | BRAND IDENTITY | WEB DESIGN | BRAND IDENTITY | WEB DESIGN | BRAND IDENTITY | WEB DESIGN |
-        </div>
-        </div>
-
-        <p class="paragraph-text text-slider-paragraph  bound">
-            Logo is not just a drawing or a shape, brand strategy is not a waste of time. Don’t let your time and lack of experience be your excuse
-            for not creating a good brand. Brands without proper planning, strategy, and with bad design decay in a hidden
-            market and stay on the same level without making a step forward.
-        </p>
-    </section>
 
 
     <!-- INCLUDE FOOTER -->
     <?php
-        $footer_heading_text ="Let’s talk about your next big brand.";
-        $footer_main_btn_text ="Take action";
-        include "./source/_modules/footer.php";
+    $footer_heading_text = "Have a brand to build";
+    $footer_main_btn_text = "Say hello";
+    include "./source/_modules/footer.php";
     ?>
 
 

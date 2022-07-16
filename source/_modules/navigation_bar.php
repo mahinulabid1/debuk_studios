@@ -2,7 +2,7 @@
 <nav class="display-flex d-flex-space-between">
     <div class="nav-flex-item">
         <img class="display-inline-block" src=<?php echo $nav_bar_logolink ?> alt="website logo">
-        <span class="logo-text display-inline-block">debuk studio</span>
+        <a href="./index.php" class="logo-text display-inline-block">debuk studio</a>
     </div>
     <div class="nav-flex-item display-flex">
 

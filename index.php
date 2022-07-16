@@ -28,6 +28,9 @@ $path_to_cross_btn = "./source/media/cross-btn.png";
     <!-- navigation bar -->
     <link rel="stylesheet" href="./source/css/navigation_bar.css">
 
+    <!-- footer -->
+    <link rel="stylesheet" href="./source/css/footer.css">
+
     <!-- UNIVERSAL CSS -->
     <link rel="stylesheet" href="./source/css/Universal_CSS.css">
 </head>
@@ -39,7 +42,7 @@ $path_to_cross_btn = "./source/media/cross-btn.png";
         <?php
             // SETTING UP REUSEABLE NAVIGATION BAR
             $nav_first_link_text ="Services"; 
-            $nav_first_link_path="#"; 
+            $nav_first_link_path="./Services.php"; 
             
             $nav_second_link_text= "Project"; 
             $nav_second_link_path="#";

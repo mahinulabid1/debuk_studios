@@ -10,7 +10,7 @@ a {
 
 .paragraph-text{
     font-size: 30px;
-    font-family: var(--font-light);
+    font-family: font-light;
     line-height: 45px;
 }
 
@@ -31,6 +31,9 @@ a {
 /* ===== flex setting ========= */
 .display-flex {
     display: flex;
+}
+.d-flex-wrap-true{
+    flex-wrap: wrap;
 }
 
 .d-flex-space-between {
@@ -64,7 +67,7 @@ html {
 }
 
 body {
-    font-family: var(--font-regular);
+    font-family: font-regular;
     font-size: 16px;
     -webkit-font-smoothing: antialiased;
     font-synthesis: none;
