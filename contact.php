@@ -33,11 +33,11 @@
         <!-- REUSEABLE NAVIGATION BAR -->
         <?php
         // SETTING UP REUSEABLE NAVIGATION BAR AND ITS PATH
-        $nav_first_link_text = "Services";
-        $nav_first_link_path = "./services.php";
+        $nav_first_link_text = "Home";
+        $nav_first_link_path = "./index.php";
 
-        $nav_second_link_text = "Project";
-        $nav_second_link_path = "#";
+        $nav_second_link_text = "Services";
+        $nav_second_link_path = "./services.php";
 
         $nav_third_link_text = "About";
         $nav_third_link_path = "./About.php";

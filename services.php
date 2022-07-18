@@ -33,14 +33,14 @@
         <!-- REUSEABLE NAVIGATION BAR -->
         <?php
         // SETTING UP REUSEABLE NAVIGATION BAR AND ITS PATH
-        $nav_first_link_text = "Services";
-        $nav_first_link_path = "#";
+        $nav_first_link_text = "About";
+        $nav_first_link_path = "./About.php";
 
         $nav_second_link_text = "Project";
         $nav_second_link_path = "./project_page.php";
 
         $nav_third_link_text = "Contact";
-        $nav_third_link_path = "#";
+        $nav_third_link_path = "./contact.php";
 
         $nav_bar_logolink =  "./source/media/logoicon.png";
         $path_to_hamburger_icon = "./source/media/hamburger.png";

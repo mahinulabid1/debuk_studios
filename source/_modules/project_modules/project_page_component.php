@@ -7,10 +7,10 @@
     $nav_first_link_path = "./services.php";
 
     $nav_second_link_text = "Project";
-    $nav_second_link_path = "#";
+    $nav_second_link_path = "./project_page.php";
 
-    $nav_third_link_text = "About";
-    $nav_third_link_path = "#";
+    $nav_third_link_text = "Contact";
+    $nav_third_link_path = "./contact.php";
 
     $nav_bar_logolink =  "./source/media/logoicon-white.png";
 

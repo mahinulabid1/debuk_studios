@@ -48,7 +48,7 @@ $path_to_cross_btn = "./source/media/cross-btn.png";
         $nav_second_link_path = "./project_page.php";
 
         $nav_third_link_text = "Contact";
-        $nav_third_link_path = "#";
+        $nav_third_link_path = "./contact.php";
         include "./source/_modules/navigation_bar.php";
         ?>
 

@@ -36,8 +36,8 @@
         $nav_first_link_text = "Services";
         $nav_first_link_path = "./services.php";
 
-        $nav_second_link_text = "Project";
-        $nav_second_link_path = "#";
+        $nav_second_link_text = "About";
+        $nav_second_link_path = "./About.php";
 
         $nav_third_link_text = "Contact";
         $nav_third_link_path = "./contact.php";
@@ -69,7 +69,7 @@
 
                 <div class="project-flex-item">
                     <!-- a video container -->
-                    <a href="#" class="project-list__video-container">
+                    <a href="./studio.php" class="project-list__video-container">
                         <img class="project-list__video-container__image" src="./source/media/project/studio.webp" alt="" height="100%" width="100%">
                         <video class="project-list__video-container__video" autoplay muted loop>
                             <source src="./source/media/project/studio.webm">
@@ -91,7 +91,7 @@
 
                 <div class="project-flex-item">
                     <!-- a video container -->
-                    <a href="#" class="project-list__video-container">
+                    <a href="./conway.php" class="project-list__video-container">
                         <img class="project-list__video-container__image" src="./source/media/project/conway.webp" alt="" height="100%" width="100%">
                         <video class="project-list__video-container__video" autoplay muted loop>
                             <source src="./source/media/project/conway.webm">
@@ -114,7 +114,7 @@
 
                 <div class="project-flex-item">
                     <!-- a video container -->
-                    <a href="#" class="project-list__video-container">
+                    <a href="./luxio.php" class="project-list__video-container">
                         <img class="project-list__video-container__image" src="./source/media/project/luxio.webp" alt="" height="100%" width="100%">
                         <video class="project-list__video-container__video" autoplay muted loop>
                             <source src="./source/media/project/luxio.webm">
@@ -137,7 +137,7 @@
 
                 <div class="project-flex-item">
                     <!-- a video container -->
-                    <a href="#" class="project-list__video-container">
+                    <a href="./gallery.php" class="project-list__video-container">
                         <img class="project-list__video-container__image" src="./source/media/project/gallery.webp" alt="" height="100%" width="100%">
                         <video class="project-list__video-container__video" autoplay muted loop>
                             <source src="./source/media/project/gallery.webm">
