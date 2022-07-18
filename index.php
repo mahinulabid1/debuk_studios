@@ -63,10 +63,7 @@ $path_to_cross_btn = "./source/media/cross-btn.png";
                 <h2 class="hero-sub-heading normal-heading">welcome to debuk studio</h2>
 
                 <p class="hero-description paragraph-text">
-                    Excite your audience with the quality of your <sapn style="font-family: font-bold">brand</span>
-                </p>
-
-                <p class="hero-description paragraph-text">
+                    Excite your audience with the quality of your <span style="font-family: font-bold">brand</span>
                     Raise your brand to professional level. Build a brand with a logo that means something to your audience.
                 </p>
 
@@ -86,7 +83,7 @@ $path_to_cross_btn = "./source/media/cross-btn.png";
 
 
     <section class="banner-section bound">
-        <div class="banner-flex-container display-flex d-flex-space-between">
+        <div class="banner-flex-container display-flex d-flex-space-between d-flex-wrap-true">
             <div class="banner-flex-item">
                 <img src="./source/media/home/image1.webp" alt="" class="display-block banner-flex-image" style="object-fit: cover;" height="auto" width="100%">
                 <p class="paragraph-text banner-para">
@@ -135,9 +132,9 @@ $path_to_cross_btn = "./source/media/cross-btn.png";
 
     <!-- INCLUDE FOOTER -->
     <?php
-        $footer_heading_text ="Let’s talk about your next big brand.";
-        $footer_main_btn_text ="Take action →";
-        include "./source/_modules/footer.php";
+        // $footer_heading_text ="Let’s talk about your next big brand.";
+        // $footer_main_btn_text ="Take action →";
+        // include "./source/_modules/footer.php";
     ?>
 
 

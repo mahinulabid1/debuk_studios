@@ -80,7 +80,7 @@
                 <div class="project-flex-item">
                     <p class="project-category-para">Brand Identity</p>
                     <p class="project-category-para">Web Design</p>
-                    <a href="#" class="project-category-title">Debuk Studio Rebrand →</a>
+                    <a href="./studio.php" class="project-category-title">Debuk Studio Rebrand →</a>
 
                 </div>
             </div>
@@ -102,7 +102,7 @@
                 <div class="project-flex-item">
                     <p class="project-category-para"> Brand Identity</p>
                     <p class="project-category-para">Web Design</p>
-                    <a href="#" class="project-category-title">Conway →</a>
+                    <a href="./conway.php" class="project-category-title">Conway →</a>
 
                 </div>
             </div>
@@ -125,7 +125,7 @@
                 <div class="project-flex-item">
                     <p class="project-category-para"> Brand Identity</p>
                     <p class="project-category-para">Web Design</p>
-                    <a href="#" class="project-category-title">Hotel Luxio →</a>
+                    <a href="./luxio.php" class="project-category-title">Hotel Luxio →</a>
 
                 </div>
             </div>
@@ -148,7 +148,7 @@
                 <div class="project-flex-item">
                     <p class="project-category-para"> Brand Identity</p>
                     <p class="project-category-para">Web Design</p>
-                    <a href="#" class="project-category-title">Borrasude Gallery →</a>
+                    <a href="./gellary.php" class="project-category-title">Borrasude Gallery →</a>
 
                 </div>
             </div>

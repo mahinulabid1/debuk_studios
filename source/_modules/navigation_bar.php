@@ -11,9 +11,9 @@
             $nav_second_link_text; $nav_second_link_path; 
             $nav_third_link_text; $nav_third_link_path; 
         ?>
-        <div class="nav-menu-item"><a href=<?php echo $nav_first_link_path; ?> > <?php echo $nav_first_link_text; ?> </a> </div>
-        <div class="nav-menu-item"><a href=<?php echo $nav_second_link_path; ?>> <?php echo $nav_second_link_text; ?> </a> </div>
-        <div class="nav-menu-item"><a href=<?php echo $nav_third_link_path; ?> > <?php echo $nav_third_link_text; ?> </a> </div>
+        <div class="nav-menu-item small-device-none"><a href=<?php echo $nav_first_link_path; ?> > <?php echo $nav_first_link_text; ?> </a> </div>
+        <div class="nav-menu-item small-device-none"><a href=<?php echo $nav_second_link_path; ?>> <?php echo $nav_second_link_text; ?> </a> </div>
+        <div class="nav-menu-item small-device-none"><a href=<?php echo $nav_third_link_path; ?> > <?php echo $nav_third_link_text; ?> </a> </div>
         <div class="nav-menu-item"><img src=<?php echo $path_to_hamburger_icon; ?> alt="hamburger" style="cursor: pointer;"></div>
     </div>
 </nav>

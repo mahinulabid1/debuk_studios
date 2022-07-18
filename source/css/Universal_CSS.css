@@ -13,6 +13,12 @@ a {
     font-family: font-light;
     line-height: 45px;
 }
+.paragraph-text-regular{
+    font-size: 30px;
+    font-family: font-regular;
+    line-height: 45px;
+}
+
 
 .big-heading{
     font-size: 80px;
@@ -72,4 +78,51 @@ body {
     -webkit-font-smoothing: antialiased;
     font-synthesis: none;
     text-rendering: optimizeLegibility;
+    background: #f9f9f9;
+}
+
+
+
+
+/* =================== */
+/* ========= MEDIA QUERIES ========== */
+
+/* GOING TO THE TAB VIEW */
+@media only screen and (max-width: 834px){
+    .paragraph-text, .paragraph-text-regular{
+        line-height: 40px;
+    }
+    
+    .big-heading{
+        font-size: 64px;
+        line-height: 63px;
+    }
+    
+    .normal-heading{
+        font-size: 43px;
+        line-height: 51.6px;
+    }
+}
+
+
+/* GOING TO THE MOBILE VIEW */
+@media only screen and (max-width:600px){
+    .bound {
+        padding: 0 22px;
+    }
+    
+    .paragraph-text, .paragraph-text-regular{
+        line-height: 21px;
+        font-size: 17px;
+    }
+    
+    .big-heading{
+        font-size: 37px;
+        line-height: 44.4px;
+    }
+    
+    .normal-heading{
+        font-size: 25px;
+        line-height: 30px;
+    }
 }

@@ -40,7 +40,7 @@
         $nav_second_link_path = "#";
 
         $nav_third_link_text = "About";
-        $nav_third_link_path = "#";
+        $nav_third_link_path = "./About.php";
 
         $nav_bar_logolink =  "./source/media/logoicon.png";
         $path_to_hamburger_icon = "./source/media/hamburger.png";

@@ -58,7 +58,7 @@
             <div class="display-flex d-flex-space-between d-flex-wrap-true hero-flex-container">
 
                 <div class="flex-item-hero">
-                    <!-- putting in another container to make image stay at -->
+                    <!-- putting in another container to make image stay at bottom-->
                     <div class="hero-container-relative">
                         <h2 class="hero-flex-item__header normal-heading">Branding Identity</h2>
                         <p class="paragraph-text">Branding</p>
