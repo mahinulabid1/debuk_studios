@@ -78,9 +78,9 @@
                 </div>
 
                 <div class="project-flex-item">
-                    <p class="project-category-para">Brand Identity</p>
-                    <p class="project-category-para">Web Design</p>
-                    <a href="./studio.php" class="project-category-title">Debuk Studio Rebrand →</a>
+                    <p class="project-category__category-name">Brand Identity</p>
+                    <p class="project-category__category-name">Web Design</p>
+                    <a href="./studio.php" class="project-category-title paragraph-text">Debuk Studio Rebrand →</a>
 
                 </div>
             </div>
@@ -100,9 +100,9 @@
                 </div>
 
                 <div class="project-flex-item">
-                    <p class="project-category-para"> Brand Identity</p>
-                    <p class="project-category-para">Web Design</p>
-                    <a href="./conway.php" class="project-category-title">Conway →</a>
+                    <p class="project-category__category-name"> Brand Identity</p>
+                    <p class="project-category__category-name">Web Design</p>
+                    <a href="./conway.php" class="project-category-title paragraph-text">Conway →</a>
 
                 </div>
             </div>
@@ -123,9 +123,9 @@
                 </div>
 
                 <div class="project-flex-item">
-                    <p class="project-category-para"> Brand Identity</p>
-                    <p class="project-category-para">Web Design</p>
-                    <a href="./luxio.php" class="project-category-title">Hotel Luxio →</a>
+                    <p class="project-category__category-name"> Brand Identity</p>
+                    <p class="project-category__category-name">Web Design</p>
+                    <a href="./luxio.php" class="project-category-title paragraph-text">Hotel Luxio →</a>
 
                 </div>
             </div>
@@ -146,9 +146,9 @@
                 </div>
 
                 <div class="project-flex-item">
-                    <p class="project-category-para"> Brand Identity</p>
-                    <p class="project-category-para">Web Design</p>
-                    <a href="./gellary.php" class="project-category-title">Borrasude Gallery →</a>
+                    <p class="project-category__category-name"> Brand Identity</p>
+                    <p class="project-category__category-name">Web Design</p>
+                    <a href="./gellary.php" class="project-category-title paragraph-text">Borrasude Gallery →</a>
 
                 </div>
             </div>
