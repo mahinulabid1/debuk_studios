@@ -63,38 +63,38 @@
     <section class="form-container bound">
         <form action="#">
 
-            <div class="display-flex d-flex-space-between">
+            <div class="display-flex d-flex-space-between d-flex-wrap-true">
 
                 <div class="form-flex-item">
                     <label class="paragraph-text" for="full_name">Full name *</label>
-                    <input type="text" id="full_name" name="full_name" placeholder="e.g. John Smith">
+                    <input class="paragraph-text" type="text" id="full_name" name="full_name" placeholder="e.g. John Smith">
                 </div>
 
                 <div class="form-flex-item">
                     <label class="paragraph-text" for="Email">Email *</label>
-                    <input type="email" id="Email" name="email" placeholder="you@company">
+                    <input class="paragraph-text" type="email" id="Email" name="email" placeholder="you@company">
                 </div>
 
             </div>
 
-            <div class="display-flex d-flex-space-between">
+            <div class="display-flex d-flex-space-between d-flex-wrap-true">
 
                 <div class="form-flex-item">
                     <label class="paragraph-text" for="subject">Subject *</label>
-                    <input type="text" id="subject" name="subject" placeholder="Branding">
+                    <input class="paragraph-text" type="text" id="subject" name="subject" placeholder="Branding">
                 </div>
 
                 <div class="form-flex-item">
                     <label class="paragraph-text" for="budget">Budget *</label>
-                    <input type="text" id="budget" name="budget" placeholder="6000e">
+                    <input class="paragraph-text" type="text" id="budget" name="budget" placeholder="6000e">
                 </div>
 
             </div>
             
             <label class="paragraph-text" for="message">Message *</label>
-            <textarea name="message" id="message">Dear Debuk Studio</textarea>
+            <textarea class="paragraph-text" name="message" id="message">Dear Debuk Studio</textarea>
 
-            <input class="submit-btn" type="submit" value="Send →">
+            <input class="submit-btn paragraph-text" type="submit" value="Send →">
         </form>
     </section>
 
