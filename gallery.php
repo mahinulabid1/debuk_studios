@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="./source/css/fonts.css">
 
     <!-- navigation bar -->
-    <!-- <link rel="stylesheet" href="./source/css/navigation_bar.css"> -->
+    <link rel="stylesheet" href="./source/css/navigation_bar.css">
 
     <!-- UNIVERSAL CSS -->
     <link rel="stylesheet" href="./source/css/Universal_CSS.css">
@@ -34,6 +34,7 @@
 
 
     <?php
+    // PROJECT PAGE TEXT CONTENT (PUT CONTENT ACCORDING TO DIFFERENT PROJECT PAGES)
     $page_main_heading= 'Borrasude Gallery';
     $page_sub_heading_one="Brand Identity";
     $page_sub_heading_two="";
@@ -42,10 +43,18 @@
     $characteristics_one_paragraph = "Attract people to see vintage paintings in Vienna, Austria.";
     $characteristics_two_heading = "Opportunity";
     $characteristics_two_paragraph = "Design is minimal and made for people who loves art.";
+
+    //source file's path of the image
     $source_to_image_1 = "./source/media/gallery/image1.webp";
     $source_to_image_2 = "./source/media/gallery/image2.webp";
-    $source_to_video_file = "./source/media/gallery/video-desktop.webm";
 
+    //source file's path of the video
+    $source_to_video_file = "./source/media/gallery/video-desktop.webm";
+    $source_to_video_file_tablet_version="./source/media/gallery/video-tablet.webm";
+    $source_to_video_file_mobile_version= "./source/media/gallery/video-phone.webm";
+
+
+    //including the whole project page with changeable content(content defined by php variables in above ↑)
     include "./source/_modules/project_modules/project_page_component.php";
     ?>
     <div class="full-width-image bound">

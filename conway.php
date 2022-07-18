@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="./source/css/fonts.css">
 
     <!-- navigation bar -->
-    <!-- <link rel="stylesheet" href="./source/css/navigation_bar.css"> -->
+    <link rel="stylesheet" href="./source/css/navigation_bar.css">
 
     <!-- UNIVERSAL CSS -->
     <link rel="stylesheet" href="./source/css/Universal_CSS.css">
@@ -34,6 +34,7 @@
 
 
     <?php
+    // PROJECT PAGE TEXT CONTENT (PUT CONTENT ACCORDING TO DIFFERENT PROJECT PAGES)
     $page_main_heading= 'Conway';
     $page_sub_heading_one="Brand Identity";
     $page_sub_heading_two="Web Design";
@@ -42,10 +43,17 @@
     $characteristics_one_paragraph = "Creating a brand identity for Conway. Creating a home page for the product's awareness and SEO ranking with a UI design that goes into brand guidelines and clear UX to easily navigate thru pages.";
     $characteristics_two_heading = "Opportunity";
     $characteristics_two_paragraph = "Clean design communicates with an audience that Conway is selling premium products for their customers.";
+    
+    //source file's path of the image
     $source_to_image_1 = "./source/media/conway/image1.webp";
     $source_to_image_2 = "./source/media/conway/image2.webp";
-    $source_to_video_file = "./source/media/conway/video-desktop.webm";
 
+    //souce file's path of the page video
+    $source_to_video_file = "./source/media/conway/video-desktop.webm";
+    $source_to_video_file_tablet_version="./source/media/conway/video-tablet.webm";
+    $source_to_video_file_mobile_version= "./source/media/conway/video-phone.webm";
+
+    // including the whole project page with changeable content(content defined by php variables in above ↑)
     include "./source/_modules/project_modules/project_page_component.php";
     ?>
     <div class="full-width-image bound">

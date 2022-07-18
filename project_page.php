@@ -148,7 +148,7 @@
                 <div class="project-flex-item">
                     <p class="project-category__category-name"> Brand Identity</p>
                     <p class="project-category__category-name">Web Design</p>
-                    <a href="./gellary.php" class="project-category-title paragraph-text">Borrasude Gallery →</a>
+                    <a href="./gallery.php" class="project-category-title paragraph-text">Borrasude Gallery →</a>
 
                 </div>
             </div>

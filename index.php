@@ -5,7 +5,7 @@ $location_to_logo_icon = "./source/media/web_title_icon.png";
 
 // the nav bar logo link
 $nav_bar_logolink =  "./source/media/logoicon.png";
-$path_to_hamburger_icon= "./source/media/hamburger.png";
+$path_to_hamburger_icon = "./source/media/hamburger.png";
 $path_to_themeChange_btn = "./source/media/ThemeChange_btn.png";
 $path_to_cross_btn = "./source/media/cross-btn.png";
 
@@ -40,16 +40,16 @@ $path_to_cross_btn = "./source/media/cross-btn.png";
 
         <!-- REUSEABLE NAVIGATION BAR -->
         <?php
-            // SETTING UP REUSEABLE NAVIGATION BAR
-            $nav_first_link_text ="Services"; 
-            $nav_first_link_path="./Services.php"; 
-            
-            $nav_second_link_text= "Project"; 
-            $nav_second_link_path="./project_page.php";
+        // SETTING UP REUSEABLE NAVIGATION BAR
+        $nav_first_link_text = "Services";
+        $nav_first_link_path = "./Services.php";
 
-            $nav_third_link_text= "Contact"; 
-            $nav_third_link_path="#"; 
-            include "./source/_modules/navigation_bar.php"; 
+        $nav_second_link_text = "Project";
+        $nav_second_link_path = "./project_page.php";
+
+        $nav_third_link_text = "Contact";
+        $nav_third_link_path = "#";
+        include "./source/_modules/navigation_bar.php";
         ?>
 
 
@@ -71,9 +71,26 @@ $path_to_cross_btn = "./source/media/cross-btn.png";
             <div class="hero-flex-item">
                 <div class="hero-video-placeholder">
                     <!-- a video will be here -->
-                    <video loop muted autoplay width="100%" height="100%" style="object-fit: cover;">
-                        <source src="./source/media/home/video-desktop.webm" type="video/webm">
+                    <video loop muted autoplay width="100%" height="100%" style="object-fit: cover;" class="hero-video">
+                        <!-- the source of video file will be injected by Javascript since chrome doesn't support changeable source by media query -->
+                        <!-- the javascript code is below ↓↓↓ -->
                     </video>
+                    <script>
+                        // SINCE CHROME DOESN'T SUPPORT THE VIDEO SOURCE MEDIA QUERIES, THIS SCRIPT IS CREATED TO CHANGE VIDEO SOURCEC ACCORDING TO THE VIEW WIDTH
+                        var video = document.querySelector(".hero-video");
+                        var WindowWidth = window.screen.width;
+
+                        if (WindowWidth < 834 && WindowWidth > 600) {
+                            //TABLET VERSION VIDEO
+                            video.innerHTML = `<source src="./source/media/home/video-tablet.webm" type='video/webm' >`;
+                        } else if (WindowWidth < 600) {
+                            //MOBILE VERSION VIDEO
+                            video.innerHTML = `<source src="./source/media/home/video-phone.webm" type='video/webm' >`;
+                        } else {
+                            //BIG SCREEN VIDEO
+                            video.innerHTML = `<source src="./source/media/home/video-desktop.webm" type='video/webm' >`;
+                        }
+                    </script>
                 </div>
             </div>
         </div>
@@ -132,9 +149,9 @@ $path_to_cross_btn = "./source/media/cross-btn.png";
 
     <!-- INCLUDE FOOTER -->
     <?php
-        $footer_heading_text ="Let’s talk about your next big brand.";
-        $footer_main_btn_text ="Take action →";
-        include "./source/_modules/footer.php";
+    $footer_heading_text = "Let’s talk about your next big brand.";
+    $footer_main_btn_text = "Take action →";
+    include "./source/_modules/footer.php";
     ?>
 
 

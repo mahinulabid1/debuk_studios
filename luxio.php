@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="./source/css/fonts.css">
 
     <!-- navigation bar -->
-    <!-- <link rel="stylesheet" href="./source/css/navigation_bar.css"> -->
+    <link rel="stylesheet" href="./source/css/navigation_bar.css">
 
     <!-- UNIVERSAL CSS -->
     <link rel="stylesheet" href="./source/css/Universal_CSS.css">
@@ -34,6 +34,7 @@
 
 
     <?php
+    // PROJECT PAGE TEXT CONTENT (PUT CONTENT ACCORDING TO DIFFERENT PROJECT PAGES)
     $page_main_heading= 'Hotel Luxio';
     $page_sub_heading_one="Brand Identity";
     $page_sub_heading_two="Web Design";
@@ -42,10 +43,17 @@
     $characteristics_one_paragraph = "Create a brand strategy for the most luxurious hotel targeted at business owners and founders. Brand identity with a sophisticated feel. Designing an online experience with clean UI and clear UX to understand. ";
     $characteristics_two_heading = "Opportunity";
     $characteristics_two_paragraph = "Inspire business owners and founders, giving them room to work and think like no other. Creating events and giving opportunities to business founders and owners to network with others.";
+    
+    //source file's path of image
     $source_to_image_1 = "./source/media/luxio/image1.webp";
     $source_to_image_2 = "./source/media/luxio/image2.webp";
-    $source_to_video_file = "./source/media/luxio/video-desktop.webm";
 
+    // source file's path of video
+    $source_to_video_file = "./source/media/luxio/video-desktop.webm";
+    $source_to_video_file_tablet_version="./source/media/luxio/video-tablet.webm";
+    $source_to_video_file_mobile_version= "./source/media/luxio/video-phone.webm";
+
+    //including the whole project page with changeable content(content defined by php variables in above)
     include "./source/_modules/project_modules/project_page_component.php";
     ?>
     <div class="full-width-image bound">
