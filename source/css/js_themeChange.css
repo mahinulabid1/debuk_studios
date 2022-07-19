@@ -1,0 +1,18 @@
+/* ============================= */
+/* THIS SECTION'S CLASS IS FOR JAVASCRIPT USE ONLY */
+.js_color_white{
+    color: var(--white) !important;
+}
+.js_link_color:link, .js_link_color:visited{
+    color: var(--white) !important;
+}
+
+
+.js_background_black{
+    background:var(--black) !important;
+}
+
+.js-after-pseudo-background::after{
+    background: white !important;
+}
+/* ================================= */

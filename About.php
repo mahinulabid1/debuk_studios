@@ -14,17 +14,11 @@
     <!-- main stylesheet -->
     <link rel="stylesheet" href="./source/css/about.css">
 
-    <!-- fonts  -->
-    <link rel="stylesheet" href="./source/css/fonts.css">
 
     <!-- navigation bar -->
     <link rel="stylesheet" href="./source/css/navigation_bar.css">
 
-    <!-- UNIVERSAL CSS -->
-    <link rel="stylesheet" href="./source/css/Universal_CSS.css">
 
-    <!-- footer -->
-    <link rel="stylesheet" href="./source/css/footer.css">
 </head>
 
 <body>
@@ -75,7 +69,7 @@
             <div class="about-me-flex-item">
                 <h1 class="normal-heading about-me-heading">Hi, I’m Matija! 👋</h1>
                 <p class="paragraph-text">
-                    Europian-based Brand and Web(UX/UI) Designer and founder of Debuk Studio. I am inspired by the modern brand 
+                    Europian-based Brand and Web(UX/UI) Designer and founder of Debuk Studio. I am inspired by the modern brand
                     design and how they work. I create brands with you so your audience can see your full potential.
                 </p>
             </div>
@@ -93,6 +87,8 @@
     ?>
 
 
+
+    <script src="./source/js/theme.js"></script>
 </body>
 
 

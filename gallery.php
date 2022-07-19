@@ -14,17 +14,8 @@
     <!-- main stylesheet -->
     <link rel="stylesheet" href="./source/css/studio.css">
 
-    <!-- fonts  -->
-    <link rel="stylesheet" href="./source/css/fonts.css">
-
     <!-- navigation bar -->
     <link rel="stylesheet" href="./source/css/navigation_bar.css">
-
-    <!-- UNIVERSAL CSS -->
-    <link rel="stylesheet" href="./source/css/Universal_CSS.css">
-
-    <!-- footer -->
-    <link rel="stylesheet" href="./source/css/footer.css">
 
     <!-- project page component css -->
     <link rel="stylesheet" href="./source/css/project_page_component.css">
@@ -35,10 +26,10 @@
 
     <?php
     // PROJECT PAGE TEXT CONTENT (PUT CONTENT ACCORDING TO DIFFERENT PROJECT PAGES)
-    $page_main_heading= 'Borrasude Gallery';
-    $page_sub_heading_one="Brand Identity";
-    $page_sub_heading_two="";
-    $page_main_para="The art gallery filled up with vintage paintings.";
+    $page_main_heading = 'Borrasude Gallery';
+    $page_sub_heading_one = "Brand Identity";
+    $page_sub_heading_two = "";
+    $page_main_para = "The art gallery filled up with vintage paintings.";
     $characteristics_one_heading = "Goal";
     $characteristics_one_paragraph = "Attract people to see vintage paintings in Vienna, Austria.";
     $characteristics_two_heading = "Opportunity";
@@ -50,8 +41,8 @@
 
     //source file's path of the video
     $source_to_video_file = "./source/media/gallery/video-desktop.webm";
-    $source_to_video_file_tablet_version="./source/media/gallery/video-tablet.webm";
-    $source_to_video_file_mobile_version= "./source/media/gallery/video-phone.webm";
+    $source_to_video_file_tablet_version = "./source/media/gallery/video-tablet.webm";
+    $source_to_video_file_mobile_version = "./source/media/gallery/video-phone.webm";
 
 
     //including the whole project page with changeable content(content defined by php variables in above ↑)

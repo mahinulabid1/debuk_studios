@@ -39,7 +39,7 @@ footer{
     color: var(--black);
     margin-top: 10px;
 }
-.footer-links-a{
+.footer-links-a:link, .footer-links-a:visited{
     color: var(--black);
 }
 .Coming-soon-container{

@@ -14,17 +14,10 @@
     <!-- main stylesheet -->
     <link rel="stylesheet" href="./source/css/contact.css">
 
-    <!-- fonts  -->
-    <link rel="stylesheet" href="./source/css/fonts.css">
 
     <!-- navigation bar -->
     <link rel="stylesheet" href="./source/css/navigation_bar.css">
 
-    <!-- UNIVERSAL CSS -->
-    <link rel="stylesheet" href="./source/css/Universal_CSS.css">
-
-    <!-- footer -->
-    <link rel="stylesheet" href="./source/css/footer.css">
 </head>
 
 <body>
@@ -97,7 +90,7 @@
                 </div>
 
             </div>
-            
+
             <label class="paragraph-text" for="message">Message *</label>
             <textarea class="paragraph-text" name="message" id="message">Dear Debuk Studio</textarea>
 
@@ -111,13 +104,15 @@
 
     <!-- INCLUDE FOOTER -->
     <?php
-    $is_it_contact_footer =true;
+    $is_it_contact_footer = true;
     $footer_heading_text = "";
     $footer_main_btn_text = "";
     include "./source/_modules/footer.php";
     ?>
 
 
+
+    <script src="./source/js/theme.js"></script>
 </body>
 
 

@@ -1,4 +1,4 @@
-<header class="">
+<header>
 
 
     <!-- REUSEABLE NAVIGATION BAR -->
@@ -27,10 +27,10 @@
         //just change the source through javascipt
         let hamberger_icon_image = document.querySelector(".ham-berger-icon-img");
         let website_logo_icon = document.querySelector(".website-logo-icon");
-        let windowSize= window.screen.width;
-        if(windowSize < 834){
-            hamberger_icon_image.src ="./source/media/Hamburger.png";
-            website_logo_icon.src='./source/media/logoicon.png';
+        let windowSize = window.screen.width;
+        if (windowSize < 834) {
+            hamberger_icon_image.src = "./source/media/Hamburger.png";
+            website_logo_icon.src = './source/media/logoicon.png';
         }
     </script>
 
@@ -130,3 +130,5 @@ $source_to_image_2;
 
 
 </section>
+
+<script src="./source/js/theme.js"></script>

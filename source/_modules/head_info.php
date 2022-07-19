@@ -12,6 +12,18 @@
 <!-- added the font awesome icon -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+<!-- UNIVERSAL CSS -->
+<link rel="stylesheet" href="./source/css/Universal_CSS.css">
+
+<!-- footer -->
+<link rel="stylesheet" href="./source/css/footer.css">
+
+<!-- fonts  -->
+<link rel="stylesheet" href="./source/css/fonts.css">
+
+<!-- js themeChanger function mandatory CSS file -->
+<link rel="stylesheet" href="./source/css/js_themeChange.css">
+
 
 <link rel="icon" href=<?php echo $location_to_logo_icon; ?> />
-<title>debuk studio- <?php echo $current_page_head ?></title>
+<title>Debuk Studio - <?php echo $current_page_head ?></title>

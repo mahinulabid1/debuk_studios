@@ -4,11 +4,12 @@
     --dark-white: #808080;
 }
 
+
 nav {
     margin-top: 64px;
     margin-bottom: 130px;
     font-size: 24px;
-    color: #070606;
+    color: var(--black);
 }
 
 .logo-text {
@@ -44,7 +45,6 @@ nav {
     height: 100vh;
     width: 100%;
     background: var(--white);
-    ;
     z-index: 2;
     overflow-y: scroll;
     display: none;

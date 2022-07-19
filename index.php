@@ -1,26 +1,20 @@
-<?php
-// Specify the current page to update info in header
-$current_page_head = "Home";
-$location_to_logo_icon = "./source/media/web_title_icon.png";
-
-// the nav bar logo link
-$nav_bar_logolink =  "./source/media/logoicon.png";
-$path_to_hamburger_icon = "./source/media/Hamburger.png";
-$path_to_themeChange_btn = "./source/media/ThemeChange_btn.png";
-$path_to_cross_btn = "./source/media/cross-btn.png";
-
-
-// navigation menu link setup
-
-?>
-
 <!DOCTYPE html>
 <html lang="en-US">
 
 <head>
+    <?php
+    // Specify the current page to update info in header
+    $current_page_head = "Home";
+    $location_to_logo_icon = "./source/media/web_title_icon.png";
+
+    // the nav bar logo link
+    $nav_bar_logolink =  "./source/media/logoicon.png";
+    $path_to_hamburger_icon = "./source/media/Hamburger.png";
+    $path_to_themeChange_btn = "./source/media/ThemeChange_btn.png";
+    $path_to_cross_btn = "./source/media/cross-btn.png";
+
+    ?>
     <?php include "./source/_modules/head_info.php"; ?>
-    <!-- fonts  -->
-    <link rel="stylesheet" href="./source/css/fonts.css">
 
     <!-- main stylesheet -->
     <link rel="stylesheet" href="./source/css/style.css">
@@ -28,11 +22,9 @@ $path_to_cross_btn = "./source/media/cross-btn.png";
     <!-- navigation bar -->
     <link rel="stylesheet" href="./source/css/navigation_bar.css">
 
-    <!-- footer -->
-    <link rel="stylesheet" href="./source/css/footer.css">
 
-    <!-- UNIVERSAL CSS -->
-    <link rel="stylesheet" href="./source/css/Universal_CSS.css">
+
+
 </head>
 
 <body>
@@ -155,6 +147,8 @@ $path_to_cross_btn = "./source/media/cross-btn.png";
     ?>
 
 
+
+    <script src="./source/js/theme.js"></script>
 </body>
 
 

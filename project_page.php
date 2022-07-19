@@ -14,17 +14,9 @@
     <!-- main stylesheet -->
     <link rel="stylesheet" href="./source/css/project.css">
 
-    <!-- fonts  -->
-    <link rel="stylesheet" href="./source/css/fonts.css">
-
     <!-- navigation bar -->
     <link rel="stylesheet" href="./source/css/navigation_bar.css">
 
-    <!-- UNIVERSAL CSS -->
-    <link rel="stylesheet" href="./source/css/Universal_CSS.css">
-
-    <!-- footer -->
-    <link rel="stylesheet" href="./source/css/footer.css">
 </head>
 
 <body>
@@ -168,6 +160,8 @@
     ?>
 
 
+
+    <script src="./source/js/theme.js"></script>
 </body>
 
 
