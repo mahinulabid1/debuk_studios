@@ -96,6 +96,7 @@ footer{
         flex-direction: row;
     }
     .footer-link-border{
+        padding-top: 6px;
         padding-bottom: 8px;
         border-bottom: 1px solid black;
     }

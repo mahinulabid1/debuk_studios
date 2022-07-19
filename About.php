@@ -65,12 +65,12 @@
 
         <div class="display-flex about-flex-container">
             <div class="about-me-flex-item ">
-                <picture>
+                <!-- <picture>
 
                     <source media="(max-width:834px)" srcset="./source/media/about/person-tablet.webp" height="564" width="700">
                     <img src="./source/media/about/person.webp" alt="" height="564" width="700">
-                </picture>
-                <!-- <img src="./source/media/about/person.webp" alt="" height="564" width="700"> -->
+                </picture> -->
+                <img src="./source/media/about/person.webp" alt="" height="564" width="700">
             </div>
             <div class="about-me-flex-item">
                 <h1 class="normal-heading about-me-heading">Hi, I’m Matija! 👋</h1>

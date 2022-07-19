@@ -1,5 +1,6 @@
 <header class="bound">
 
+
     <!-- REUSEABLE NAVIGATION BAR -->
     <?php
     // SETTING UP REUSEABLE NAVIGATION BAR AND ITS PATH
@@ -21,6 +22,22 @@
 
     include "./source/_modules/navigation_bar.php";
     ?>
+
+    <script>
+        //just change the source through javascipt
+        let hamberger_icon_image = document.querySelector(".ham-berger-icon-img");
+        let website_logo_icon = document.querySelector(".website-logo-icon");
+        let windowSize= window.screen.width;
+        if(windowSize < 834){
+            hamberger_icon_image.src ="./source/media/hamburger.png";
+            website_logo_icon.src='./source/media/logoicon.png';
+        }
+    </script>
+
+
+
+
+
 
 
 
@@ -60,16 +77,15 @@ $source_to_image_2;
         var video = document.querySelector(".hero-video");
         var WindowWidth = window.screen.width;
 
-        if (WindowWidth < 834  && WindowWidth > 600) {
+        if (WindowWidth < 834 && WindowWidth > 600) {
             //TABLET VERSION VIDEO
-            video.innerHTML=`<source src=<?php echo $source_to_video_file_tablet_version; ?> type='video/webm' >`;
-        }else if(WindowWidth < 600){
+            video.innerHTML = `<source src=<?php echo $source_to_video_file_tablet_version; ?> type='video/webm' >`;
+        } else if (WindowWidth < 600) {
             //MOBILE VERSION VIDEO
-            video.innerHTML=`<source src=<?php echo $source_to_video_file_mobile_version; ?> type='video/webm' >`;
-        }
-         else {
+            video.innerHTML = `<source src=<?php echo $source_to_video_file_mobile_version; ?> type='video/webm' >`;
+        } else {
             //BIG SCREEN VIDEO
-            video.innerHTML=`<source src=<?php echo $source_to_video_file; ?> type='video/webm' >`;
+            video.innerHTML = `<source src=<?php echo $source_to_video_file; ?> type='video/webm' >`;
         }
     </script>
 </div>

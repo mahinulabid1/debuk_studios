@@ -33,6 +33,7 @@
 <body>
 
 
+
     <?php
     // PROJECT PAGE TEXT CONTENT (PUT CONTENT ACCORDING TO DIFFERENT PROJECT PAGES)
     $page_main_heading = 'Debuk Studio Rebrand';
@@ -73,6 +74,7 @@
     ?>
 
 
+    <script src="./source/js/navigation.js"></script>
 </body>
 
 

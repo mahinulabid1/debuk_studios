@@ -19,10 +19,10 @@ ini_set('display_errors', 0);
 
             <div class="footer-flex-item" >
                 <div class="fist_link-list">
-                    <a href="#" class="display-block footer-links-a footer-link-border paragraph-text-regular">Home →</a>
-                    <a href="#" class="display-block footer-links-a footer-link-border paragraph-text-regular">About →</a>
-                    <a href="#" class="display-block footer-links-a footer-link-border paragraph-text-regular">Project →</a>
-                    <a href="#" class="display-block footer-links-a footer-link-border paragraph-text-regular">Services →</a>
+                    <a href="./index.php" class="display-block footer-links-a footer-link-border paragraph-text-regular">Home →</a>
+                    <a href="./About.php" class="display-block footer-links-a footer-link-border paragraph-text-regular">About →</a>
+                    <a href="project_page.php" class="display-block footer-links-a footer-link-border paragraph-text-regular">Project →</a>
+                    <a href="./services.php" class="display-block footer-links-a footer-link-border paragraph-text-regular">Services →</a>
                 </div>
 
                 <div class="second_link-list">
