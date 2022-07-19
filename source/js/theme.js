@@ -30,6 +30,7 @@ AddClassToElements(".footer-copyright-item a", "js_color_white");
 AddClassToElements(".footer-link-take-action", "js_link_color");
 AddClassToElements(".footer-link-take-action", "js-after-pseudo-background"); 
 AddClassToElements(".footer-email", "js_color_white");
+AddClassToElements(".footer-link-border", "js_border_bottom_white");
 
 // CHANGE ELEMENT SOURCE LIKE ICONS AND STUFF
 ElementSourceChange(".hamberger-icon-container img", "./source/media/Hamburger-white.png");

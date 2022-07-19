@@ -1,3 +1,11 @@
+:root{
+    --black: #070606;
+    --white:  #F9F9F9;
+    --dark-white: #808080;
+}
+
+
+
 /* ============================= */
 /* THIS SECTION'S CLASS IS FOR JAVASCRIPT USE ONLY */
 .js_color_white{
@@ -12,7 +20,18 @@
     background:var(--black) !important;
 }
 
+
+
 .js-after-pseudo-background::after{
     background: white !important;
 }
+
+
+/* only available when its tablet version */
+@media only screen and (max-width: 834px){
+    .js_border_bottom_white{
+        border-bottom: 1px solid var(--white) !important;
+    }
+}
+
 /* ================================= */
