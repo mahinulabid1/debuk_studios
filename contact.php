@@ -43,7 +43,7 @@
         $nav_third_link_path = "./About.php";
 
         $nav_bar_logolink =  "./source/media/logoicon.png";
-        $path_to_hamburger_icon = "./source/media/hamburger.png";
+        $path_to_hamburger_icon = "./source/media/Hamburger.png";
         $path_to_themeChange_btn = "./source/media/ThemeChange_btn.png";
         $path_to_cross_btn = "./source/media/cross-btn.png";
 
@@ -81,7 +81,14 @@
 
                 <div class="form-flex-item">
                     <label class="paragraph-text" for="subject">Subject *</label>
-                    <input class="paragraph-text" type="text" id="subject" name="subject" placeholder="Branding">
+                    <!-- <input class="paragraph-text" type="text" id="subject" name="subject" placeholder="Branding"> -->
+                    <select name="select_subject" id="subject" class="paragraph-text">
+                        <option value="Branding" selected class="paragraph-text">Branding</option>
+                        <option value="Branding & Printed Media" class="paragraph-text">Branding & Printed Media</option>
+                        <option value="Web Design & development" class="paragraph-text">Web Design & development</option>
+                        <option value="Branding, Printed Media & Web Design & Development" class="paragraph-text">Branding, Printed Media & Web Design & Development</option>
+                        <option value="Brand Consultancy" class="paragraph-text">Brand Consultancy</option>
+                    </select>
                 </div>
 
                 <div class="form-flex-item">

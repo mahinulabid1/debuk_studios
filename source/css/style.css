@@ -1,3 +1,9 @@
+:root{
+    --black: #070606;
+    --white:  #F9F9F9;
+    --dark-white: #808080;
+}
+
 /*============== HEADER SECTION =============*/
 .hero-container {
     margin-top: 40px;
@@ -20,14 +26,6 @@
     border-radius: 300px 0px;
 }
 
-/* since we used matrix in placeholder its rotating the video so it neede a fix in the rotation */
-/* .hero-video-placeholder video{
-    transform: matrix(-1, 0, 0, 1, 0, 0);
-    -webkit-transform: matrix(-1, 0, 0, 1, 0, 0);
-    -moz-transform: matrix(-1, 0, 0, 1, 0, 0);
-    -ms-transform: matrix(-1, 0, 0, 1, 0, 0);
-    -o-transform: matrix(-1, 0, 0, 1, 0, 0);
-} */
 
 .hero-description:first-of-type {
     margin-top: 108px;

@@ -1,3 +1,11 @@
+:root{
+    --black: #070606;
+    --white:  #F9F9F9;
+    --dark-white: #808080;
+}
+
+
+
 /* ===== HEADER ===== */
 .hero-sub-heading{
     margin-bottom: 66px;
@@ -15,17 +23,22 @@ label{
 .form-flex-item{
     width: 49.4%;
 }
-input, textarea{
+input, textarea, select{
     width: 100%;
-    /* font-size: 30px;
-    font-family: font-light; */
+    color: var(--black);
 }
-input:focus, textarea:focus{
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+  }
+input:focus, textarea:focus, select:focus{
     border: 3px solid #070606 !important;
 }
-input[type="text"],input[type="email"], textarea{
+input[type="text"],input[type="email"], textarea, select{
     margin-bottom: 25px;
-    border:1px solid black;
+    border:1px solid var(--black);
     border-radius: 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
@@ -35,7 +48,7 @@ input[type="text"],input[type="email"], textarea{
     padding-left:25px;
     padding-right: 25px;
 }
-input[type="text"],input[type="email"]{
+input[type="text"],input[type="email"], select{
     height: 60px;
     line-height: 60px;
 }
@@ -50,7 +63,7 @@ input[type="submit"]{
     width: 100%;
     height: 60px;
     border: none;
-    background: #070606;
+    background: var(--black);
     color: white;
     cursor:pointer;
     transition: background 0.4s;
@@ -60,8 +73,8 @@ input[type="submit"]{
     -o-transition: background 0.4;
 }
 input[type="submit"]:hover{
-    color: #070606;
-    background: #f9f9f9;
+    color: var(--black);
+    background: var(--white);
 }
 
 

@@ -1,18 +1,25 @@
+:root{
+    --black: #070606;
+    --white:  #F9F9F9;
+    --dark-white: #808080;
+}
+
 /* ========NAVIGATION BAR ========= */
 nav{
     position: absolute !important;
     width: 100% !important;
+    z-index:3 !important;
 
     /* adding the .bound css manually */
     padding: 0 70px !important;
 }
 .logo-text:link, .logo-text:visited{
-    color: white !important;
+    color: var(--white) !important;
 }
 
 .nav-menu-item a:link,
 .nav-menu-item a:visited {
-    color: white !important;
+    color: var(--white) !important;
 }
 
 
@@ -43,7 +50,7 @@ nav{
 .banner-sub-heading {
     font-size: 20px;
     font-family: font-mono;
-    color: #808080;
+    color: var(--dark-white);
 }
 
 .banner-sub-heading:last-of-type {
@@ -121,7 +128,7 @@ nav{
 
     .logo-text:link,
     .logo-text:visited {
-        color: black !important;
+        color: var(--black) !important;
     }
 
     .characteristics-flex-container {

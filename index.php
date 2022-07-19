@@ -5,7 +5,7 @@ $location_to_logo_icon = "./source/media/web_title_icon.png";
 
 // the nav bar logo link
 $nav_bar_logolink =  "./source/media/logoicon.png";
-$path_to_hamburger_icon = "./source/media/hamburger.png";
+$path_to_hamburger_icon = "./source/media/Hamburger.png";
 $path_to_themeChange_btn = "./source/media/ThemeChange_btn.png";
 $path_to_cross_btn = "./source/media/cross-btn.png";
 

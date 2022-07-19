@@ -18,7 +18,7 @@
     $path_to_themeChange_btn = "./source/media/ThemeChange_btn.png";
     $path_to_cross_btn = "./source/media/cross-btn.png";
 
-    $path_to_hamburger_icon = "./source/media/hamburger-white.png";
+    $path_to_hamburger_icon = "./source/media/Hamburger-white.png";
 
     include "./source/_modules/navigation_bar.php";
     ?>
@@ -29,7 +29,7 @@
         let website_logo_icon = document.querySelector(".website-logo-icon");
         let windowSize= window.screen.width;
         if(windowSize < 834){
-            hamberger_icon_image.src ="./source/media/hamburger.png";
+            hamberger_icon_image.src ="./source/media/Hamburger.png";
             website_logo_icon.src='./source/media/logoicon.png';
         }
     </script>
@@ -67,7 +67,7 @@ $source_to_image_2;
 
 <!-- hero video -->
 <div class="hero-video-container">
-    <video class="hero-video" muted autoplay loop>
+    <video class="hero-video" muted autoplay loop poster="">
         <!-- CODE WILL BE INJECTED BY THE SCRIPT BELOW -->
 
 
@@ -77,7 +77,7 @@ $source_to_image_2;
         var video = document.querySelector(".hero-video");
         var WindowWidth = window.screen.width;
 
-        if (WindowWidth < 834 && WindowWidth > 600) {
+        if (WindowWidth < 835 && WindowWidth > 600) {
             //TABLET VERSION VIDEO
             video.innerHTML = `<source src=<?php echo $source_to_video_file_tablet_version; ?> type='video/webm' >`;
         } else if (WindowWidth < 600) {
@@ -90,21 +90,7 @@ $source_to_image_2;
     </script>
 </div>
 
-<script>
-    // A SNIPPET OF CODE TO SET THE "hero-video" HEIGHT TO THE "hero-video-container" BECAUSE OF USING POSITION ABSOLUTE
-    let video_container = document.querySelector(".hero-video-container");
-    let hero_video = document.querySelector(".hero-video");
-    let hero_video_height = hero_video.offsetHeight;
-    window.addEventListener("load", () => {
-        video_container.style.height = hero_video_height + "px";
-        console.log("height adjusted");
-        console.log(`${hero_video_height}px`);
-    });
-    window.addEventListener("resize", () => {
-        video_container.style.height = hero_video_height + "px";
-        console.log(`${hero_video_height}px`);
-    });
-</script>
+
 
 
 <!-- banner section -->

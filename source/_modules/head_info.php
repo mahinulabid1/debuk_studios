@@ -1,8 +1,5 @@
 <?php
 
-header("Cache-Control: no-store, no-cache, must-revalidate, max-age=0");
-header("Cache-Control: post-check=0, pre-check=0", false);
-header("Pragma: no-cache");
 ?>
 <meta name="title" content="debuk studio">
 <meta name="description" content="Excite your audience with the quality of your brandRaise your brand to a professional level. Build a brand with a logo that means something to your audience.">

@@ -1,3 +1,9 @@
+:root{
+    --black: #070606;
+    --white:  #F9F9F9;
+    --dark-white: #808080;
+}
+
 /* ===== HEADER ===== */
 .hero-heading {
     margin-bottom: 150px;
@@ -18,7 +24,7 @@
     height: 144px;
     width: 376px;
     position: relative;
-    background: rgba(255, 0, 0, 0.219);
+    background: var(--black);
     cursor: pointer;
     display: block;
 }
@@ -57,7 +63,7 @@
     font-size: 20px;
     line-height: 24px;
     font-family: font-mono;
-    color: #808080;
+    color: var(--dark-white);
     margin-bottom: 3px;
 }
 
@@ -67,7 +73,7 @@
 
 .project-category-title:link,
 .project-category-title:visited {
-    color: black;
+    color: var(--black);
 }
 
 
