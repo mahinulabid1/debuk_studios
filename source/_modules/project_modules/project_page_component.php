@@ -1,4 +1,4 @@
-<header class="bound">
+<header class="">
 
 
     <!-- REUSEABLE NAVIGATION BAR -->

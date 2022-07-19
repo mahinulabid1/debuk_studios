@@ -1,7 +1,12 @@
 /* ========NAVIGATION BAR ========= */
+nav{
+    position: absolute !important;
+    width: 100% !important;
 
-.logo-text:link,
-.logo-text:visited {
+    /* adding the .bound css manually */
+    padding: 0 70px !important;
+}
+.logo-text:link, .logo-text:visited{
     color: white !important;
 }
 
@@ -12,30 +17,27 @@
 
 
 /* ========= HERO VIDEO CONTAINER ========== */
-.hero-video-container {
+/* .hero-video-container{
     width: 100%;
-}
-
-.hero-video {
+} */
+.hero-video{
+    margin-top:16px;
     object-fit: cover;
-    height: 100%;
+    height: 1062px;
     width: 100%;
     border-radius: 2%;
-    z-index: -1;
     padding: 0 15px;
-    position: absolute;
-    top: 20px;
     -webkit-border-radius: 2%;
     -moz-border-radius: 2%;
     -ms-border-radius: 2%;
     -o-border-radius: 2%;
+    z-index: -1;
 }
 
 
 /* ====== BANNER SECTION ======= */
 .banner-section {
     margin-top: 130px;
-    /* margin-bottom: 35px; */
 }
 
 .banner-sub-heading {
@@ -96,9 +98,17 @@
 }
 
 /* SWITCHING TO THE TAB */
-@media only screen and (max-width: 834px) {
+@media only screen and (max-width: 834px){
+    nav{
+        position: static !important;
+    }
     .hero-video-container{
-        padding: 0 70px;/*addingtheboundpaddingmanually*/
+        padding: 0 70px;
+    }
+    .hero-video {
+        top: 68px;
+        height: 478px;
+        
     }
     .hero-video {
         position: static;
@@ -146,7 +156,13 @@
 
 
 /* SWITCHING TO THE MOBILE VIEW */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px){
+    nav{
+        padding: 0 22px !important;
+    }
+    .hero-video-container{
+        padding: 0 22px;
+    }
     .characteristics-flex-container:first-of-type {
         margin-top: 24px;
     }
