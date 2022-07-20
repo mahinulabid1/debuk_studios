@@ -28,7 +28,7 @@
 </head>
 
 <body>
-    <header class="bound">
+    <header class="bound"`>
 
         <!-- REUSEABLE NAVIGATION BAR -->
         <?php
@@ -149,6 +149,12 @@
 
 
     <script src="./source/js/theme.js"></script>
+    <script src="./butter.js/src/butter.js"></script>
+    <script>
+        butter.init({
+            cancelOnTouch: true
+        });
+    </script>
 </body>
 
 
