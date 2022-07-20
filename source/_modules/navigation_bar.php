@@ -62,19 +62,16 @@
 
     <!-- notif for small devices -->
     <section class="ham-notif-small-devices">
-        <div class="ham-header-navigation--item" style="position: relative;">
-            <img class="theme-change-btn" src=<?php echo $path_to_themeChange_btn; ?> alt="" height="56" width="56" style="cursor:pointer;">
-            <div class="display-block cookie-ham-notif">
-                <p class="cookie-ham-para">
-                    This website uses
-                    cookies for the better experience
-                </p>
+        <div class="display-block cookie-ham-notif">
+            <p class="cookie-ham-para">
+                This website uses
+                cookies for the better experience
+            </p>
 
-                <div class="close-notif-container">
-                    <img src=<?php echo $path_to_cross_btn; ?> alt="" class="ham-close-notification-btn">
-                </div>
-
+            <div class="close-notif-container">
+                <img src=<?php echo $path_to_cross_btn; ?> alt="" class="ham-close-notification-btn">
             </div>
+
         </div>
     </section>
 
@@ -118,7 +115,6 @@
 
 
     hamberGer_icon.addEventListener("click", () => {
-        console.log("hamberger clicked");
         hamberger_navigation_container.style.display = "block";
         document.querySelector("body").style.overflowY = "hidden";
     });
@@ -127,16 +123,12 @@
         document.querySelector("body").style.overflowY = "scroll";
     });
 
-    // document.querySelector(".ham-close-notification-btn").addEventListener("click", () => {
-    //     document.querySelector(".cookie-ham-notif").style.display = "none";
-    // });
 
     let ham_notif_close = document.querySelectorAll(".ham-close-notification-btn");
     for (let counter = 0; counter < ham_notif_close.length; counter++) {
         let close_btn = ham_notif_close[counter];
-        console.log(close_btn);
+
         close_btn.addEventListener("click", () => {
-            console.log("close btn clicked");
             let notifBar = document.getElementsByClassName("cookie-ham-notif");
             notifBar[0].style.display = "none";
             notifBar[1].style.display = "none";
