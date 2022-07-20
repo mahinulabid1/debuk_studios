@@ -46,5 +46,4 @@ ini_set('display_errors', 0);
         </div>
     </footer>
 
-    <!-- Let’s talk about your next big brand. -->
-    <!-- Take action -->
+    

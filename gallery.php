@@ -63,7 +63,7 @@
     include "./source/_modules/footer.php";
     ?>
 
-
+    <script src="./source/js/theme.js"></script>
 </body>
 
 

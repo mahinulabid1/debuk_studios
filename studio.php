@@ -65,7 +65,7 @@
     ?>
 
 
-    <script src="./source/js/navigation.js"></script>
+    <script src="./source/js/theme.js"></script>
 </body>
 
 

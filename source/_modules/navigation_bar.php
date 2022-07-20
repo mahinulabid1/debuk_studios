@@ -7,13 +7,16 @@
     <div class="nav-flex-item display-flex">
 
         <?php
-            $nav_first_link_text; $nav_first_link_path; 
-            $nav_second_link_text; $nav_second_link_path; 
-            $nav_third_link_text; $nav_third_link_path; 
+        $nav_first_link_text;
+        $nav_first_link_path;
+        $nav_second_link_text;
+        $nav_second_link_path;
+        $nav_third_link_text;
+        $nav_third_link_path;
         ?>
-        <div class="nav-menu-item small-device-none"><a class="nav-link-a" href=<?php echo $nav_first_link_path; ?> > <?php echo $nav_first_link_text; ?> </a> </div>
+        <div class="nav-menu-item small-device-none"><a class="nav-link-a" href=<?php echo $nav_first_link_path; ?>> <?php echo $nav_first_link_text; ?> </a> </div>
         <div class="nav-menu-item small-device-none"><a class="nav-link-a" href=<?php echo $nav_second_link_path; ?>> <?php echo $nav_second_link_text; ?> </a> </div>
-        <div class="nav-menu-item small-device-none"><a class="nav-link-a" href=<?php echo $nav_third_link_path; ?> > <?php echo $nav_third_link_text; ?> </a> </div>
+        <div class="nav-menu-item small-device-none"><a class="nav-link-a" href=<?php echo $nav_third_link_path; ?>> <?php echo $nav_third_link_text; ?> </a> </div>
         <div class="nav-menu-item hamberger-icon-container"><img class="ham-berger-icon-img" src=<?php echo $path_to_hamburger_icon; ?> alt="hamburger" style="cursor: pointer;"></div>
     </div>
 </nav>
@@ -39,14 +42,15 @@
             </div>
         </div>
 
+        <!-- notif bar big devices -->
         <div class="ham-header-navigation--item" style="position: relative;">
-            <img class="theme-change-btn" src=<?php echo $path_to_themeChange_btn; ?> alt="" height="56" width="56" style= "cursor:pointer;">
-            <div class="display-block cookie-ham-notif">
+            <img class="theme-change-btn" src=<?php echo $path_to_themeChange_btn; ?> alt="" height="56" width="56" style="cursor:pointer;">
+            <div class="display-block cookie-ham-notif big-device-notif">
                 <p class="cookie-ham-para">
                     This website uses
                     cookies for the better experience
                 </p>
-                
+
                 <div class="close-notif-container">
                     <img src=<?php echo $path_to_cross_btn; ?> alt="" class="ham-close-notification-btn">
                 </div>
@@ -54,6 +58,27 @@
             </div>
         </div>
     </header>
+
+
+    <!-- notif for small devices -->
+    <section class="ham-notif-small-devices">
+        <div class="ham-header-navigation--item" style="position: relative;">
+            <img class="theme-change-btn" src=<?php echo $path_to_themeChange_btn; ?> alt="" height="56" width="56" style="cursor:pointer;">
+            <div class="display-block cookie-ham-notif">
+                <p class="cookie-ham-para">
+                    This website uses
+                    cookies for the better experience
+                </p>
+
+                <div class="close-notif-container">
+                    <img src=<?php echo $path_to_cross_btn; ?> alt="" class="ham-close-notification-btn">
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
 
     <section class="display-flex d-flex-space-between ham-nav-footer">
         <div class="ham-footer-flex-item"><i class="fa-brands fa-instagram"></i> <i class="fa-brands fa-twitter"></i></div>
@@ -65,25 +90,56 @@
 
 
 
+<!-- project page bottom nav -->
+<section class="bottom_page_navigation_container">
+    <div class="bottom-nav-container display-flex">
+        <div class="bottom-nav-flex-item">
+            <a class="paragraph-text" href="./services.php">Services</a>
+        </div>
+
+        <div class="bottom-nav-flex-item">
+            <a class="paragraph-text" href="./project_page.php">Projects</a>
+        </div>
+
+        <div class="bottom-nav-flex-item">
+            <a class="paragraph-text" href="./contact.php">Contacts</a>
+        </div>
+    </div>
+</section>
+
+
+
 
 <!-- FUNCTIONALITY OF HAMBERGER NAVIGATION -->
 <script>
-    const hamberGer_icon= document.querySelector(".hamberger-icon-container");
+    const hamberGer_icon = document.querySelector(".hamberger-icon-container");
     const hamberger_navigation_container = document.querySelector(".hamberger-navigation-container");
     const close_hambar_btn = document.querySelector(".close-ham-bar-btn");
-    
 
-    hamberGer_icon.addEventListener("click", ()=>{
+
+    hamberGer_icon.addEventListener("click", () => {
         console.log("hamberger clicked");
-        hamberger_navigation_container.style.display ="block";
-        document.querySelector("body").style.overflowY= "hidden";
+        hamberger_navigation_container.style.display = "block";
+        document.querySelector("body").style.overflowY = "hidden";
     });
-    close_hambar_btn.addEventListener("click", ()=>{
-        hamberger_navigation_container.style.display ="none";
-        document.querySelector("body").style.overflowY= "scroll";
+    close_hambar_btn.addEventListener("click", () => {
+        hamberger_navigation_container.style.display = "none";
+        document.querySelector("body").style.overflowY = "scroll";
     });
 
-    document.querySelector(".ham-close-notification-btn").addEventListener("click", ()=>{
-        document.querySelector(".cookie-ham-notif").style.display=   "none";
-    });
+    // document.querySelector(".ham-close-notification-btn").addEventListener("click", () => {
+    //     document.querySelector(".cookie-ham-notif").style.display = "none";
+    // });
+
+    let ham_notif_close = document.querySelectorAll(".ham-close-notification-btn");
+    for (let counter = 0; counter < ham_notif_close.length; counter++) {
+        let close_btn = ham_notif_close[counter];
+        console.log(close_btn);
+        close_btn.addEventListener("click", () => {
+            console.log("close btn clicked");
+            let notifBar = document.getElementsByClassName("cookie-ham-notif");
+            notifBar[0].style.display = "none";
+            notifBar[1].style.display = "none";
+        });
+    }
 </script>

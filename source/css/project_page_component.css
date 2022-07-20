@@ -1,19 +1,21 @@
-:root{
+:root {
     --black: #070606;
-    --white:  #F9F9F9;
+    --white: #F9F9F9;
     --dark-white: #808080;
 }
 
 /* ========NAVIGATION BAR ========= */
-nav{
+nav {
     position: absolute !important;
     width: 100% !important;
-    z-index:3 !important;
+    z-index: 3 !important;
 
     /* adding the .bound css manually */
     padding: 0 70px !important;
 }
-.logo-text:link, .logo-text:visited{
+
+.logo-text:link,
+.logo-text:visited {
     color: var(--white) !important;
 }
 
@@ -27,8 +29,8 @@ nav{
 /* .hero-video-container{
     width: 100%;
 } */
-.hero-video{
-    margin-top:16px;
+.hero-video {
+    margin-top: 16px;
     object-fit: cover;
     height: 1062px;
     width: 100%;
@@ -105,18 +107,21 @@ nav{
 }
 
 /* SWITCHING TO THE TAB */
-@media only screen and (max-width: 834px){
-    nav{
+@media only screen and (max-width: 834px) {
+    nav {
         position: static !important;
     }
-    .hero-video-container{
+
+    .hero-video-container {
         padding: 0 70px;
     }
+
     .hero-video {
         top: 68px;
         height: 478px;
-        
+
     }
+
     .hero-video {
         position: static;
         border-radius: 4%;
@@ -124,7 +129,7 @@ nav{
         -moz-border-radius: 4%;
         -ms-border-radius: 4%;
         -o-border-radius: 4%;
-}
+    }
 
     .logo-text:link,
     .logo-text:visited {
@@ -159,17 +164,22 @@ nav{
     .c-image-margin {
         margin-top: 0px;
     }
+    .bottom_page_navigation_container{
+        display:block;
+    }
 }
 
 
 /* SWITCHING TO THE MOBILE VIEW */
-@media only screen and (max-width: 600px){
-    nav{
+@media only screen and (max-width: 600px) {
+    nav {
         padding: 0 22px !important;
     }
-    .hero-video-container{
+
+    .hero-video-container {
         padding: 0 22px;
     }
+
     .characteristics-flex-container:first-of-type {
         margin-top: 24px;
     }
@@ -180,6 +190,8 @@ nav{
     }
 
     .hero-video-container {
-        padding: 0 20px;/* adding the bound padding manually*/
+        padding: 0 20px;
+        /* adding the bound padding manually*/
     }
+
 }

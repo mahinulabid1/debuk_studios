@@ -131,4 +131,3 @@ $source_to_image_2;
 
 </section>
 
-<script src="./source/js/theme.js"></script>

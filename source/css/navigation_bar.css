@@ -1,6 +1,6 @@
-:root{
+:root {
     --black: #070606;
-    --white:  #F9F9F9;
+    --white: #F9F9F9;
     --dark-white: #808080;
 }
 
@@ -84,7 +84,7 @@ nav {
 
 .close-ham-bar-btn {
     border: none;
-    background-color: var(--black);
+    background: var(--black);
     color: white;
     width: 238px;
     height: 92px;
@@ -101,10 +101,13 @@ nav {
     color: var(--black);
 }
 
+
+
+/* HAMBERGER NOTIFICATION */
 .cookie-ham-notif {
     font-size: 19px;
     line-height: 23px;
-    font-family: font-light;
+    font-family: font-light;    
     position: absolute;
     top: 100px;
     right: 0;
@@ -140,6 +143,47 @@ nav {
 }
 
 
+/* mobile devices notif bar */
+.ham-notif-small-devices .cookie-ham-notif {
+    position: static !important;
+    width: 100% !important;
+    margin-top: 50px !important;
+    display: none;
+}
+
+
+/* ========================== */
+/* bottom navigation bar */
+.bottom_page_navigation_container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background: var(--white);
+    width: 100%;
+    display: none;
+}
+
+.bottom-nav-flex-item {
+    height: 120px;
+    line-height: 120px;
+    text-align: center;
+    width: 33.33%;
+    z-index: 3;
+}
+
+.bottom-nav-flex-item:not(:last-child) {
+    border-top: 2px solid #070606;
+    border-right: 2px solid #070606;
+}
+.bottom-nav-flex-item:last-child{
+    border-top: 2px solid #070606;
+}
+
+.bottom-nav-flex-item a:link,
+.bottom-nav-flex-item a:visited {
+    color: var(--black);
+}
+
 
 
 /* =================== */
@@ -158,6 +202,14 @@ nav {
         height: 44px;
         width: 44px;
     }
+
+    .big-device-notif {
+        display: none;
+    }
+
+    .ham-notif-small-devices .cookie-ham-notif {
+        display: block;
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -175,7 +227,11 @@ nav {
         height: 24px;
         width: 24px;
     }
+
     .ham-footer-flex-item i {
         font-size: 30px;
+    }.bottom-nav-flex-item {
+        height: 46px;
+        line-height: 46px;
     }
 }
