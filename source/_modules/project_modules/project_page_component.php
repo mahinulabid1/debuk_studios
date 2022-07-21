@@ -68,7 +68,7 @@ $source_to_image_2;
 
 <!-- hero video -->
 <div class="hero-video-container">
-    <video class="hero-video" preload="auto" poster=<?php echo $video_poster; ?>>
+    <video class="hero-video" preload="auto" poster=<?php echo $video_poster; ?> autoplay muted loop>
         <!-- poster="./source/media/luxio/image3.webp" -->
         <!-- CODE WILL BE INJECTED BY THE SCRIPT BELOW -->
 
@@ -132,4 +132,6 @@ $source_to_image_2;
 
 
 </section>
+
+
 

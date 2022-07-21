@@ -153,6 +153,8 @@
 
 
         <script src="./source/js/theme.js"></script>
+
+        <!-- implemented the butter.js library -->
         <script src="./butter.js/src/butter.js"></script>
         <script>
             butter.init({
@@ -160,6 +162,7 @@
             });
         </script>
     </div>
+    <!-- butter.js container ended here -->
 
 </body>
 

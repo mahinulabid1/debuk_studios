@@ -33,6 +33,11 @@ nav {
 /* .hero-video-container{
     width: 100%;
 } */
+.hero-video-container{
+    width: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+}
 .hero-video {
     margin-top: 16px;
     object-fit: cover;
@@ -43,8 +48,6 @@ nav {
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
-    z-index: -1;
-    padding: 0 15px;
 }
 
 
@@ -106,7 +109,7 @@ nav {
 /* MEDIA QUERIES */
 @media only screen and (max-width: 1150px) {
     .hero-video {
-        padding: 0 5px;
+        /* padding: 0 5px; */
     }
 }
 

@@ -20,100 +20,110 @@
 </head>
 
 <body>
-    <div class="butter-js-container"></div>
-    <header class="bound">
+    <div class="butter-js-container" id="butter">
+        <header class="bound">
 
-        <!-- REUSEABLE NAVIGATION BAR -->
-        <?php
-        // SETTING UP REUSEABLE NAVIGATION BAR AND ITS PATH
-        $nav_first_link_text = "About";
-        $nav_first_link_path = "./About.php";
+            <!-- REUSEABLE NAVIGATION BAR -->
+            <?php
+            // SETTING UP REUSEABLE NAVIGATION BAR AND ITS PATH
+            $nav_first_link_text = "About";
+            $nav_first_link_path = "./About.php";
 
-        $nav_second_link_text = "Project";
-        $nav_second_link_path = "./project_page.php";
+            $nav_second_link_text = "Project";
+            $nav_second_link_path = "./project_page.php";
 
-        $nav_third_link_text = "Contact";
-        $nav_third_link_path = "./contact.php";
+            $nav_third_link_text = "Contact";
+            $nav_third_link_path = "./contact.php";
 
-        $nav_bar_logolink =  "./source/media/logoicon.png";
-        $path_to_hamburger_icon = "./source/media/Hamburger.png";
-        $path_to_themeChange_btn = "./source/media/ThemeChange_btn.png";
-        $path_to_cross_btn = "./source/media/cross-btn.png";
+            $nav_bar_logolink =  "./source/media/logoicon.png";
+            $path_to_hamburger_icon = "./source/media/Hamburger.png";
+            $path_to_themeChange_btn = "./source/media/ThemeChange_btn.png";
+            $path_to_cross_btn = "./source/media/cross-btn.png";
 
-        include "./source/_modules/navigation_bar.php";
-        ?>
+            include "./source/_modules/navigation_bar.php";
+            ?>
 
 
 
-        <!-- HERO CONTENT -->
-        <div class="hero-content-container">
-            <h1 class="big-heading hero-heading">Services</h1>
-            <div class="display-flex d-flex-space-between d-flex-wrap-true hero-flex-container">
+            <!-- HERO CONTENT -->
+            <div class="hero-content-container">
+                <h1 class="big-heading hero-heading">Services</h1>
+                <div class="display-flex d-flex-space-between d-flex-wrap-true hero-flex-container">
 
-                <div class="flex-item-hero">
-                    <!-- putting in another container to make image stay at bottom-->
-                    <div class="hero-container-relative">
-                        <h2 class="hero-flex-item__header normal-heading">Branding Identity</h2>
-                        <p class="paragraph-text">Branding</p>
-                        <p class="paragraph-text">Branding Strategy</p>
-                        <p class="paragraph-text">Branding style guide</p>
-                        <p class="paragraph-text">Visual Identity System</p>
-                        <img class="hero-flex-image" src="./source/media/service/brand.webp" alt="" width="100%" height="196" style="object-fit:cover ;">
-                    </div>
-                </div>
-
-                <div class="flex-item-hero">
-                    <div class="hero-container-relative">
-                        <h2 class="hero-flex-item__header normal-heading">Online appearance</h2>
-                        <p class="paragraph-text">Web Development</p>
-                        <p class="paragraph-text">Web Design</p>
-                        <p class="paragraph-text">UI / UX</p>
-                        <p class="paragraph-text">Social Media Design</p>
-                        <img class="hero-flex-image" src="./source/media/service/online.webp" alt="" width="100%" height="196" style="object-fit:cover ;">
+                    <div class="flex-item-hero">
+                        <!-- putting in another container to make image stay at bottom-->
+                        <div class="hero-container-relative">
+                            <h2 class="hero-flex-item__header normal-heading">Branding Identity</h2>
+                            <p class="paragraph-text">Branding</p>
+                            <p class="paragraph-text">Branding Strategy</p>
+                            <p class="paragraph-text">Branding style guide</p>
+                            <p class="paragraph-text">Visual Identity System</p>
+                            <img class="hero-flex-image" src="./source/media/service/brand.webp" alt="" width="100%" height="196" style="object-fit:cover ;">
+                        </div>
                     </div>
 
-                </div>
+                    <div class="flex-item-hero">
+                        <div class="hero-container-relative">
+                            <h2 class="hero-flex-item__header normal-heading">Online appearance</h2>
+                            <p class="paragraph-text">Web Development</p>
+                            <p class="paragraph-text">Web Design</p>
+                            <p class="paragraph-text">UI / UX</p>
+                            <p class="paragraph-text">Social Media Design</p>
+                            <img class="hero-flex-image" src="./source/media/service/online.webp" alt="" width="100%" height="196" style="object-fit:cover ;">
+                        </div>
 
-                <div class="flex-item-hero">
-                    <div class="hero-container-relative">
-                        <h2 class="hero-flex-item__header normal-heading">Printed Media</h2>
-                        <p class="paragraph-text">Packaging</p>
-                        <p class="paragraph-text">Graphic Design</p>
-                        <p class="paragraph-text">Printed Collateral</p>
-                        <img class="hero-flex-image" src="./source/media/service/print.webp" alt="" width="100%" height="196" style="object-fit:cover ;">
                     </div>
 
-                </div>
+                    <div class="flex-item-hero">
+                        <div class="hero-container-relative">
+                            <h2 class="hero-flex-item__header normal-heading">Printed Media</h2>
+                            <p class="paragraph-text">Packaging</p>
+                            <p class="paragraph-text">Graphic Design</p>
+                            <p class="paragraph-text">Printed Collateral</p>
+                            <img class="hero-flex-image" src="./source/media/service/print.webp" alt="" width="100%" height="196" style="object-fit:cover ;">
+                        </div>
 
-                <div class="flex-item-hero">
-                    <div class="hero-container-relative">
-                        <h2 class="hero-flex-item__header normal-heading">Brand Consultancy</h2>
-                        <p class="paragraph-text">Consulting about your brand</p>
-                        <img class="hero-flex-image" src="./source/media/service/consultancy.webp" alt="" width="100%" height="196" style="object-fit:cover ;">
                     </div>
 
+                    <div class="flex-item-hero">
+                        <div class="hero-container-relative">
+                            <h2 class="hero-flex-item__header normal-heading">Brand Consultancy</h2>
+                            <p class="paragraph-text">Consulting about your brand</p>
+                            <img class="hero-flex-image" src="./source/media/service/consultancy.webp" alt="" width="100%" height="196" style="object-fit:cover ;">
+                        </div>
+
+                    </div>
                 </div>
             </div>
-        </div>
 
-
-
-    </header>
+        </header>
 
 
 
 
 
-    <!-- INCLUDE FOOTER -->
-    <?php
-    $footer_heading_text = "Have a brand to build";
-    $footer_main_btn_text = "Say hello →";
-    include "./source/_modules/footer.php";
-    ?>
+        <!-- INCLUDE FOOTER -->
+        <?php
+        $footer_heading_text = "Have a brand to build";
+        $footer_main_btn_text = "Say hello →";
+        include "./source/_modules/footer.php";
+        ?>
+
+    </div> 
+    <!-- butterjs container ended here -->
+
 
 
 
     <script src="./source/js/theme.js"></script>
+
+    <!-- implemented the butter.js library -->
+    <script src="./butter.js/src/butter.js"></script>
+    <script>
+        butter.init({
+            cancelOnTouch: true
+        });
+    </script>
 </body>
 
 

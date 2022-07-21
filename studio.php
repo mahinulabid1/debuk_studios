@@ -55,20 +55,6 @@
         </div>
 
 
-
-        <script>
-            let videoPlaceHolder = document.querySelector("video");
-            let windowViewWidth = window.screen.width;
-            console.log(windowViewWidth);
-            if (windowViewWidth <= 834) {
-                video.setAttribute("poster", "./source/media/studio/video-tablet.gif");
-            } else if (windowViewWidth <= 600) {
-                video.setAttribute("poster", "./source/media/studio/video-phone.gif");
-            }
-        </script>
-
-
-
         <!-- INCLUDE FOOTER -->
         <?php
 
@@ -82,7 +68,14 @@
 
 
     <script src="./source/js/theme.js"></script>
+
+    <!-- implemented the butter.js library -->
     <script src="./butter.js/src/butter.js"></script>
+    <script>
+        butter.init({
+            cancelOnTouch: true
+        });
+    </script>
 </body>
 
 
