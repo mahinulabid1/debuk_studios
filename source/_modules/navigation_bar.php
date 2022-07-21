@@ -1,7 +1,7 @@
 <?php ?>
 <nav class="display-flex d-flex-space-between">
     <div class="nav-flex-item">
-        <img class="display-inline-block website-logo-icon" src=<?php echo $nav_bar_logolink ?> alt="website logo">
+        <img class="display-inline-block website-logo-icon" src=<?php echo $nav_bar_logolink ?> alt="website logo" height="17" width="11">
         <a href="./index.php" class="logo-text display-inline-block">debuk studio</a>
     </div>
     <div class="nav-flex-item display-flex">
@@ -17,7 +17,12 @@
         <div class="nav-menu-item small-device-none"><a class="nav-link-a" href=<?php echo $nav_first_link_path; ?>> <?php echo $nav_first_link_text; ?> </a> </div>
         <div class="nav-menu-item small-device-none"><a class="nav-link-a" href=<?php echo $nav_second_link_path; ?>> <?php echo $nav_second_link_text; ?> </a> </div>
         <div class="nav-menu-item small-device-none"><a class="nav-link-a" href=<?php echo $nav_third_link_path; ?>> <?php echo $nav_third_link_text; ?> </a> </div>
-        <div class="nav-menu-item hamberger-icon-container"><img class="ham-berger-icon-img" src=<?php echo $path_to_hamburger_icon; ?> alt="hamburger" style="cursor: pointer;"></div>
+        <!-- <div class="nav-menu-item hamberger-icon-container"><img class="ham-berger-icon-img" src=<?php //echo $path_to_hamburger_icon; ?> alt="hamburger" style="cursor: pointer;"></div> -->
+        <div class="nav-menu-item hamberger-icon-container">
+            <div class="ham-bar h-bar-1"></div>
+            <div class="ham-bar h-bar-2"></div>
+            <div class="ham-bar h-bar-3"></div>
+        </div>
     </div>
 </nav>
 

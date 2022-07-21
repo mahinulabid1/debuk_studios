@@ -20,6 +20,7 @@
 </head>
 
 <body>
+    <div class="butter-js-container"></div>
     <header class="bound">
 
         <!-- REUSEABLE NAVIGATION BAR -->

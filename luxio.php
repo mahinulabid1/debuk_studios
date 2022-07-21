@@ -31,7 +31,7 @@
 </head>
 
 <body>
-
+    <div class="butter-js-container"></div>
 
     <?php
     // PROJECT PAGE TEXT CONTENT (PUT CONTENT ACCORDING TO DIFFERENT PROJECT PAGES)

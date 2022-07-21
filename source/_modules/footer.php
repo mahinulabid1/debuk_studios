@@ -23,6 +23,7 @@ ini_set('display_errors', 0);
                     <a href="./About.php" class="display-block footer-links-a footer-link-border paragraph-text-regular">About →</a>
                     <a href="project_page.php" class="display-block footer-links-a footer-link-border paragraph-text-regular">Project →</a>
                     <a href="./services.php" class="display-block footer-links-a footer-link-border paragraph-text-regular">Services →</a>
+                    <a href="./services.php" class="display-block footer-links-a footer-link-border paragraph-text-regular">Contact →</a>
                 </div>
 
                 <div class="second_link-list">
