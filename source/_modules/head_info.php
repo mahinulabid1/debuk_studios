@@ -2,7 +2,7 @@
 
 ?>
 <meta name="title" content="debuk studio">
-<meta name="description" content="Excite your audience with the quality of your brandRaise your brand to a professional level. Build a brand with a logo that means something to your audience.">
+<meta name="description" content="Excite your audience with the quality of your brand. Raise your brand to a professional level.">
 <meta name="keywords" content="debuk, studio, debuk studio">
 <meta name="robots" content="index, follow">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">

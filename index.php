@@ -58,7 +58,7 @@
                     <h2 class="hero-sub-heading normal-heading">welcome to debuk studio</h2>
 
                     <p class="hero-description paragraph-text">
-                        Excite your audience with the quality of your <span style="font-family: font-bold">brand</span>
+                        Excite your audience with the quality of your <span style="font-family: font-bold">brand</span> <br>
                         Raise your brand to professional level. Build a brand with a logo that means something to your audience.
                     </p>
 

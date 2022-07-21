@@ -29,7 +29,7 @@
         let website_logo_icon = document.querySelector(".website-logo-icon");
         let windowSize = window.screen.width;
         if (windowSize < 834) {
-            hamberger_icon_image.src = "./source/media/Hamburger.png";
+            // hamberger_icon_image.src = "./source/media/Hamburger.png";
             website_logo_icon.src = './source/media/logoicon.png';
         }
     </script>
@@ -53,6 +53,7 @@ $page_sub_heading_one;
 $page_sub_heading_two;
 $page_main_para;
 // video file source link
+$video_poster;
 $source_to_video_file;
 $source_to_video_file_tablet_version;
 $source_to_video_file_mobile_version;
@@ -67,7 +68,8 @@ $source_to_image_2;
 
 <!-- hero video -->
 <div class="hero-video-container">
-    <video class="hero-video" muted autoplay loop poster="">
+    <video class="hero-video" preload="auto" poster=<?php echo $video_poster; ?>>
+        <!-- poster="./source/media/luxio/image3.webp" -->
         <!-- CODE WILL BE INJECTED BY THE SCRIPT BELOW -->
 
 

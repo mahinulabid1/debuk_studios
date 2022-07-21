@@ -42,6 +42,7 @@
         $source_to_image_2 = "./source/media/studio/image2.webp";
 
         //source file path of video in different device
+        $video_poster = "./source/media/studio/video-tablet.gif";
         $source_to_video_file = "./source/media/studio/video-desktop.webm";
         $source_to_video_file_tablet_version = "./source/media/studio/video-tablet.webm";
         $source_to_video_file_mobile_version = "./source/media/studio/video-phone.webm";
@@ -52,6 +53,19 @@
         <div class="full-width-image bound">
             <img class="characteristics-image c-image-margin" src="./source/media/studio/image3.webp" alt="" width="100%" height="auto">
         </div>
+
+
+
+        <script>
+            let videoPlaceHolder = document.querySelector("video");
+            let windowViewWidth = window.screen.width;
+            console.log(windowViewWidth);
+            if (windowViewWidth <= 834) {
+                video.setAttribute("poster", "./source/media/studio/video-tablet.gif");
+            } else if (windowViewWidth <= 600) {
+                video.setAttribute("poster", "./source/media/studio/video-phone.gif");
+            }
+        </script>
 
 
 

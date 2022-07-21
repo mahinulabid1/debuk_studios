@@ -40,6 +40,7 @@
     $source_to_image_2 = "./source/media/conway/image2.webp";
 
     //souce file's path of the page video
+    $video_poster = "./source/media/conway/video-tablet.gif";
     $source_to_video_file = "./source/media/conway/video-desktop.webm";
     $source_to_video_file_tablet_version = "./source/media/conway/video-tablet.webm";
     $source_to_video_file_mobile_version = "./source/media/conway/video-phone.webm";
@@ -51,7 +52,6 @@
         <img class="characteristics-image c-image-margin" src="./source/media/conway/image3.webp" alt="" width="100%" height="auto">
         <img class="characteristics-image c-image-margin" src="./source/media/conway/image4.webp" alt="" width="100%" height="auto">
     </div>
-
 
 
     <!-- INCLUDE FOOTER -->

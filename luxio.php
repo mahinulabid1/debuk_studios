@@ -49,6 +49,7 @@
     $source_to_image_2 = "./source/media/luxio/image2.webp";
 
     // source file's path of video
+    $video_poster = "./source/media/luxio/video-tablet.gif";
     $source_to_video_file = "./source/media/luxio/video-desktop.webm";
     $source_to_video_file_tablet_version = "./source/media/luxio/video-tablet.webm";
     $source_to_video_file_mobile_version = "./source/media/luxio/video-phone.webm";
@@ -61,6 +62,17 @@
         <img class="characteristics-image c-image-margin" src="./source/media/luxio/image4.webp" alt="" width="100%" height="auto">
     </div>
 
+
+    <script>
+        let videoPlaceHolder = document.querySelector("video");
+        let windowViewWidth = window.screen.width;
+        console.log(windowViewWidth);
+        if (windowViewWidth >= 834) {
+            video.setAttribute("poster", "./source/media/luxio/video-tablet.gif");
+        } else if (windowViewWidth >= 600) {
+            video.setAttribute("poster", "./source/media/luxio/video-phone.gif");
+        }
+    </script>
 
 
     <!-- INCLUDE FOOTER -->

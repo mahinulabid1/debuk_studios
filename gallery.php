@@ -40,6 +40,7 @@
     $source_to_image_2 = "./source/media/gallery/image2.webp";
 
     //source file's path of the video
+    $video_poster = "./source/media/gallery//video-tablet.gif";
     $source_to_video_file = "./source/media/gallery/video-desktop.webm";
     $source_to_video_file_tablet_version = "./source/media/gallery/video-tablet.webm";
     $source_to_video_file_mobile_version = "./source/media/gallery/video-phone.webm";
@@ -52,7 +53,6 @@
         <img class="characteristics-image c-image-margin" src="./source/media/gallery/image3.webp" alt="" width="100%" height="auto">
         <img class="characteristics-image c-image-margin" src="./source/media/gallery/image4.webp" alt="" width="100%" height="auto">
     </div>
-
 
 
     <!-- INCLUDE FOOTER -->

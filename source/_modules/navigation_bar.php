@@ -1,8 +1,8 @@
 <?php ?>
 <nav class="display-flex d-flex-space-between">
-    <div class="nav-flex-item">
-        <img class="display-inline-block website-logo-icon" src=<?php echo $nav_bar_logolink ?> alt="website logo" height="17" width="11">
-        <a href="./index.php" class="logo-text display-inline-block">debuk studio</a>
+    <div class="nav-flex-item display-flex">
+        <img class=" website-logo-icon align-self-center" src=<?php echo $nav_bar_logolink ?> alt="website logo" height="17" width="11">
+        <a href="./index.php" class="logo-text align-self-center">debuk studio</a>
     </div>
     <div class="nav-flex-item display-flex">
 
@@ -57,7 +57,7 @@
                 </p>
 
                 <div class="close-notif-container">
-                    <img src=<?php echo $path_to_cross_btn; ?> alt="" class="ham-close-notification-btn">
+                    <img src=<?php echo $path_to_cross_btn; ?> alt="" class="ham-close-notification-btn" height="22.5" width="22.5">
                 </div>
 
             </div>
@@ -74,7 +74,7 @@
             </p>
 
             <div class="close-notif-container">
-                <img src=<?php echo $path_to_cross_btn; ?> alt="" class="ham-close-notification-btn">
+                <img src=<?php echo $path_to_cross_btn; ?> alt="" class="ham-close-notification-btn" height="27" width="27">
             </div>
 
         </div>
