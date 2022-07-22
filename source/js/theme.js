@@ -40,9 +40,9 @@ const Run_black_theme = () => {
     AddClassToElements(".ham-header-nav__first-section__links", "js_link_color");
     AddClassToElements(".cookie-ham-para", "js_color_black");
     AddClassToElements(".close-ham-bar-btn", "js_ham_close_btn");
+    AddClassToElements(".ham-bar", "js_background_white");
 
     // change the source of the navigation and stuff
-    // ElementSourceChange(".hamberger-icon-container img", "./source/media/Hamburger-white.png");
     ElementSourceChange(".website-logo-icon", "./source/media/logoicon-white.png");
     ElementSourceChange(".theme-change-btn", "./source/media/ThemeChange_btn_white.png");
 
@@ -75,9 +75,9 @@ const Run_white_theme = () => {
     RemoveClassElements(".ham-header-nav__first-section__links", "js_link_color");
     AddClassToElements(".cookie-ham-para", "js_color_black");
     RemoveClassElements(".close-ham-bar-btn", "js_ham_close_btn");
+    RemoveClassElements(".ham-bar", "js_background_white");
 
     // change the source of the navigation and stuff
-    // ElementSourceChange(".hamberger-icon-container img", "./source/media/Hamburger.png");
     ElementSourceChange(".website-logo-icon", "./source/media/logoicon.png");
     ElementSourceChange(".theme-change-btn", "./source/media/ThemeChange_btn.png");
 
