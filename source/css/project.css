@@ -6,7 +6,7 @@
 
 /* ===== HEADER ===== */
 .hero-heading {
-    margin-bottom: 150px;
+    margin-bottom: 140px;
 }
 
 
@@ -18,6 +18,9 @@
 .project-list {
     padding-bottom: 15px;
     margin-top: 32px;
+}
+.project-list__last-hr{
+    margin-bottom:53px;
 }
 
 .project-list__video-container {
@@ -113,6 +116,9 @@
         width: 100%;
         margin-bottom: 17px;
     }
+    .project-list__last-hr{
+        margin-bottom:120px;
+    }
 }
 
 /* GOING TO THE MOBILE VIEW */
@@ -120,6 +126,9 @@
     .project-category__category-name{
         font-size: 10px;
         line-height: 8px;
+    }
+    .project-list__last-hr{
+        margin-bottom: 6px;
     }
 }
 @media only screen and (max-width: 400px) {

@@ -6,11 +6,11 @@
 
 /* ===== HEADER ===== */
 .hero-heading{
-    margin-bottom: 130px;
+    margin-bottom: 120px;
 }
-.hero-flex-container{
+/* .hero-flex-container{
     gap: 28px;
-}
+} */
 .flex-item-hero{
     width: 809px;
     height: 554px;

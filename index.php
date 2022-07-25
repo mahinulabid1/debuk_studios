@@ -22,12 +22,17 @@
     <!-- navigation bar -->
     <link rel="stylesheet" href="./source/css/navigation_bar.css">
 
+    <!-- loading section CSS -->
+    <link rel="stylesheet" href="./source/css/loading_section.css">
 
 
 
 </head>
 
 <body>
+    <!-- adding loading state -->
+    <?php include "./source/_modules/loading_section.php"; ?>
+
 
     <!-- all the elements/contents should be inside of this container otherwise butter.js won't work -->
     <div class="butter-js-container" id="butter">
@@ -153,6 +158,7 @@
 
 
         <script src="./source/js/theme.js"></script>
+        <script src="./source/js/loading.js"></script> <!-- adding loading js -->
 
         <!-- implemented the butter.js library -->
         <script src="./butter.js/src/butter.js"></script>

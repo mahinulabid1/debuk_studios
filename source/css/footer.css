@@ -6,7 +6,7 @@
 
 /* ========== FOOTER SECTION ========== */
 footer{
-    margin-top:230px;
+    margin-top:219px;
     margin-bottom: 10px;
 }
 
@@ -91,6 +91,7 @@ footer{
 @media only screen and (max-width: 834px){
     footer {
         margin-top: 74px;
+        margin-bottom: 150px;
     }
     .footer-flex-container{
         flex-wrap: wrap;
@@ -114,6 +115,7 @@ footer{
 @media only screen and (max-width: 600px){
     footer {
         margin-top: 52px;
+        margin-bottom: 53px;
     }
     .footer-email{
         font-size: 17px;

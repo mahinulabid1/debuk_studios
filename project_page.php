@@ -146,7 +146,7 @@
                     </div>
                 </div>
 
-                <hr>
+                <hr class="project-list__last-hr">
 
             </div>
         </section>

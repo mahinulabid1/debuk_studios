@@ -28,7 +28,7 @@
 
 
 .hero-description:first-of-type {
-    margin-top: 108px;
+    margin-top: 146px;
 }
 
 
@@ -36,7 +36,7 @@
 
 /*============== BANNER SECTION =============*/
 .banner-section {
-    margin-top: 424px;
+    margin-top: 444px;
     margin-bottom: 20px;
 }
 
@@ -57,9 +57,8 @@
 }
 
 .banner-heading {
-    margin-top: 100px;
+    margin-top: 90px;
     max-width: 60%;
-
 }
 
 
@@ -67,7 +66,7 @@
 /* ==== SLIDER TEXT BANNER SECTION ======== */
 .text-slider-container {
     overflow-x: hidden;
-    margin-top: 140px;
+    margin-top: 119px;
 
 }
 
@@ -88,7 +87,7 @@
 }
 
 .text-slider-paragraph {
-    margin-top: 100px;
+    margin-top: 87px;
     max-width: 970px;
 }
 

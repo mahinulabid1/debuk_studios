@@ -75,14 +75,14 @@
 
                     <div class="form-flex-item">
                         <label class="paragraph-text" for="subject">Subject *</label>
-                        <!-- <input class="paragraph-text" type="text" id="subject" name="subject" placeholder="Branding"> -->
-                        <select name="select_subject" id="subject" class="paragraph-text">
+                        <input class="paragraph-text" type="text" id="subject" name="subject" placeholder="Branding">
+                        <!-- <select name="select_subject" id="subject" class="paragraph-text">
                             <option value="Branding" selected class="paragraph-text">Branding</option>
                             <option value="Branding & Printed Media" class="paragraph-text">Branding & Printed Media</option>
                             <option value="Web Design & development" class="paragraph-text">Web Design & development</option>
                             <option value="Branding, Printed Media & Web Design & Development" class="paragraph-text">Branding, Printed Media & Web Design & Development</option>
                             <option value="Brand Consultancy" class="paragraph-text">Brand Consultancy</option>
-                        </select>
+                        </select> -->
                     </div>
 
                     <div class="form-flex-item">

@@ -6,8 +6,8 @@
 
 
 nav {
-    margin-top: 64px;
-    margin-bottom: 130px;
+    margin-top: 69px;
+    margin-bottom: 138px;
     font-size: 24px;
     color: var(--black);
 }
@@ -94,6 +94,7 @@ nav {
 
 .ham-footer-flex-item i {
     font-size: 46px;
+    margin-right: 20px;
 }
 
 .close-ham-bar-btn {
@@ -271,5 +272,8 @@ nav {
     }
     .bottom-nav-flex-item:last-child{
         border-top: 1px solid #070606;
+    }
+    .ham-footer-flex-item i{
+        margin-right: 10px;
     }
 }
