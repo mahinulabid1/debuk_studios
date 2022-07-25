@@ -34,6 +34,9 @@
 </head>
 
 <body>
+    <!-- adding loading state -->
+    <?php include "./source/_modules/loading_section.php"; ?>
+    
     <div class="butter-js-container" id="butter">
 
         <?php
