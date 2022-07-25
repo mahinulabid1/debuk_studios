@@ -16,6 +16,9 @@
 
     <!-- navigation bar -->
     <link rel="stylesheet" href="./source/css/navigation_bar.css">
+    
+    <!-- loading section CSS -->
+    <link rel="stylesheet" href="./source/css/loading_section.css">
 
 </head>
 
@@ -167,6 +170,7 @@
 
 
     <script src="./source/js/theme.js"></script>
+    <script src="./source/js/loading.js"></script> <!-- adding loading js -->
 
     <!-- implemented the butter.js library -->
     <script src="./butter.js/src/butter.js"></script>

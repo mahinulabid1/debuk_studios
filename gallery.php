@@ -19,6 +19,9 @@
 
     <!-- project page component css -->
     <link rel="stylesheet" href="./source/css/project_page_component.css">
+    
+    <!-- loading section CSS -->
+    <link rel="stylesheet" href="./source/css/loading_section.css">
 </head>
 
 <body>
@@ -68,6 +71,7 @@
 
 
     <script src="./source/js/theme.js"></script>
+    <script src="./source/js/loading.js"></script> <!-- adding loading js -->
 
     <!-- implemented the butter.js library -->
     <script src="./butter.js/src/butter.js"></script>
