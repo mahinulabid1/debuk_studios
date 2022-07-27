@@ -29,7 +29,7 @@
     <?php include "./source/_modules/loading_section.php"; ?>
 
     
-    <div class="butter-js-container" id="butter">
+    <!-- <div class="butter-js-container" id="butter"> -->
         <header class="bound">
 
 
@@ -95,7 +95,7 @@
         include "./source/_modules/footer.php";
         ?>
 
-    </div>
+    <!-- </div> -->
     <!-- butter.js container ended here -->
 
 
@@ -103,12 +103,7 @@
     <script src="./source/js/loading.js"></script> <!-- adding loading js -->
 
     <!-- implemented the butter.js library -->
-    <script src="./butter.js/src/butter.js"></script>
-    <script>
-        butter.init({
-            cancelOnTouch: true
-        });
-    </script>
+    <?php include "./source/_modules/butter_js_implement.php" ?>
 </body>
 
 

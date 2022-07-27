@@ -97,12 +97,7 @@
     <script src="./source/js/loading.js"></script> <!-- adding loading js -->
 
     <!-- implemented the butter.js library -->
-    <script src="./butter.js/src/butter.js"></script>
-    <script>
-        butter.init({
-            cancelOnTouch: true
-        });
-    </script>
+    <?php include "./source/_modules/butter_js_implement.php" ?>
 </body>
 
 

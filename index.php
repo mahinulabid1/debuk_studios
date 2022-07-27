@@ -42,7 +42,7 @@
             <?php
             // SETTING UP REUSEABLE NAVIGATION BAR
             $nav_first_link_text = "Services";
-            $nav_first_link_path = "./Services.php";
+            $nav_first_link_path = "./services.php";
 
             $nav_second_link_text = "Project";
             $nav_second_link_path = "./project_page.php";
@@ -161,12 +161,7 @@
         <script src="./source/js/loading.js"></script> <!-- adding loading js -->
 
         <!-- implemented the butter.js library -->
-        <script src="./butter.js/src/butter.js"></script>
-        <script>
-            butter.init({
-                cancelOnTouch: true
-            });
-        </script>
+        <?php include "./source/_modules/butter_js_implement.php" ?>
     </div>
     <!-- butter.js container ended here -->
 
