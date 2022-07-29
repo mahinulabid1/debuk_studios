@@ -34,6 +34,8 @@ const ElementSourceChange = (SingleSelector, source) => {
 const Run_black_theme = () => {
     // DARK THEME SETUP
     // navigation section
+    AddClassToElements("body", "js_background_black");
+    AddClassToElements("body", "js_color_white");
     AddClassToElements(".logo-text", "js_color_white");
     AddClassToElements(".nav-menu-item a", "js_link_color");
     AddClassToElements(".hamberger-navigation-container", "js_background_black");
@@ -69,6 +71,8 @@ const Run_black_theme = () => {
 const Run_white_theme = () => {
     // DARK THEME SETUP
     // navigation section
+    RemoveClassElements("body", "js_background_black");
+    RemoveClassElements("body", "js_color_white");
     RemoveClassElements(".logo-text", "js_color_white");
     RemoveClassElements(".nav-menu-item a", "js_link_color");
     RemoveClassElements(".hamberger-navigation-container", "js_background_black");
@@ -104,8 +108,8 @@ const Run_white_theme = () => {
 // initial theme setup 
 if (readThemeStatus == "black") {
     console.log("initial theme set to black");
-    body.style.color = "white";
-    body.style.backgroundColor = "black";
+    // body.style.color = "white";
+    // body.style.backgroundColor = "black";
     Run_black_theme();
 }else{
     console.log("initial theme is set to white");
@@ -122,15 +126,14 @@ document.querySelector(".theme-change-btn").addEventListener("click", () => {
     if (theme_state == "white") {
         localStorage.setItem("Debuk_theme_state", "black");
         console.log("theme white present");
-        body.style.color = "white";
-        body.style.backgroundColor = "black";
-        console.log()
+        // body.style.color = "white";
+        // body.style.backgroundColor = "black";
         Run_black_theme();
     } else if (theme_state == "black") {
         localStorage.setItem("Debuk_theme_state", "white");
         console.log("theme black present");
-        body.style.color = "black";
-        body.style.backgroundColor = "white";
+        // body.style.color = "black";
+        // body.style.backgroundColor = "white";
         Run_white_theme();
     }
 });

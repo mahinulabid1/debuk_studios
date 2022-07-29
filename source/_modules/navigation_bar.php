@@ -43,7 +43,7 @@
             <div class="ham-header-nav__second-section">
                 <p class="ham-header-nav__first-section__text normal-heading">COMING SOON</p>
                 <a class="ham-header-nav__first-section__links display-block big-heading" href="#">SHOP</a>
-                <a class="ham-header-nav__second-section__links display-block normal-heading" href="#">POSTERS</a>
+                <!-- <a class="ham-header-nav__second-section__links display-block normal-heading" href="#">POSTERS</a> -->
             </div>
         </div>
 
@@ -66,7 +66,7 @@
 
 
     <!-- notif for small devices -->
-    <section class="ham-notif-small-devices">
+    <!-- <section class="ham-notif-small-devices">
         <div class="display-block cookie-ham-notif">
             <p class="cookie-ham-para">
                 This website uses
@@ -74,11 +74,11 @@
             </p>
 
             <div class="close-notif-container">
-                <img src=<?php echo $path_to_cross_btn; ?> alt="" class="ham-close-notification-btn" height="27" width="27">
+                <img src=<?php //echo $path_to_cross_btn; ?> alt="" class="ham-close-notification-btn" height="27" width="27">
             </div>
 
         </div>
-    </section>
+    </section> -->
 
 
 

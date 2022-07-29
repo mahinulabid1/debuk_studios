@@ -29,7 +29,7 @@
     <?php include "./source/_modules/loading_section.php"; ?>
 
     
-    <!-- <div class="butter-js-container" id="butter"> -->
+    <div class="butter-js-container" id="butter">
         <header class="bound">
 
 
@@ -95,7 +95,7 @@
         include "./source/_modules/footer.php";
         ?>
 
-    <!-- </div> -->
+    </div>
     <!-- butter.js container ended here -->
 
 
