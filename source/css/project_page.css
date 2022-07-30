@@ -130,6 +130,9 @@
     .project-list__last-hr{
         margin-bottom: 6px;
     }
+    .project-list__video-container {
+        height: 106px;
+    }
 }
 @media only screen and (max-width: 400px) {
     .project-category__category-name{

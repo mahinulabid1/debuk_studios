@@ -12,7 +12,7 @@
     ?>
 
     <!-- main stylesheet -->
-    <link rel="stylesheet" href="./source/css/project.css">
+    <link rel="stylesheet" href="./source/css/project_page.css">
 
     <!-- navigation bar -->
     <link rel="stylesheet" href="./source/css/navigation_bar.css">
@@ -70,8 +70,9 @@
                         <!-- a video container -->
                         <a href="./studio.php" class="project-list__video-container">
                             <img class="project-list__video-container__image" src="./source/media/project/studio.webp" alt="" height="100%" width="100%">
-                            <video class="project-list__video-container__video" autoplay muted loop>
-                                <source src="./source/media/project/studio.webm">
+                            <video class="project-list__video-container__video" autoplay muted loop playsinline>
+                                <source src="./source/media/project/studio.webm" type="video/webm">
+                                <source src="./source/media/project/studio.mp4" type="video/mp4">
                             </video>
                         </a>
                     </div>
@@ -92,8 +93,9 @@
                         <!-- a video container -->
                         <a href="./conway.php" class="project-list__video-container">
                             <img class="project-list__video-container__image" src="./source/media/project/conway.webp" alt="" height="100%" width="100%">
-                            <video class="project-list__video-container__video" autoplay muted loop>
-                                <source src="./source/media/project/conway.webm">
+                            <video class="project-list__video-container__video" autoplay muted loop playsinline>
+                                <source src="./source/media/project/conway.webm" type="video/webm">
+                                <source src="./source/media/project/conway.mp4" type="video/mp4">
                             </video>
                         </a>
                     </div>
@@ -115,8 +117,9 @@
                         <!-- a video container -->
                         <a href="./luxio.php" class="project-list__video-container">
                             <img class="project-list__video-container__image" src="./source/media/project/luxio.webp" alt="" height="100%" width="100%">
-                            <video class="project-list__video-container__video" autoplay muted loop>
-                                <source src="./source/media/project/luxio.webm">
+                            <video class="project-list__video-container__video" autoplay muted loop playsinline>
+                                <source src="./source/media/project/luxio.webm" type="video/webm">
+                                <source src="./source/media/project/luxio.mp4" type="video/mp4">
                             </video>
                         </a>
                     </div>
@@ -138,8 +141,9 @@
                         <!-- a video container -->
                         <a href="./gallery.php" class="project-list__video-container">
                             <img class="project-list__video-container__image" src="./source/media/project/gallery.webp" alt="" height="100%" width="100%">
-                            <video class="project-list__video-container__video" autoplay muted loop>
-                                <source src="./source/media/project/gallery.webm">
+                            <video class="project-list__video-container__video" autoplay muted loop playsinline>
+                                <source src="./source/media/project/gallery.webm" type="video/webm">
+                                <source src="./source/media/project/gallery.mp4" type="video/mp4">
                             </video>
                         </a>
                     </div>
@@ -157,6 +161,16 @@
             </div>
         </section>
 
+        <!-- make video play  auto on mobile -->
+        <script>
+            let video_init = document.querySelectorAll("video");
+            for(let counter = 0; counter < video_init.length; counter++){
+                let video = video_init[counter];
+                window.addEventListener("load", ()=>{
+                    video.play();
+                });
+            }
+        </script>
 
 
         <!-- INCLUDE FOOTER -->

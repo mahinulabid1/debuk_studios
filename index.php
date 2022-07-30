@@ -71,7 +71,7 @@
                 <div class="hero-flex-item">
                     <div class="hero-video-placeholder">
                         <!-- a video will be here -->
-                        <video loop muted autoplay width="100%" height="100%" style="object-fit: cover;" class="hero-video">
+                        <video loop muted autoplay width="100%" height="100%" style="object-fit: cover;" class="hero-video" playsinline>
                             <!-- the source of video file will be injected by Javascript since chrome doesn't support changeable source by media query -->
                             <!-- the javascript code is below ↓↓↓ -->
                         </video>
