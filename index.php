@@ -78,18 +78,27 @@
                         <script>
                             // SINCE CHROME DOESN'T SUPPORT THE VIDEO SOURCE MEDIA QUERIES, THIS SCRIPT IS CREATED TO CHANGE VIDEO SOURCEC ACCORDING TO THE VIEW WIDTH
                             var video = document.querySelector(".hero-video");
-                            var WindowWidth = window.screen.width;
+                            const index_video_src = () => {
+                                var WindowWidth = window.screen.width;
 
-                            if (WindowWidth < 834 && WindowWidth > 600) {
-                                //TABLET VERSION VIDEO
-                                video.innerHTML = `<source src="./source/media/home/video-tablet.webm" type='video/webm' >`;
-                            } else if (WindowWidth < 600) {
-                                //MOBILE VERSION VIDEO
-                                video.innerHTML = `<source src="./source/media/home/video-phone.webm" type='video/webm' >`;
-                            } else {
-                                //BIG SCREEN VIDEO
-                                video.innerHTML = `<source src="./source/media/home/video-desktop.webm" type='video/webm' >`;
+                                if (WindowWidth < 834 && WindowWidth > 600) {
+                                    //TABLET VERSION VIDEO
+                                    video.innerHTML = `<source src="./source/media/home/video-tablet.mp4" type='video/mp4' >`;
+                                } else if (WindowWidth < 600) {
+                                    //MOBILE VERSION VIDEO
+                                    video.innerHTML = `<source src="./source/media/home/video-phone.mp4" type='video/mp4' >`;
+                                } else {
+                                    //BIG SCREEN VIDEO
+                                    video.innerHTML = `<source src="./source/media/home/video-desktop.webm" type='video/webm' >`;
+                                }
                             }
+                            window.addEventListener("load", ()=>{
+                                index_video_src();
+                                video.play();
+                            });
+                            window.addEventListener("resize", ()=>{
+                                index_video_src();
+                            });
                         </script>
                     </div>
                 </div>
@@ -135,7 +144,7 @@
 
         <section class="text-slider-section">
             <div class="text-slider-container">
-                <span> BRAND IDENTITY | WEB DESIGN | BRAND IDENTITY | WEB DESIGN | BRAND IDENTITY | WEB DESIGN | BRAND IDENTITY | WEB DESIGN | BRAND IDENTITY | WEB DESIGN | BRAND IDENTITY | WEB DESIGN | BRAND IDENTITY | WEB DESIGN |  BRAND IDENTITY | WEB DESIGN |BRAND IDENTITY | WEB DESIGN |BRAND IDENTITY | WEB DESIGN |
+                <span> BRAND IDENTITY | WEB DESIGN | BRAND IDENTITY | WEB DESIGN | BRAND IDENTITY | WEB DESIGN | BRAND IDENTITY | WEB DESIGN | BRAND IDENTITY | WEB DESIGN | BRAND IDENTITY | WEB DESIGN | BRAND IDENTITY | WEB DESIGN | BRAND IDENTITY | WEB DESIGN |BRAND IDENTITY | WEB DESIGN |BRAND IDENTITY | WEB DESIGN |
             </div>
         </section>
 

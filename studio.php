@@ -47,10 +47,10 @@
         $source_to_image_2 = "./source/media/studio/image2.webp";
 
         //source file path of video in different device
-        $video_poster = "./source/media/studio/video-tablet.gif";
+        // $video_poster = "./source/media/studio/video-tablet.gif";
         $source_to_video_file = "./source/media/studio/video-desktop.webm";
-        $source_to_video_file_tablet_version = "./source/media/studio/video-tablet.webm";
-        $source_to_video_file_mobile_version = "./source/media/studio/video-phone.webm";
+        $source_to_video_file_tablet_version = "./source/media/studio/video-tablet.mp4";
+        $source_to_video_file_mobile_version = "./source/media/studio/video-phone.mp4";
 
         // including the whole page with changeable content(content defined by php variables in above ↑)
         include "./source/_modules/project_modules/project_page_component.php";

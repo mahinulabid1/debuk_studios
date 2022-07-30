@@ -45,10 +45,10 @@
         $source_to_image_2 = "./source/media/gallery/image2.webp";
 
         //source file's path of the video
-        $video_poster = "./source/media/gallery//video-tablet.gif";
+        // $video_poster = "./source/media/gallery//video-tablet.gif";
         $source_to_video_file = "./source/media/gallery/video-desktop.webm";
-        $source_to_video_file_tablet_version = "./source/media/gallery/video-tablet.webm";
-        $source_to_video_file_mobile_version = "./source/media/gallery/video-phone.webm";
+        $source_to_video_file_tablet_version = "./source/media/gallery/video-tablet.mp4";
+        $source_to_video_file_mobile_version = "./source/media/gallery/video-phone.mp4";
 
 
         //including the whole project page with changeable content(content defined by php variables in above ↑)

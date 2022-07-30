@@ -55,10 +55,10 @@
         $source_to_image_2 = "./source/media/luxio/image2.webp";
 
         // source file's path of video
-        $video_poster = "./source/media/luxio/video-tablet.gif";
+        // $video_poster = "./source/media/luxio/video-tablet.gif";
         $source_to_video_file = "./source/media/luxio/video-desktop.webm";
-        $source_to_video_file_tablet_version = "./source/media/luxio/video-tablet.webm";
-        $source_to_video_file_mobile_version = "./source/media/luxio/video-phone.webm";
+        $source_to_video_file_tablet_version = "./source/media/luxio/video-tablet.mp4";
+        $source_to_video_file_mobile_version = "./source/media/luxio/video-phone.mp4";
 
         //including the whole project page with changeable content(content defined by php variables in above)
         include "./source/_modules/project_modules/project_page_component.php";

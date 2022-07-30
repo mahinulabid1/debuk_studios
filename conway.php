@@ -46,10 +46,10 @@
         $source_to_image_2 = "./source/media/conway/image2.webp";
 
         //souce file's path of the page video
-        $video_poster = "./source/media/conway/video-tablet.gif";
+        // $video_poster = "./source/media/conway/video-tablet.gif";
         $source_to_video_file = "./source/media/conway/video-desktop.webm";
-        $source_to_video_file_tablet_version = "./source/media/conway/video-tablet.webm";
-        $source_to_video_file_mobile_version = "./source/media/conway/video-phone.webm";
+        $source_to_video_file_tablet_version = "./source/media/conway/video-tablet.mp4";
+        $source_to_video_file_mobile_version = "./source/media/conway/video-phone.mp4";
 
         // including the whole project page with changeable content(content defined by php variables in above ↑)
         include "./source/_modules/project_modules/project_page_component.php";

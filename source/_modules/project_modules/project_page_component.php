@@ -68,7 +68,7 @@ $source_to_image_2;
 
 <!-- hero video -->
 <div class="hero-video-container">
-    <video class="hero-video" preload="auto" poster=<?php echo $video_poster; ?> autoplay muted loop>
+    <video class="hero-video" preload="auto" autoplay muted loop playsinline>
         <!-- poster="./source/media/luxio/image3.webp" -->
         <!-- CODE WILL BE INJECTED BY THE SCRIPT BELOW -->
 
@@ -84,11 +84,15 @@ $source_to_image_2;
             video.innerHTML = `<source src=<?php echo $source_to_video_file_tablet_version; ?> type='video/webm' >`;
         } else if (WindowWidth < 600) {
             //MOBILE VERSION VIDEO
-            video.innerHTML = `<source src=<?php echo $source_to_video_file_mobile_version; ?> type='video/webm' >`;
+            video.innerHTML = `<source src=<?php echo $source_to_video_file_mobile_version; ?> type='video/mp4' >`;
         } else {
             //BIG SCREEN VIDEO
-            video.innerHTML = `<source src=<?php echo $source_to_video_file; ?> type='video/webm' >`;
+            video.innerHTML = `<source src=<?php echo $source_to_video_file; ?> type='video/mp4' >`;
         }
+
+        window.addEventListener("load", ()=>{
+            video.play();
+        });
     </script>
 </div>
 
