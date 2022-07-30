@@ -49,6 +49,8 @@ const Run_black_theme = () => {
     AddClassToElements(".ham-close-notification-btn path", "js-fill-white");
     AddClassToElements(".website-logo-icon path", "js-fill-white");
     AddClassToElements(".theme-change-btn path", "js-fill-white");
+    AddClassToElements(".arrow-icon-normal path", "js-fill-white");
+    AddClassToElements(".arrow-icon-big path", "js-fill-white");
     
     
 
@@ -94,6 +96,8 @@ const Run_white_theme = () => {
     RemoveClassElements(".ham-close-notification-btn path", "js-fill-white");
     RemoveClassElements(".website-logo-icon path", "js-fill-white");
     RemoveClassElements(".theme-change-btn path", "js-fill-white");
+    RemoveClassElements(".arrow-icon-normal path", "js-fill-white");
+    RemoveClassElements(".arrow-icon-big path", "js-fill-white");
 
     // change the source of the navigation and stuff
     // ElementSourceChange(".website-logo-icon", "./source/media/logoicon.png");

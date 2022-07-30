@@ -1,6 +1,17 @@
 <!DOCTYPE html>
 <html lang="en-US">
 
+<?php
+$arrow_icon = '<svg class="arrow-icon-normal" height="15" viewBox="0 0 74 62" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 26.04V35.712H55.3767L36.3833 54.684L43.4133 61.752L74 30.876L43.4133 0L36.63 6.944L55.6233 26.04H0Z" fill="#070606"/>
+</svg>
+';
+$arrow_icon_big = '<svg class="arrow-icon-big" width="32" viewBox="0 0 74 62" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 26.04V35.712H55.3767L36.3833 54.684L43.4133 61.752L74 30.876L43.4133 0L36.63 6.944L55.6233 26.04H0Z" fill="#070606"/>
+</svg>
+';
+?>
+
 <head>
 
     <!-- REUSEABLE HEADER INFO -->
@@ -16,7 +27,7 @@
 
     <!-- navigation bar -->
     <link rel="stylesheet" href="./source/css/navigation_bar.css">
-    
+
     <!-- loading section CSS -->
     <link rel="stylesheet" href="./source/css/loading_section.css">
 
@@ -25,7 +36,7 @@
 <body>
     <!-- adding loading state -->
     <?php include "./source/_modules/loading_section.php"; ?>
-    
+
     <div class="butter-js-container" id="butter">
         <header class="bound">
 
@@ -80,7 +91,7 @@
                     <div class="project-flex-item">
                         <p class="project-category__category-name">Brand Identity</p>
                         <p class="project-category__category-name">Web Design</p>
-                        <a href="./studio.php" class="project-category-title paragraph-text">Debuk Studio Rebrand →</a>
+                        <a href="./studio.php" class="project-category-title paragraph-text">Debuk Studio Rebrand <?php echo $arrow_icon ?></a>
 
                     </div>
                 </div>
@@ -103,7 +114,7 @@
                     <div class="project-flex-item">
                         <p class="project-category__category-name"> Brand Identity</p>
                         <p class="project-category__category-name">Web Design</p>
-                        <a href="./conway.php" class="project-category-title paragraph-text">Conway →</a>
+                        <a href="./conway.php" class="project-category-title paragraph-text">Conway <?php echo $arrow_icon ?></a>
 
                     </div>
                 </div>
@@ -127,7 +138,7 @@
                     <div class="project-flex-item">
                         <p class="project-category__category-name"> Brand Identity</p>
                         <p class="project-category__category-name">Web Design</p>
-                        <a href="./luxio.php" class="project-category-title paragraph-text">Hotel Luxio →</a>
+                        <a href="./luxio.php" class="project-category-title paragraph-text">Hotel Luxio <?php echo $arrow_icon ?></a>
 
                     </div>
                 </div>
@@ -151,7 +162,7 @@
                     <div class="project-flex-item">
                         <p class="project-category__category-name"> Brand Identity</p>
                         <p class="project-category__category-name">Web Design</p>
-                        <a href="./gallery.php" class="project-category-title paragraph-text">Borrasude Gallery →</a>
+                        <a href="./gallery.php" class="project-category-title paragraph-text">Borrasude Gallery <?php echo $arrow_icon ?></a>
 
                     </div>
                 </div>
@@ -164,9 +175,9 @@
         <!-- make video play  auto on mobile -->
         <script>
             let video_init = document.querySelectorAll("video");
-            for(let counter = 0; counter < video_init.length; counter++){
+            for (let counter = 0; counter < video_init.length; counter++) {
                 let video = video_init[counter];
-                window.addEventListener("load", ()=>{
+                window.addEventListener("load", () => {
                     video.play();
                 });
             }
