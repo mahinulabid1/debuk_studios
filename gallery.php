@@ -15,7 +15,8 @@
     <link rel="stylesheet" href="./source/css/studio.css">
 
     <!-- navigation bar -->
-    <link rel="stylesheet" href="./source/css/navigation_bar.css">
+    <!-- <link rel="stylesheet" href="./source/css/navigation_bar.css"> -->
+    <link rel="stylesheet" href="./source/_modules/project_modules/project_page_navbar.css">
 
     <!-- project page component css -->
     <link rel="stylesheet" href="./source/css/project_page_component.css">

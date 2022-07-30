@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="./source/css/studio.css">
 
     <!-- navigation bar -->
-    <!-- <link rel="stylesheet" href="./source/css/navigation_bar.css"> -->
+    <link rel="stylesheet" href="./source/_modules/project_modules/project_page_navbar.css">
 
     <!-- project page component css -->
     <link rel="stylesheet" href="./source/css/project_page_component.css">
@@ -47,7 +47,6 @@
         $source_to_image_2 = "./source/media/studio/image2.webp";
 
         //source file path of video in different device
-        // $video_poster = "./source/media/studio/video-tablet.gif";
         $source_to_video_file = "./source/media/studio/video-desktop.webm";
         $source_to_video_file_tablet_version = "./source/media/studio/video-tablet.mp4";
         $source_to_video_file_mobile_version = "./source/media/studio/video-phone.mp4";
@@ -64,7 +63,7 @@
         <?php
 
         $footer_heading_text = "Have a brand to build?";
-        $footer_main_btn_text = "Say hello →";
+        $footer_main_btn_text = "Say hello";
         include "./source/_modules/footer.php";
         ?>
     </div>
@@ -73,7 +72,9 @@
 
 
     <script src="./source/js/theme.js"></script>
-    <script src="./source/js/loading.js"></script> <!-- adding loading js -->
+
+    <!-- adding loading js -->
+    <script src="./source/js/loading.js"></script> 
 
     <!-- implemented the butter.js library -->
     <?php include "./source/_modules/butter_js_implement.php" ?>

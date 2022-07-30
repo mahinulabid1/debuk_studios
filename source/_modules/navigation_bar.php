@@ -55,7 +55,11 @@
 
         <!-- notif bar big devices -->
         <div class="ham-header-navigation--item" style="position: relative;">
-            <img class="theme-change-btn" src=<?php echo $path_to_themeChange_btn; ?> alt="" height="56" width="56" style="cursor:pointer;">
+            <!-- <img class="theme-change-btn" src=<?php //echo $path_to_themeChange_btn; 
+                                                    ?> alt="" height="56" width="56" style="cursor:pointer;"> -->
+            <svg class="theme-change-btn" style="cursor:pointer;" width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M56 28C56 12.537 43.463 -1.09602e-06 28 -2.44784e-06C12.537 -3.79966e-06 -1.50414e-08 12.537 -1.36686e-06 28C-2.71868e-06 43.463 12.537 56 28 56C43.463 56 56 43.463 56 28ZM51.3333 28C51.3333 40.866 40.866 51.3333 28 51.3333L28 4.66667C40.866 4.66667 51.3333 15.134 51.3333 28Z" fill="#070606" />
+            </svg>
             <div class="display-block cookie-ham-notif big-device-notif">
                 <p class="cookie-ham-para">
                     This website uses
@@ -73,11 +77,21 @@
 
             </div>
         </div>
+
+
+
+        <!-- close btn -->
+        <section class="display-flex d-flex-space-between ham-nav-footer">
+            <div class="ham-footer-flex-item"><i class="fa-brands fa-instagram"></i> <i class="fa-brands fa-twitter"></i></div>
+            <div class="ham-footer-flex-item">
+                <button class="close-ham-bar-btn paragraph-text">Close</button>
+            </div>
+        </section>
     </header>
 
 
     <!-- notif for small devices -->
-    <!-- <section class="ham-notif-small-devices">
+    <section class="ham-notif-small-devices bound">
         <div class="display-block cookie-ham-notif">
             <p class="cookie-ham-para">
                 This website uses
@@ -85,21 +99,16 @@
             </p>
 
             <div class="close-notif-container">
-                <img src=<?php //echo $path_to_cross_btn; 
+                <img src=<?php echo $path_to_cross_btn;
                             ?> alt="" class="ham-close-notification-btn" height="27" width="27">
             </div>
 
         </div>
-    </section> -->
-
-
-
-    <section class="display-flex d-flex-space-between ham-nav-footer">
-        <div class="ham-footer-flex-item"><i class="fa-brands fa-instagram"></i> <i class="fa-brands fa-twitter"></i></div>
-        <div class="ham-footer-flex-item">
-            <button class="close-ham-bar-btn paragraph-text">Close</button>
-        </div>
     </section>
+
+
+
+
 </div>
 
 
@@ -155,7 +164,6 @@
 
 <!-- NAVIGATION ANIMATION -->
 <script>
-    // navigation animation
     let Nav_element_init = document.querySelectorAll(".js-nav-animation");
     let Ham_btn = document.querySelector(".hamberger-icon-container");
 
@@ -164,9 +172,9 @@
 
         for (let counter = 0; counter < Nav_element_init.length; counter++) {
             let timer = 170 * counter;
-            let initial_timer = timer+ 400;
+            let initial_timer = timer + 300;
             let Nav_element = Nav_element_init[counter];
-            Nav_element.style.animation = `navAnimation ${initial_timer}ms ease-in`;
+            Nav_element.style.animation = `navAnimation ${initial_timer}ms ease-out`;
         }
     });
 </script>

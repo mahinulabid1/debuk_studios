@@ -160,7 +160,7 @@
         <!-- INCLUDE FOOTER -->
         <?php
         $footer_heading_text = "Let’s talk about your next big brand.";
-        $footer_main_btn_text = "Take action →";
+        $footer_main_btn_text = "Take action";
         include "./source/_modules/footer.php";
         ?>
 

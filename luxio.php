@@ -18,7 +18,8 @@
     <link rel="stylesheet" href="./source/css/fonts.css">
 
     <!-- navigation bar -->
-    <link rel="stylesheet" href="./source/css/navigation_bar.css">
+    <!-- <link rel="stylesheet" href="./source/css/navigation_bar.css"> -->
+    <link rel="stylesheet" href="./source/_modules/project_modules/project_page_navbar.css">
 
     <!-- UNIVERSAL CSS -->
     <link rel="stylesheet" href="./source/css/Universal_CSS.css">
@@ -55,7 +56,6 @@
         $source_to_image_2 = "./source/media/luxio/image2.webp";
 
         // source file's path of video
-        // $video_poster = "./source/media/luxio/video-tablet.gif";
         $source_to_video_file = "./source/media/luxio/video-desktop.webm";
         $source_to_video_file_tablet_version = "./source/media/luxio/video-tablet.mp4";
         $source_to_video_file_mobile_version = "./source/media/luxio/video-phone.mp4";
@@ -63,23 +63,11 @@
         //including the whole project page with changeable content(content defined by php variables in above)
         include "./source/_modules/project_modules/project_page_component.php";
         ?>
+
         <div class="full-width-image bound">
             <img class="characteristics-image c-image-margin" src="./source/media/luxio/image3.webp" alt="" width="100%" height="auto">
             <img class="characteristics-image c-image-margin" src="./source/media/luxio/image4.webp" alt="" width="100%" height="auto">
         </div>
-
-
-        <script>
-            let videoPlaceHolder = document.querySelector("video");
-            let windowViewWidth = window.screen.width;
-            console.log(windowViewWidth);
-            if (windowViewWidth >= 834) {
-                video.setAttribute("poster", "./source/media/luxio/video-tablet.gif");
-            } else if (windowViewWidth >= 600) {
-                video.setAttribute("poster", "./source/media/luxio/video-phone.gif");
-            }
-        </script>
-
 
         <!-- INCLUDE FOOTER -->
         <?php

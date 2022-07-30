@@ -8,6 +8,9 @@ a {
     text-decoration: none;
 }
 
+img[alt="www.000webhost.com"]{
+    display:none;
+}
 
 /* some universal CSS */
 .bound {

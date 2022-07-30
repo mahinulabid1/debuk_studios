@@ -48,6 +48,7 @@ const Run_black_theme = () => {
     AddClassToElements(".ham-bar", "js_background_white");
     AddClassToElements(".ham-close-notification-btn path", "js-fill-white");
     AddClassToElements(".website-logo-icon path", "js-fill-white");
+    AddClassToElements(".theme-change-btn path", "js-fill-white");
     
     
 
@@ -92,6 +93,7 @@ const Run_white_theme = () => {
     RemoveClassElements(".ham-bar", "js_background_white");
     RemoveClassElements(".ham-close-notification-btn path", "js-fill-white");
     RemoveClassElements(".website-logo-icon path", "js-fill-white");
+    RemoveClassElements(".theme-change-btn path", "js-fill-white");
 
     // change the source of the navigation and stuff
     // ElementSourceChange(".website-logo-icon", "./source/media/logoicon.png");
@@ -151,3 +153,13 @@ document.querySelector(".theme-change-btn").addEventListener("click", () => {
 });
 
 
+
+
+
+// THEME BTN ANIMATION
+document.querySelector(".theme-change-btn").addEventListener("click", () => {
+    document.querySelector(".theme-change-btn").style.animation ="theme_btn_animation 0.6s ease-out";
+    setTimeout(()=>{
+        document.querySelector(".theme-change-btn").style.animation ="";
+    }, 600);
+});

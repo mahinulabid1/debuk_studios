@@ -30,7 +30,7 @@
         let windowSize = window.screen.width;
         if (windowSize < 834) {
             // hamberger_icon_image.src = "./source/media/Hamburger.png";
-            website_logo_icon.src = './source/media/logoicon.png';
+            // website_logo_icon.src = './source/media/logoicon.png';
         }
     </script>
 
