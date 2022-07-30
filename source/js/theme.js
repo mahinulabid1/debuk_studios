@@ -40,12 +40,19 @@ const Run_black_theme = () => {
     AddClassToElements(".nav-menu-item a", "js_link_color");
     AddClassToElements(".hamberger-navigation-container", "js_background_black");
     AddClassToElements(".ham-header-nav__first-section__links", "js_link_color");
-    AddClassToElements(".cookie-ham-para", "js_color_black");
+    AddClassToElements(".cookie-ham-notif", "js_background_black");
+    AddClassToElements(".cookie-ham-notif", "js_box_shadow_one");
+    AddClassToElements(".cookie-ham-para", "js_color_white");
+    AddClassToElements(".cookie-ham-para", "js_border_bottom"); //border
     AddClassToElements(".close-ham-bar-btn", "js_ham_close_btn");
     AddClassToElements(".ham-bar", "js_background_white");
+    AddClassToElements(".ham-close-notification-btn path", "js-fill-white");
+    AddClassToElements(".website-logo-icon path", "js-fill-white");
+    
+    
 
     // change the source of the navigation and stuff
-    ElementSourceChange(".website-logo-icon", "./source/media/logoicon-white.png");
+    // ElementSourceChange(".website-logo-icon", "./source/media/logoicon-white.png");
     ElementSourceChange(".theme-change-btn", "./source/media/ThemeChange_btn_white.png");
 
     //footer section
@@ -77,12 +84,17 @@ const Run_white_theme = () => {
     RemoveClassElements(".nav-menu-item a", "js_link_color");
     RemoveClassElements(".hamberger-navigation-container", "js_background_black");
     RemoveClassElements(".ham-header-nav__first-section__links", "js_link_color");
-    AddClassToElements(".cookie-ham-para", "js_color_black");
+    RemoveClassElements(".cookie-ham-notif", "js_background_black");
+    RemoveClassElements(".cookie-ham-notif", "js_box_shadow_one");
+    RemoveClassElements(".cookie-ham-para", "js_color_white");
+    RemoveClassElements(".cookie-ham-para", "js_border_bottom"); //border
     RemoveClassElements(".close-ham-bar-btn", "js_ham_close_btn");
     RemoveClassElements(".ham-bar", "js_background_white");
+    RemoveClassElements(".ham-close-notification-btn path", "js-fill-white");
+    RemoveClassElements(".website-logo-icon path", "js-fill-white");
 
     // change the source of the navigation and stuff
-    ElementSourceChange(".website-logo-icon", "./source/media/logoicon.png");
+    // ElementSourceChange(".website-logo-icon", "./source/media/logoicon.png");
     ElementSourceChange(".theme-change-btn", "./source/media/ThemeChange_btn.png");
 
     //footer section

@@ -11,7 +11,7 @@
     $nav_bar_logolink =  "./source/media/logoicon.png";
     $path_to_hamburger_icon = "./source/media/Hamburger.png";
     $path_to_themeChange_btn = "./source/media/ThemeChange_btn.png";
-    $path_to_cross_btn = "./source/media/cross-btn.png";
+    $path_to_cross_btn = "./source/media/cross-btn.svg";
 
     ?>
     <?php include "./source/_modules/head_info.php"; ?>
@@ -135,7 +135,7 @@
 
         <section class="text-slider-section">
             <div class="text-slider-container">
-                <span> BRAND IDENTITY | WEB DESIGN | BRAND IDENTITY | WEB DESIGN | BRAND IDENTITY | WEB DESIGN | BRAND IDENTITY | WEB DESIGN | BRAND IDENTITY | WEB DESIGN | BRAND IDENTITY | WEB DESIGN | BRAND IDENTITY | WEB DESIGN | BRAND IDENTITY | WEB DESIGN |
+                <span> BRAND IDENTITY | WEB DESIGN | BRAND IDENTITY | WEB DESIGN | BRAND IDENTITY | WEB DESIGN | BRAND IDENTITY | WEB DESIGN | BRAND IDENTITY | WEB DESIGN | BRAND IDENTITY | WEB DESIGN | BRAND IDENTITY | WEB DESIGN |  BRAND IDENTITY | WEB DESIGN |BRAND IDENTITY | WEB DESIGN |BRAND IDENTITY | WEB DESIGN |
             </div>
         </section>
 

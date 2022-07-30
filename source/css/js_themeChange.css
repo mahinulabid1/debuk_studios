@@ -38,10 +38,17 @@
     border: 1px solid var(--white) !important;
 }
 
+.js_border_bottom{
+    border-bottom: 1px solid var(--white) !important;
+}
+
 .js_box_shadow_one {
     box-shadow: 0px 4px 28px rgba(255, 255, 255, 0.25) !important;
 }
 
+.js-fill-white{
+    fill: var(--white) !important;
+}
 /* contact page */
 .js_submit_black_theme{
     background: var(--white) !important;

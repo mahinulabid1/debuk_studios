@@ -17,7 +17,7 @@
 
     <!-- navigation bar -->
     <link rel="stylesheet" href="./source/css/navigation_bar.css">
-    
+
     <!-- loading section CSS -->
     <link rel="stylesheet" href="./source/css/loading_section.css">
 
@@ -26,7 +26,7 @@
 <body>
     <!-- adding loading state -->
     <?php include "./source/_modules/loading_section.php"; ?>
-    
+
     <div class="butter-js-container" id="butter">
         <header class="bound">
 
@@ -81,14 +81,14 @@
 
                     <div class="form-flex-item">
                         <label class="paragraph-text" for="subject">Subject *</label>
-                        <input class="paragraph-text" type="text" id="subject" name="subject" placeholder="Branding">
-                        <!-- <select name="select_subject" id="subject" class="paragraph-text">
-                            <option value="Branding" selected class="paragraph-text">Branding</option>
-                            <option value="Branding & Printed Media" class="paragraph-text">Branding & Printed Media</option>
-                            <option value="Web Design & development" class="paragraph-text">Web Design & development</option>
-                            <option value="Branding, Printed Media & Web Design & Development" class="paragraph-text">Branding, Printed Media & Web Design & Development</option>
-                            <option value="Brand Consultancy" class="paragraph-text">Brand Consultancy</option>
-                        </select> -->
+                        <input class="paragraph-text" type="text" list="subject_list" id="subject" name="subject" placeholder="Branding">
+                        <datalist id="subject_list" class="paragraph-text">
+                            <option value="Branding" class="paragraph-text" >
+                            <option value="Branding & Printed Media" class="paragraph-text">
+                            <option value="Web Design & development" class="paragraph-text">
+                            <option value="Branding, Printed Media & Web Design & Development" class="paragraph-text">
+                            <option value="Brand Consultancy" class="paragraph-text">
+                        </datalist>
                     </div>
 
                     <div class="form-flex-item">
@@ -99,7 +99,7 @@
                 </div>
 
                 <label class="paragraph-text" for="message">Message *</label>
-                <textarea class="paragraph-text" name="message" id="message">Dear Debuk Studio</textarea>
+                <textarea class="paragraph-text" name="message" id="message" placeholder="Dear Debuk Studio,"></textarea>
 
                 <input class="submit-btn paragraph-text" type="submit" value="Send →">
             </form>
