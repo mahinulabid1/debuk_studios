@@ -33,101 +33,82 @@ const ElementSourceChange = (SingleSelector, source) => {
 
 const Run_black_theme = () => {
     // DARK THEME SETUP
-    // navigation section
-    AddClassToElements("body", "js_background_black");
-    AddClassToElements("body", "js_color_white");
-    AddClassToElements(".logo-text", "js_color_white");
-    AddClassToElements(".nav-menu-item a", "js_link_color");
-    AddClassToElements(".hamberger-navigation-container", "js_background_black");
-    AddClassToElements(".ham-header-nav__first-section__links", "js_link_color");
-    AddClassToElements(".cookie-ham-notif", "js_background_black");
-    AddClassToElements(".cookie-ham-notif", "js_box_shadow_one");
-    AddClassToElements(".cookie-ham-para", "js_color_white");
-    AddClassToElements(".cookie-ham-para", "js_border_bottom"); //border
-    AddClassToElements(".close-ham-bar-btn", "js_ham_close_btn");
-    AddClassToElements(".ham-bar", "js_background_white");
-    AddClassToElements(".ham-close-notification-btn path", "js-fill-white");
-    AddClassToElements(".website-logo-icon path", "js-fill-white");
-    AddClassToElements(".theme-change-btn path", "js-fill-white");
-    AddClassToElements(".arrow-icon-normal path", "js-fill-white");
-    AddClassToElements(".arrow-icon-big path", "js-fill-white");
-    
+    // js_color_white
+    AddClassToElements("body, .logo-text, .cookie-ham-para, .footer-copyright-item a, .footer-email, input[type='text'], input[type='email'], textarea, select", "js_color_white");
+
+    // js_link_color
+    AddClassToElements(".ham-header-nav__first-section__links, .nav-menu-item a, .footer-links-a, .footer-link-take-action, .project-category-title", "js_link_color");
+
+    // js_background_black
+    AddClassToElements(".cookie-ham-notif, .hamberger-navigation-container, body, .flex-item-hero, input[type='text'], input[type='email'], textarea, select", "js_background_black");
+
+    // js-fill-white
+    AddClassToElements(".ham-close-notification-btn path, .website-logo-icon path, .theme-change-btn path, .arrow-icon-normal path, .arrow-icon-big path, .twitter-icon-nav_bar path, .instagram-icon-nav_bar path, .instagram-icon-footer path,.twitter-icon-footer path", "js-fill-white");
+
+    // js_box_shadow_one
+    AddClassToElements(".cookie-ham-notif, .flex-item-hero", "js_box_shadow_one");
     
 
-    // change the source of the navigation and stuff
-    // ElementSourceChange(".website-logo-icon", "./source/media/logoicon-white.png");
-    ElementSourceChange(".theme-change-btn", "./source/media/ThemeChange_btn_white.png");
-
-    //footer section
-    AddClassToElements(".footer-links-a", "js_link_color");
-    AddClassToElements(".footer-copyright-item a", "js_color_white");
-    AddClassToElements(".footer-link-take-action", "js_link_color");
-    AddClassToElements(".footer-link-take-action", "js-after-pseudo-background");
-    AddClassToElements(".footer-email", "js_color_white");
+    AddClassToElements(".footer-link-take-action", "js-after-pseudo-background");    
     AddClassToElements(".footer-link-border", "js_border_bottom_white");
-
-    // some other things
-    AddClassToElements(".flex-item-hero", "js_background_black");
-    AddClassToElements(".flex-item-hero", "js_box_shadow_one");
-    AddClassToElements("input[type='text'], input[type='email'], textarea, select", "js_background_black");
-    AddClassToElements("input[type='text'], input[type='email'], textarea, select", "js_color_white");
+    AddClassToElements(".ham-bar", "js_background_white");
     AddClassToElements("input[type='text'], input[type='email'], textarea, select", "js_form_border");
     AddClassToElements("input[type='submit']", "js_submit_black_theme");
-    AddClassToElements(".project-category-title ", "js_link_color");
+    AddClassToElements(".cookie-ham-para", "js_border_bottom"); //border
+    AddClassToElements(".close-ham-bar-btn", "js_ham_close_btn");
+    AddClassToElements(".text-slider-container span", "text-stroke-white");
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 const Run_white_theme = () => {
     // DARK THEME SETUP
-    // navigation section
-    RemoveClassElements("body", "js_background_black");
-    RemoveClassElements("body", "js_color_white");
-    RemoveClassElements(".logo-text", "js_color_white");
-    RemoveClassElements(".nav-menu-item a", "js_link_color");
-    RemoveClassElements(".hamberger-navigation-container", "js_background_black");
-    RemoveClassElements(".ham-header-nav__first-section__links", "js_link_color");
-    RemoveClassElements(".cookie-ham-notif", "js_background_black");
-    RemoveClassElements(".cookie-ham-notif", "js_box_shadow_one");
-    RemoveClassElements(".cookie-ham-para", "js_color_white");
-    RemoveClassElements(".cookie-ham-para", "js_border_bottom"); //border
-    RemoveClassElements(".close-ham-bar-btn", "js_ham_close_btn");
-    RemoveClassElements(".ham-bar", "js_background_white");
-    RemoveClassElements(".ham-close-notification-btn path", "js-fill-white");
-    RemoveClassElements(".website-logo-icon path", "js-fill-white");
-    RemoveClassElements(".theme-change-btn path", "js-fill-white");
-    RemoveClassElements(".arrow-icon-normal path", "js-fill-white");
-    RemoveClassElements(".arrow-icon-big path", "js-fill-white");
+    // js_color_white
+    RemoveClassElements("body, .logo-text, .cookie-ham-para, .footer-copyright-item a, .footer-email, input[type='text'], input[type='email'], textarea, select", "js_color_white");
 
-    // change the source of the navigation and stuff
-    // ElementSourceChange(".website-logo-icon", "./source/media/logoicon.png");
-    ElementSourceChange(".theme-change-btn", "./source/media/ThemeChange_btn.png");
+    // js_link_color
+    RemoveClassElements(".ham-header-nav__first-section__links, .nav-menu-item a, .footer-links-a, .footer-link-take-action, .project-category-title", "js_link_color");
 
-    //footer section
-    RemoveClassElements(".footer-links-a", "js_link_color");
-    RemoveClassElements(".footer-copyright-item a", "js_color_white");
-    RemoveClassElements(".footer-link-take-action", "js_link_color");
-    RemoveClassElements(".footer-link-take-action", "js-after-pseudo-background");
-    RemoveClassElements(".footer-email", "js_color_white");
+    // js_background_black
+    RemoveClassElements(".cookie-ham-notif, .hamberger-navigation-container, body, .flex-item-hero, input[type='text'], input[type='email'], textarea, select", "js_background_black");
+
+    // js-fill-white
+    RemoveClassElements(".ham-close-notification-btn path, .website-logo-icon path, .theme-change-btn path, .arrow-icon-normal path, .arrow-icon-big path, .twitter-icon-nav_bar path, .instagram-icon-nav_bar path, .instagram-icon-footer path,.twitter-icon-footer path", "js-fill-white");
+
+    // js_box_shadow_one
+    RemoveClassElements(".cookie-ham-notif, .flex-item-hero", "js_box_shadow_one");
+    
+
+    RemoveClassElements(".footer-link-take-action", "js-after-pseudo-background");    
     RemoveClassElements(".footer-link-border", "js_border_bottom_white");
-
-    // some other things
-    RemoveClassElements(".flex-item-hero", "js_background_black");
-    RemoveClassElements(".flex-item-hero", "js_box_shadow_one");
-    RemoveClassElements("input[type='text'], input[type='email'], textarea, select", "js_background_black");
-    RemoveClassElements("input[type='text'], input[type='email'], textarea, select", "js_color_white");
+    RemoveClassElements(".ham-bar", "js_background_white");
     RemoveClassElements("input[type='text'], input[type='email'], textarea, select", "js_form_border");
     RemoveClassElements("input[type='submit']", "js_submit_black_theme");
-    RemoveClassElements(".project-category-title ", "js_link_color");
+    RemoveClassElements(".cookie-ham-para", "js_border_bottom"); //border
+    RemoveClassElements(".close-ham-bar-btn", "js_ham_close_btn");
+    RemoveClassElements(".text-slider-container span", "text-stroke-white");
 };
 
 
 
 // initial theme setup 
 if (readThemeStatus == "black") {
-    console.log("initial theme set to black");
-    // body.style.color = "white";
-    // body.style.backgroundColor = "black";
     Run_black_theme();
 }else{
     console.log("initial theme is set to white");
@@ -143,15 +124,9 @@ document.querySelector(".theme-change-btn").addEventListener("click", () => {
     let theme_state = localStorage.getItem("Debuk_theme_state");
     if (theme_state == "white") {
         localStorage.setItem("Debuk_theme_state", "black");
-        console.log("theme white present");
-        // body.style.color = "white";
-        // body.style.backgroundColor = "black";
         Run_black_theme();
     } else if (theme_state == "black") {
         localStorage.setItem("Debuk_theme_state", "white");
-        console.log("theme black present");
-        // body.style.color = "black";
-        // body.style.backgroundColor = "white";
         Run_white_theme();
     }
 });

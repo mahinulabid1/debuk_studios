@@ -213,6 +213,17 @@ nav {
     color: var(--black);
 }
 
+.instagram-icon-nav_bar {
+    margin-right: 20px;
+    width: 44px;
+    height: auto;
+}
+
+.twitter-icon-nav_bar {
+    width: 52px;
+    height: auto;
+}
+
 /* js animation */
 .js-nav-animation {
     position: relative;
@@ -360,5 +371,13 @@ nav {
 
     .ham-footer-flex-item i {
         margin-right: 10px;
+    }
+
+    .instagram-icon-nav_bar {
+        width: 21px;
+    }
+    
+    .twitter-icon-nav_bar {
+        width: 25px;
     }
 }

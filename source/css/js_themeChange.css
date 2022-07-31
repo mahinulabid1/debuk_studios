@@ -74,6 +74,10 @@
 }
 
 
+.text-stroke-white{
+    -webkit-text-stroke-color: var(--white) !important;
+}
+
 /* only available when its tablet version */
 @media only screen and (max-width: 1000px) {
 
