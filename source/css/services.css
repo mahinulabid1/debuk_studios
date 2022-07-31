@@ -9,9 +9,6 @@
     margin-bottom: 120px;
 }
 
-/* .hero-flex-container{
-    gap: 28px;
-} */
 .flex-item-hero {
     width: 809px;
     height: 554px;
@@ -53,7 +50,6 @@
         width: 48%;
     }
 }
-
 
 @media only screen and (max-width: 1440px) {
     .flex-item-hero {

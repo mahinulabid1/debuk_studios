@@ -91,9 +91,7 @@ nav {
 }
 
 .ham-nav-footer {
-    /* margin-top: 82px; */
     align-items: center;
-    /* margin-bottom: 134px; */
     position: absolute;
     width: 100%;
     bottom: 100px;
@@ -163,7 +161,6 @@ nav {
 }
 
 .ham-close-notification-btn {
-    /* fill: var(--black); */
     height: 22.5px;
     width: 22.5px;
     position: absolute;

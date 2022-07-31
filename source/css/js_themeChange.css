@@ -12,7 +12,7 @@
     color: var(--white) !important;
 }
 
-.js_color_black{
+.js_color_black {
     color: var(--black) !important;
 }
 
@@ -26,7 +26,7 @@
     background: var(--black) !important;
 }
 
-.js_background_white{
+.js_background_white {
     background: var(--white) !important;
 }
 
@@ -34,11 +34,11 @@
     background: white !important;
 }
 
-.js_form_border{
+.js_form_border {
     border: 1px solid var(--white) !important;
 }
 
-.js_border_bottom{
+.js_border_bottom {
     border-bottom: 1px solid var(--white) !important;
 }
 
@@ -46,27 +46,29 @@
     box-shadow: 0px 4px 28px rgba(255, 255, 255, 0.25) !important;
 }
 
-.js-fill-white{
+.js-fill-white {
     fill: var(--white) !important;
 }
+
 /* contact page */
-.js_submit_black_theme{
+.js_submit_black_theme {
     background: var(--white) !important;
     color: black !important;
 }
 
-.js_submit_black_theme:hover{
+.js_submit_black_theme:hover {
     color: var(--white) !important;
     background: var(--black) !important;
 }
 
 
 /* hamburger navigation bar */
-.js_ham_close_btn{
+.js_ham_close_btn {
     background-color: var(--white) !important;
     color: var(--black) !important;
 }
-.js_ham_close_btn:hover{
+
+.js_ham_close_btn:hover {
     background: var(--black) !important;
     color: var(--white) !important;
 }

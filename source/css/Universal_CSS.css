@@ -44,7 +44,7 @@ img[alt="www.000webhost.com"]{
 }
 
 
-/* ===== flex setting ========= */
+/* ===== flex setting === */
 .display-flex {
     display: flex;
 }
@@ -61,9 +61,7 @@ img[alt="www.000webhost.com"]{
     align-self: center;
 }
 
-
-
-/* ==== display setting ========= */
+/* ==== display setting ==== */
 .display-inline-block {
     display: inline-block;
 }
@@ -72,10 +70,7 @@ img[alt="www.000webhost.com"]{
     display: block;
 }
 
-
-
-
-
+/* ======================== */
 * {
     margin: 0;
     padding: 0;
@@ -94,8 +89,6 @@ body {
     text-rendering: optimizeLegibility;
     background: var(--white);
 }
-
-
 
 
 

@@ -43,8 +43,6 @@
             include "./source/_modules/navigation_bar.php";
             ?>
 
-
-
             <!-- HERO CONTENT -->
             <div class="hero-container display-flex d-flex-space-between">
                 <div class="hero-flex-item">

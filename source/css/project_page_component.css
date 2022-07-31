@@ -82,7 +82,6 @@
 /* ================================ */
 /* MEDIA QUERIES */
 
-
 /* SWITCHING TO THE TAB */
 @media only screen and (max-width: 834px) {
     nav {
@@ -152,7 +151,6 @@
     }
 }
 
-
 /* SWITCHING TO THE MOBILE VIEW */
 @media only screen and (max-width: 600px) {
     nav {
@@ -176,7 +174,7 @@
 
     .hero-video-container {
         padding: 0 20px;
-        /* adding the bound padding manually*/
+        /* adding the ".bound" class padding manually*/
     }
 
     .banner-sub-heading {
