@@ -42,7 +42,7 @@ $arrow_icon_big = '<svg class="arrow-icon-big" width="32" viewBox="0 0 74 62" fi
 
             <!-- REUSEABLE NAVIGATION BAR -->
             <?php
-            // SETTING UP REUSEABLE NAVIGATION BAR AND ITS PATH
+            // navbar link's text content and its path
             $nav_first_link_text = "Services";
             $nav_first_link_path = "./services.php";
 
@@ -52,11 +52,7 @@ $arrow_icon_big = '<svg class="arrow-icon-big" width="32" viewBox="0 0 74 62" fi
             $nav_third_link_text = "Contact";
             $nav_third_link_path = "./contact.php";
 
-            $nav_bar_logolink =  "./source/media/logoicon.png";
-            $path_to_hamburger_icon = "./source/media/hamburger.png";
-            $path_to_themeChange_btn = "./source/media/ThemeChange_btn.png";
-            $path_to_cross_btn = "./source/media/cross-btn.png";
-
+            // navigation-bar link
             include "./source/_modules/navigation_bar.php";
             ?>
 
@@ -78,7 +74,8 @@ $arrow_icon_big = '<svg class="arrow-icon-big" width="32" viewBox="0 0 74 62" fi
                 <div class="project-list display-flex d-flex-space-between">
 
                     <div class="project-flex-item">
-                        <!-- a video container -->
+
+                        <!-- video container as link: clicking the video will route to the project page -->
                         <a href="./studio.php" class="project-list__video-container">
                             <img class="project-list__video-container__image" src="./source/media/project/studio.webp" alt="" height="100%" width="100%">
                             <video class="project-list__video-container__video" autoplay muted loop playsinline>
@@ -101,7 +98,7 @@ $arrow_icon_big = '<svg class="arrow-icon-big" width="32" viewBox="0 0 74 62" fi
                 <div class="project-list display-flex d-flex-space-between">
 
                     <div class="project-flex-item">
-                        <!-- a video container -->
+                        <!-- video container as link: clicking the video will route to the project page -->
                         <a href="./conway.php" class="project-list__video-container">
                             <img class="project-list__video-container__image" src="./source/media/project/conway.webp" alt="" height="100%" width="100%">
                             <video class="project-list__video-container__video" autoplay muted loop playsinline>
@@ -125,7 +122,7 @@ $arrow_icon_big = '<svg class="arrow-icon-big" width="32" viewBox="0 0 74 62" fi
                 <div class="project-list display-flex d-flex-space-between">
 
                     <div class="project-flex-item">
-                        <!-- a video container -->
+                        <!-- video container as link: clicking the video will route to the project page -->
                         <a href="./luxio.php" class="project-list__video-container">
                             <img class="project-list__video-container__image" src="./source/media/project/luxio.webp" alt="" height="100%" width="100%">
                             <video class="project-list__video-container__video" autoplay muted loop playsinline>
@@ -149,7 +146,7 @@ $arrow_icon_big = '<svg class="arrow-icon-big" width="32" viewBox="0 0 74 62" fi
                 <div class="project-list display-flex d-flex-space-between">
 
                     <div class="project-flex-item">
-                        <!-- a video container -->
+                        <!-- video container as link: clicking the video will route to the project page -->
                         <a href="./gallery.php" class="project-list__video-container">
                             <img class="project-list__video-container__image" src="./source/media/project/gallery.webp" alt="" height="100%" width="100%">
                             <video class="project-list__video-container__video" autoplay muted loop playsinline>
@@ -172,7 +169,7 @@ $arrow_icon_big = '<svg class="arrow-icon-big" width="32" viewBox="0 0 74 62" fi
             </div>
         </section>
 
-        <!-- make video play  auto on mobile -->
+        <!-- make video play  automatically on mobile: --since phone doesn't support autoplay -->
         <script>
             let video_init = document.querySelectorAll("video");
             for (let counter = 0; counter < video_init.length; counter++) {
