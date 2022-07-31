@@ -41,12 +41,11 @@
         $characteristics_two_heading = "Opportunity";
         $characteristics_two_paragraph = "Design is minimal and made for people who loves art.";
 
-        //source file's path of the image
+        //source file's path of the two flexed image
         $source_to_image_1 = "./source/media/gallery/image1.webp";
         $source_to_image_2 = "./source/media/gallery/image2.webp";
 
         //source file's path of the video
-        // $video_poster = "./source/media/gallery//video-tablet.gif";
         $source_to_video_file = "./source/media/gallery/video-desktop.webm";
         $source_to_video_file_tablet_version = "./source/media/gallery/video-tablet.mp4";
         $source_to_video_file_mobile_version = "./source/media/gallery/video-phone.mp4";
@@ -55,15 +54,15 @@
         //including the whole project page with changeable content(content defined by php variables in above ↑)
         include "./source/_modules/project_modules/project_page_component.php";
         ?>
+        
         <div class="full-width-image bound">
             <img class="characteristics-image c-image-margin" src="./source/media/gallery/image3.webp" alt="" width="100%" height="auto">
             <img class="characteristics-image c-image-margin" src="./source/media/gallery/image4.webp" alt="" width="100%" height="auto">
         </div>
 
 
-        <!-- INCLUDE FOOTER -->
+        <!-- INCLUDING FOOTER -->
         <?php
-
         $footer_heading_text = "Have a brand to build?";
         $footer_main_btn_text = "Say hello";
         include "./source/_modules/footer.php";
