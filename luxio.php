@@ -38,6 +38,7 @@
     <!-- adding loading state -->
     <?php include "./source/_modules/loading_section.php"; ?>
     
+    <!-- butter.js container start here -->
     <div class="butter-js-container" id="butter">
 
         <?php

@@ -15,7 +15,6 @@
     <link rel="stylesheet" href="./source/css/studio.css">
 
     <!-- navigation bar -->
-    <!-- <link rel="stylesheet" href="./source/css/navigation_bar.css"> -->
     <link rel="stylesheet" href="./source/_modules/project_modules/project_page_navbar.css">
 
     <!-- project page component css -->
@@ -29,6 +28,7 @@
     <!-- adding loading state -->
     <?php include "./source/_modules/loading_section.php"; ?>
     
+    <!-- butter.js container start here -->
     <div class="butter-js-container" id="butter">
 
         <?php

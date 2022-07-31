@@ -29,6 +29,7 @@
     <!-- adding loading state -->
     <?php include "./source/_modules/loading_section.php"; ?>
     
+    <!-- butter.js container start here -->
     <div class="butter-js-container" id="butter">
         <?php
         // PROJECT PAGE TEXT CONTENT (PUT CONTENT ACCORDING TO DIFFERENT PROJECT PAGES)
@@ -54,7 +55,7 @@
         //including the whole project page with changeable content(content defined by php variables in above ↑)
         include "./source/_modules/project_modules/project_page_component.php";
         ?>
-        
+
         <div class="full-width-image bound">
             <img class="characteristics-image c-image-margin" src="./source/media/gallery/image3.webp" alt="" width="100%" height="auto">
             <img class="characteristics-image c-image-margin" src="./source/media/gallery/image4.webp" alt="" width="100%" height="auto">
