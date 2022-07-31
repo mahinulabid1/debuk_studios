@@ -49,6 +49,7 @@ select:focus {
 
 input[type="text"],
 input[type="email"],
+input[type="number"],
 textarea,
 select {
     margin-bottom: 25px;
@@ -65,10 +66,25 @@ select {
 
 input[type="text"],
 input[type="email"],
+input[type="number"],
 select {
     height: 60px;
     line-height: 60px;
 }
+
+/* disabling input type number arrow key */
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
 
 /* for removing the default arrow down button */
 input::-webkit-calendar-picker-indicator {
@@ -98,7 +114,8 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
     color: var(--black);
-    background:#E8E7E7;;
+    background: #E8E7E7;
+    ;
 }
 
 

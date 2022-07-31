@@ -67,12 +67,12 @@
 
                     <div class="form-flex-item">
                         <label class="paragraph-text" for="full_name">Full name *</label>
-                        <input class="paragraph-text" type="text" id="full_name" name="full_name" placeholder="e.g. John Smith">
+                        <input class="paragraph-text" type="text" id="full_name" name="full_name" placeholder="e.g. John Smith" required>
                     </div>
 
                     <div class="form-flex-item">
                         <label class="paragraph-text" for="Email">Email *</label>
-                        <input class="paragraph-text" type="email" id="Email" name="email" placeholder="you@company">
+                        <input class="paragraph-text" type="email" id="Email" name="email" placeholder="you@company" required>
                     </div>
 
                 </div>
@@ -81,7 +81,7 @@
 
                     <div class="form-flex-item">
                         <label class="paragraph-text" for="subject">Subject *</label>
-                        <input class="paragraph-text" type="text" list="subject_list" id="subject" name="subject" placeholder="Branding">
+                        <input class="paragraph-text" type="text" list="subject_list" id="subject" name="subject" placeholder="Branding" required>
                         <datalist id="subject_list" class="paragraph-text">
                             <option value="Branding" class="paragraph-text" >
                             <option value="Branding & Printed Media" class="paragraph-text">
@@ -93,13 +93,13 @@
 
                     <div class="form-flex-item">
                         <label class="paragraph-text" for="budget">Budget *</label>
-                        <input class="paragraph-text" type="text" id="budget" name="budget" placeholder="6000e">
+                        <input class="paragraph-text" type="number" id="budget" name="budget" placeholder="6000e" required>
                     </div>
 
                 </div>
 
                 <label class="paragraph-text" for="message">Message *</label>
-                <textarea class="paragraph-text" name="message" id="message" placeholder="Dear Debuk Studio,"></textarea>
+                <textarea class="paragraph-text" name="message" id="message" placeholder="Dear Debuk Studio," required></textarea>
 
                 <input class="submit-btn paragraph-text" type="submit" value="Send →">
             </form>
