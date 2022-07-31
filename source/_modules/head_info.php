@@ -1,7 +1,7 @@
 <?php
 
 ?>
-<meta name="title" content="debuk studio">
+<meta name="title" content="Debuk Studio">
 <meta name="description" content="Excite your audience with the quality of your brand. Raise your brand to a professional level.">
 <meta name="keywords" content="debuk, studio, debuk studio">
 <meta name="robots" content="index, follow">
