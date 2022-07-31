@@ -27,6 +27,7 @@
     <!-- adding loading state -->
     <?php include "./source/_modules/loading_section.php"; ?>
 
+    <!-- butter.js container start here -->
     <div class="butter-js-container" id="butter">
         <header class="bound">
 
@@ -41,12 +42,6 @@
 
             $nav_third_link_text = "About";
             $nav_third_link_path = "./About.php";
-
-            $nav_bar_logolink =  "./source/media/logoicon.png";
-            $path_to_hamburger_icon = "./source/media/Hamburger.png";
-            $path_to_themeChange_btn = "./source/media/ThemeChange_btn.png";
-            $path_to_cross_btn = "./source/media/cross-btn.png";
-
             include "./source/_modules/navigation_bar.php";
             ?>
 

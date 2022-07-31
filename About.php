@@ -28,10 +28,9 @@
     <!-- adding loading state -->
     <?php include "./source/_modules/loading_section.php"; ?>
 
-    
+    <!-- all the elements/contents should be inside of this container otherwise butter.js won't work -->
     <div class="butter-js-container" id="butter">
         <header class="bound">
-
 
             <!-- REUSEABLE NAVIGATION BAR -->
             <?php
@@ -44,12 +43,6 @@
 
             $nav_third_link_text = "About";
             $nav_third_link_path = "./About.php";
-
-            $nav_bar_logolink =  "./source/media/logoicon.png";
-            $path_to_hamburger_icon = "./source/media/Hamburger.png";
-            $path_to_themeChange_btn = "./source/media/ThemeChange_btn.png";
-            $path_to_cross_btn = "./source/media/cross-btn.png";
-
             include "./source/_modules/navigation_bar.php";
             ?>
 
@@ -68,13 +61,9 @@
 
             <div class="display-flex about-flex-container">
                 <div class="about-me-flex-item ">
-                    <!-- <picture>
-
-            <source media="(max-width:834px)" srcset="./source/media/about/person-tablet.webp" height="564" width="700">
-            <img src="./source/media/about/person.webp" alt="" height="564" width="700">
-        </picture> -->
                     <img src="./source/media/about/person.webp" alt="" height="564" width="700">
                 </div>
+
                 <div class="about-me-flex-item">
                     <h1 class="normal-heading about-me-heading">Hi, I’m Matija! 👋</h1>
                     <p class="paragraph-text">
@@ -82,14 +71,13 @@
                         design and how they work. I create brands with you so your audience can see your full potential.
                     </p>
                 </div>
+
             </div>
 
         </section>
 
-
         <!-- INCLUDE FOOTER -->
         <?php
-
         $footer_heading_text = "Have a brand to build?";
         $footer_main_btn_text = "Say hello";
         include "./source/_modules/footer.php";

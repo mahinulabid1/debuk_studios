@@ -18,7 +18,6 @@
     <link rel="stylesheet" href="./source/css/fonts.css">
 
     <!-- navigation bar -->
-    <!-- <link rel="stylesheet" href="./source/css/navigation_bar.css"> -->
     <link rel="stylesheet" href="./source/_modules/project_modules/project_page_navbar.css">
 
     <!-- UNIVERSAL CSS -->

@@ -6,15 +6,8 @@
     // Specify the current page to update info in header
     $current_page_head = "Home";
     $location_to_logo_icon = "./source/media/web_title_icon.png";
-
-    // the nav bar logo link
-    $nav_bar_logolink =  "./source/media/logoicon.png";
-    $path_to_hamburger_icon = "./source/media/Hamburger.png";
-    $path_to_themeChange_btn = "./source/media/ThemeChange_btn.png";
-    $path_to_cross_btn = "./source/media/cross-btn.svg";
-
+    include "./source/_modules/head_info.php";
     ?>
-    <?php include "./source/_modules/head_info.php"; ?>
 
     <!-- main stylesheet -->
     <link rel="stylesheet" href="./source/css/style.css">
@@ -25,14 +18,12 @@
     <!-- loading section CSS -->
     <link rel="stylesheet" href="./source/css/loading_section.css">
 
-
-
 </head>
+
 
 <body>
     <!-- adding loading state -->
     <?php include "./source/_modules/loading_section.php"; ?>
-
 
     <!-- all the elements/contents should be inside of this container otherwise butter.js won't work -->
     <div class="butter-js-container" id="butter">

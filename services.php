@@ -26,6 +26,7 @@
     <!-- adding loading state -->
     <?php include "./source/_modules/loading_section.php"; ?>
     
+    <!-- all the elements/contents should be inside of this container otherwise butter.js won't work -->
     <div class="butter-js-container" id="butter">
         <header class="bound">
 
@@ -40,12 +41,6 @@
 
             $nav_third_link_text = "Contact";
             $nav_third_link_path = "./contact.php";
-
-            $nav_bar_logolink =  "./source/media/logoicon.png";
-            $path_to_hamburger_icon = "./source/media/Hamburger.png";
-            $path_to_themeChange_btn = "./source/media/ThemeChange_btn.png";
-            $path_to_cross_btn = "./source/media/cross-btn.png";
-
             include "./source/_modules/navigation_bar.php";
             ?>
 
