@@ -316,7 +316,9 @@ nav {
     .ham-notif-small-devices .cookie-ham-notif {
         display: block;
     }
-
+    .ham-nav-footer {
+        bottom: 130px;
+    }
 
 }
 

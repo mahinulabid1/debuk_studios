@@ -4,7 +4,9 @@
     --dark-white: #808080;
 }
 
-
+.footer-link-take-action{
+    display:none !important;
+}
 
 /* ===== HEADER ===== */
 .hero-sub-heading {

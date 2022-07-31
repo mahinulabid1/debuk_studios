@@ -53,7 +53,7 @@
 /* contact page */
 .js_submit_black_theme {
     background: var(--white) !important;
-    color: black !important;
+    color: var(--black) !important;
 }
 
 .js_submit_black_theme:hover {

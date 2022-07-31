@@ -34,13 +34,13 @@ const ElementSourceChange = (SingleSelector, source) => {
 const Run_black_theme = () => {
     // DARK THEME SETUP
     // js_color_white
-    AddClassToElements("body, .logo-text, .cookie-ham-para, .footer-copyright-item a, .footer-email, input[type='text'], input[type='email'], textarea, select", "js_color_white");
+    AddClassToElements("body, .logo-text, .cookie-ham-para, .footer-copyright-item a, .footer-email, input[type='text'], input[type='email'],input[type='number'], textarea, select", "js_color_white");
 
     // js_link_color
     AddClassToElements(".ham-header-nav__first-section__links, .nav-menu-item a, .footer-links-a, .footer-link-take-action, .project-category-title", "js_link_color");
 
     // js_background_black
-    AddClassToElements(".cookie-ham-notif, .hamberger-navigation-container, body, .flex-item-hero, input[type='text'], input[type='email'], textarea, select", "js_background_black");
+    AddClassToElements(".cookie-ham-notif, .hamberger-navigation-container, body, .flex-item-hero, input[type='text'], input[type='email'],input[type='number'], textarea, select", "js_background_black");
 
     // js-fill-white
     AddClassToElements(".ham-close-notification-btn path, .website-logo-icon path, .theme-change-btn path, .arrow-icon-normal path, .arrow-icon-big path, .twitter-icon-nav_bar path, .instagram-icon-nav_bar path, .instagram-icon-footer path,.twitter-icon-footer path", "js-fill-white");
@@ -52,7 +52,7 @@ const Run_black_theme = () => {
     AddClassToElements(".footer-link-take-action", "js-after-pseudo-background");    
     AddClassToElements(".footer-link-border", "js_border_bottom_white");
     AddClassToElements(".ham-bar", "js_background_white");
-    AddClassToElements("input[type='text'], input[type='email'], textarea, select", "js_form_border");
+    AddClassToElements("input[type='text'], input[type='email'],input[type='number'], textarea, select", "js_form_border");
     AddClassToElements("input[type='submit']", "js_submit_black_theme");
     AddClassToElements(".cookie-ham-para", "js_border_bottom"); //border
     AddClassToElements(".close-ham-bar-btn", "js_ham_close_btn");
@@ -80,13 +80,13 @@ const Run_black_theme = () => {
 const Run_white_theme = () => {
     // DARK THEME SETUP
     // js_color_white
-    RemoveClassElements("body, .logo-text, .cookie-ham-para, .footer-copyright-item a, .footer-email, input[type='text'], input[type='email'], textarea, select", "js_color_white");
+    RemoveClassElements("body, .logo-text, .cookie-ham-para, .footer-copyright-item a, .footer-email, input[type='text'], input[type='email'],input[type='number'], textarea, select", "js_color_white");
 
     // js_link_color
     RemoveClassElements(".ham-header-nav__first-section__links, .nav-menu-item a, .footer-links-a, .footer-link-take-action, .project-category-title", "js_link_color");
 
     // js_background_black
-    RemoveClassElements(".cookie-ham-notif, .hamberger-navigation-container, body, .flex-item-hero, input[type='text'], input[type='email'], textarea, select", "js_background_black");
+    RemoveClassElements(".cookie-ham-notif, .hamberger-navigation-container, body, .flex-item-hero, input[type='text'], input[type='email'], input[type='number'], textarea, select", "js_background_black");
 
     // js-fill-white
     RemoveClassElements(".ham-close-notification-btn path, .website-logo-icon path, .theme-change-btn path, .arrow-icon-normal path, .arrow-icon-big path, .twitter-icon-nav_bar path, .instagram-icon-nav_bar path, .instagram-icon-footer path,.twitter-icon-footer path", "js-fill-white");
@@ -98,7 +98,7 @@ const Run_white_theme = () => {
     RemoveClassElements(".footer-link-take-action", "js-after-pseudo-background");    
     RemoveClassElements(".footer-link-border", "js_border_bottom_white");
     RemoveClassElements(".ham-bar", "js_background_white");
-    RemoveClassElements("input[type='text'], input[type='email'], textarea, select", "js_form_border");
+    RemoveClassElements("input[type='text'], input[type='email'],input[type='number'], textarea, select", "js_form_border");
     RemoveClassElements("input[type='submit']", "js_submit_black_theme");
     RemoveClassElements(".cookie-ham-para", "js_border_bottom"); //border
     RemoveClassElements(".close-ham-bar-btn", "js_ham_close_btn");
