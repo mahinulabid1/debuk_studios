@@ -224,10 +224,11 @@ nav {
     height: auto;
 }
 
-/* js animation */
+/* js class */
 .js-nav-animation {
     position: relative;
 }
+
 
 /* =================== */
 /* ========= KEYFRAMES ANIMATION ========== */
@@ -302,7 +303,7 @@ nav {
 
     .ham-notif-small-devices {
         position: absolute;
-        bottom: 23px;
+        bottom: 65px;
         left: 50%;
         width: 100%;
         transform: translateX(-50%);

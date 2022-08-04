@@ -63,6 +63,7 @@ $source_to_image_2;
         window.addEventListener("load", () => {
             Project_changeVideoSource();
             video.play();
+            video.controls=false;
         });
         window.addEventListener("resize", () => {
             Project_changeVideoSource();

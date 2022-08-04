@@ -70,6 +70,10 @@ img[alt="www.000webhost.com"]{
     display: block;
 }
 
+.displa-inline{
+    display: inline;
+}
+
 /* ======================== */
 * {
     margin: 0;

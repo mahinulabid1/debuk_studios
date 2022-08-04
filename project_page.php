@@ -176,6 +176,7 @@ $arrow_icon_big = '<svg class="arrow-icon-big" width="32" viewBox="0 0 74 62" fi
                 let video = video_init[counter];
                 window.addEventListener("load", () => {
                     video.play();
+                    video.controls=false;
                 });
             }
         </script>

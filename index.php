@@ -84,6 +84,7 @@
                             window.addEventListener("load", ()=>{
                                 index_video_src();
                                 video.play();
+                                video.controls = false;
                             });
                             window.addEventListener("resize", ()=>{
                                 index_video_src();
